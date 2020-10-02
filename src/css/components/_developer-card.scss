@@ -48,13 +48,25 @@
   }
   margin: 10px;
   .developer-card-user-stats {
-    flex:2;
+    flex: 2;
     .developer-card-name {
       font-family: 'Bebas Neue', cursive;
       padding: 10px 20px;
       font-size: 1.2rem;
       // font-weight: bold;
     }
-    
+    .developer-card-detail {
+      padding: 1px 20px;
+      font-size: 0.8rem;
+
+      display: flex;
+      justify-content: space-between;
+      .developer-card-title {
+        opacity: 0.7;
+      }
+      .developer-card-value {
+        font-weight: bolder;
+      }
+    }
   }
 }
