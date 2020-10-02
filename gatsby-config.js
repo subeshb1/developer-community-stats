@@ -133,22 +133,22 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_KEY,
       },
     },
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-              }
-            }
-          }
-        `,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-feed`,
+    //   options: {
+    //     query: `
+    //       {
+    //         site {
+    //           siteMetadata {
+    //             title
+    //             description
+    //             siteUrl
+    //           }
+    //         }
+    //       }
+    //     `,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
