@@ -1,6 +1,5 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
-const appRoutes = require('./app-routes')
+const contributors = require('./contributors')
+const stats = require('./stats-generator')
 
 exports.sourceNodes = async ({
   actions,
@@ -11,23 +10,19 @@ exports.sourceNodes = async ({
   const { createNode } = actions
 
   // loop through data and create Gatsby nodes
-  Object.entries(appRoutes.apps).forEach(([type, item]) => {
-    Object.entries(item).forEach(([name, content]) => {
-      createNode({
-        ...content,
-        category: type,
-        name: name,
-        id: createNodeId(`${type}-${content.url}`),
-        parent: null,
-        children: [],
-        internal: {
-          type: 'app',
-          content: JSON.stringify(content),
-          contentDigest: createContentDigest(content),
-        },
-      })
+  Object.entries(contributors).forEach(([contributor, information]) => {
+    createNode({
+      ...information,
+      githubUserId: contributor,
+      id: createNodeId(`${contributor}`),
+      parent: null,
+      children: [],
+      internal: {
+        type: 'contributor',
+        content: JSON.stringify(information),
+        contentDigest: createContentDigest(contributor),
+      },
     })
   })
-
   return
 }
