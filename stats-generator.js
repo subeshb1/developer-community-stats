@@ -101,9 +101,9 @@ const userCountStatsQuery = user => `
     followers {
       totalCount
     }
+    avatarUrl
     contributionsCollection {
       contributionYears
-      avatarUrl
       contributionCalendar {
         totalContributions
       }
@@ -141,6 +141,7 @@ const extractCountStats = (res) => {
     followersCount: data.followers.totalCount,
     issuesCount: data.issues.totalCount,
     pullRequestsCount: data.pullRequests.totalCount,
+    avatarUrl: data.avatarUrl,
     firstContribution: data.contributionsCollection.contributionYears.slice(-1)[0],
     thisYearContribution: data.contributionsCollection.contributionCalendar.totalContributions
   }

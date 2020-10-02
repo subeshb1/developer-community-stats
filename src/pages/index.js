@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-
+import 'flag-icon-css/css/flag-icon.min.css'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 import BlogPostTemplate from '../components/Layouts/BlogLayout'
@@ -22,7 +22,7 @@ class DeveloperCommunityHome extends React.Component {
         />
 
         {
-          contributors.map(contributorStats => <DeveloperCard {...contributorStats} key={contributorStats.id}/>)
+          contributors.map(contributorStats => <DeveloperCard {...contributorStats} key={contributorStats.id} />)
         }
 
       </Layout>
@@ -43,6 +43,7 @@ export const pageQuery = graphql`
     totalCount
     nodes {
       id
+      countryCode
       repositoryCount
       contributionYears
       country
