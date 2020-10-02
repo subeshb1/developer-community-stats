@@ -1,4 +1,8 @@
 module.exports = {
+  "slash-coders": {
+    name: "Slash Coders",
+    country: "United States"
+  },
   "subeshb1": {
     name: "Subesh Bhandari",
     twitter: "https://twitter.com/subeshb1",
