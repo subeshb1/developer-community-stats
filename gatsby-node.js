@@ -1,5 +1,6 @@
 const contributors = require('./contributors')
 const stats = require('./stats-generator')
+const findCountryCode = require('./country-codes')
 
 exports.sourceNodes = async ({
   actions,
@@ -9,14 +10,16 @@ exports.sourceNodes = async ({
 }) => {
   const { createNode } = actions
 
-  stats.fetchCountStats(Object.keys(contributors)).then(contributorStats => {
+  return stats.fetchCountStats(Object.keys(contributors)).then(contributorStats => {
     // loop through data and create Gatsby nodes
     Object.entries(contributorStats).forEach(([contributor, information]) => {
+
       createNode({
         ...information,
         ...contributors[contributor],
         githubUserId: contributor,
         id: createNodeId(`${contributor}`),
+        countryCode: findCountryCode(contributors[contributor].country),
         parent: null,
         children: [],
         internal: {
@@ -26,7 +29,5 @@ exports.sourceNodes = async ({
         },
       })
     })
-  })
-
-  return
+  }).catch(console.error)
 }
