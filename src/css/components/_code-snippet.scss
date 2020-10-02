@@ -1,0 +1,131 @@
+code,
+pre {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+
+.code-light-plus,
+.code-light-visual,
+.code-quiet-light,
+.code-light-visual-studio,
+.code-solarized-light {
+  pre.grvsc-container {
+    background: #f9f9f9;
+    &::before {
+      background: black;
+      color: white;
+    }
+    button {
+      color: black;
+    }
+  }
+  .grvsc-container .grvsc-line-highlighted {
+    background-color: #59cdf92e;
+    box-shadow: inset 4px 0 0 0 #146b9e;
+  }
+}
+
+pre.grvsc-container {
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  border-radius: 0.3em;
+  position: relative;
+  overflow: auto;
+  padding: 1em;
+  background: #f8f8f8;
+  padding: 0;
+  padding-top: 2rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 2rem;
+  &::before {
+    color: #232129;
+    font-size: 0.75rem;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+      'Courier New', monospace;
+    letter-spacing: 0.075em;
+    line-height: 1;
+    position: absolute;
+    left: 1.5rem;
+    text-align: right;
+    top: 0px;
+    border-radius: 0px 0px 4px 4px;
+    padding: 0.25rem 0.5rem;
+    content: attr(data-language);
+    position: absolute;
+    background: white;
+    color: black;
+  }
+  &:hover {
+    button {
+      opacity: 1;
+    }
+  }
+  button {
+    opacity: 0;
+    position: absolute;
+    font-family: 'Open Sans';
+    top: 4px;
+    right: 4px;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    &::before {
+      content: 'Copy';
+    }
+    &:focus::before {
+      content: 'Copied!';
+    }
+  }
+
+  .grvsc-code {
+    max-height: 80vh;
+    overflow: auto;
+    width: 100%;
+    .grvsc-line {
+      min-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .grvsc-container {
+    margin-left: -1.125em;
+    margin-right: -1.125em;
+    box-shadow: unset;
+  }
+}
+
+:not(pre) > code {
+  padding: 1px 0.5em;
+  font-family: Input, 'SF Mono', Menlo, Monaco, Courier, monospace;
+  font-size: 13px;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  min-width: 1.2em;
+  line-height: 1.8em;
+  display: inline-block;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  background: var(--theme-background);
+  color: var(--theme-color);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--theme-hover);
+  border-image: initial;
+  border-radius: 4px;
+  padding: 2px 8px 0px;
+  margin: -5px 2px;
+}
+
+.grvsc-container .grvsc-line-highlighted {
+  background-color: rgb(19, 43, 64);
+  box-shadow: inset 4px 0 0 0 rgba(245, 243, 255, 0.5);
+}
+
+@media (max-width: 700px) {
+  pre.grvsc-container {
+    margin-right: -0.8rem;
+    margin-left: -0.8rem;
+  }
+}

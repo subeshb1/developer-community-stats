@@ -1,0 +1,45 @@
+.image-to-ascii {
+  position: relative;
+  min-height: 85vh;
+  .drawboard {
+    min-height: 85vh;
+    background: transparent;
+    pre {
+      transform-origin: 0 0;
+    }
+  }
+  .tool-bar {
+    display: flex;
+    flex-direction: column;
+    > * {
+      margin-top: 20px;
+    }
+    h2 {
+      margin-top: 10px;
+    }
+  }
+  .ascii-background {
+    position: relative;
+    overflow: scroll;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    background: black;
+  }
+  .image-drop-zone {
+    position: relative;
+    align-self: stretch;
+    border: 2px dashed #0087f7;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'Open Sans';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    text-align: center;
+    p {
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}

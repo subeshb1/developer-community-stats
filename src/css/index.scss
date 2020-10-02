@@ -1,0 +1,199 @@
+@import 'markdown';
+@import 'components/navbar';
+@import 'components/tooltip';
+@import 'components/theme-picker';
+@import 'components/code-snippet';
+@import 'components/table-of-contents';
+@import 'layout/blog_layout';
+@import 'components/sidebar';
+@import 'components/footer';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+$background: white;
+$color: black;
+
+// #0e151c
+// #152128
+@mixin theme($background, $color) {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.tl-edges {
+  max-width: 100%;
+  overflow-x: unset;
+}
+
+:root {
+  --theme-primary-bg: #1d5baf;
+  --theme-primary-color: #000000;
+  --theme-secondary-color: #ffffff;
+  --theme-secondary-bg: #000000;
+  --theme-primary-hover: #3068b7;
+  --theme-navbar-box-shadow: #484848ab;
+  --theme-navbar-box-shadow: #c9c9c9ab;
+  --theme-background: white;
+  --theme-color: black;
+  --theme-hover: #e0e0e096;
+  --theme-dim-color: #6f6f6f;
+  --popper-arrow-color: black;
+}
+
+@mixin theme($background, $color) {
+  background: $background;
+  color: $color;
+}
+
+.theme-dark {
+  --theme-navbar-box-shadow: #131313ab;
+  $color: white;
+  $background: #292c35;
+  --theme-background: #{$background};
+  --theme-color: #{$color};
+  --theme-hover: #424653;
+  --theme-dim-color: #dadada;
+  background: var(--theme-background);
+  color: var(--theme-color);
+}
+
+.theme-dark-blue {
+  $color: white;
+  $background: #083575;
+  --theme-dim-color: #dadada;
+  --theme-background: #{$background};
+  --theme-color: #{$color};
+  --theme-hover: #0b479c;
+  --theme-navbar-box-shadow: #071d3e;
+  background: var(--theme-background);
+  color: var(--theme-color);
+}
+
+.theme-dark-red {
+  $color: white;
+  $background: #7a1522;
+  --theme-background: #{$background};
+  --theme-color: #{$color};
+  --theme-dim-color: #dadada;
+  --theme-hover: #a01a2c;
+  --theme-navbar-box-shadow: #56111a;
+  background: var(--theme-background);
+  color: var(--theme-color);
+}
+
+.theme-solarized {
+  background: var(--theme-background);
+  color: var(--theme-color);
+}
+
+.theme-light {
+  --theme-navbar-box-shadow: #c9c9c9ab;
+  --theme-background: #{$background};
+  --theme-color: #{$color};
+  --theme-hover: #e0e0e096;
+  --theme-dim-color: #6f6f6f;
+  background: var(--theme-background);
+  color: var(--theme-color);
+  :not(pre) > code {
+    background: #eaeaea;
+  }
+
+  .popper-tool-tip {
+    background: black;
+    color: white;
+    --popper-arrow-color: black;
+  }
+}
+
+#project-main-container {
+  min-height: 100vh;
+}
+
+.theme-dark,
+.theme-dark-blue,
+.theme-dark-red {
+  a {
+    color: #79aeff;
+  }
+  :not(pre) > code {
+    background-color: rgb(17, 17, 17);
+    color: white;
+  }
+  .popper-tool-tip {
+    background: #cecece;
+    --popper-arrow-color: #cecece;
+    color: #000000;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--theme-color);
+}
+
+.section-container {
+  background-color: #fff;
+}
+
+.section-container .welcome {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.dynamic-container {
+  min-height: 80vh;
+  background: var(--theme-background);
+}
+.app-container button,
+.container button,
+.theme-picker__input-group button, .button {
+  position: relative;
+  border: none;
+  padding: 4px 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  align-self: start;
+  font-size: 0.8rem;
+  font-family: 'Open Sans', sans-serif;
+  justify-self: start;
+  background: var(--theme-primary-bg);
+  color: var(--theme-secondary-color);
+  border: 1px solid var(--theme-secondary-color);
+}
+button:disabled,
+input:disabled,
+select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  .loader-icon {
+    animation: spin 1s ease alternate infinite;
+    width: 10vh;
+    height: 10vh;
+    background: black;
+    border-radius: 10px;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.relative {
+  position: relative;
+}

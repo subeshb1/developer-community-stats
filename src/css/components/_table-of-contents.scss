@@ -1,0 +1,49 @@
+.table-of-contents {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--theme-background);
+  color: var(--theme-color);
+  z-index: 800;
+  position: sticky;
+  right: 40px;
+  max-width: 300px;
+  padding: 20px 20px 20px 0;
+  top: 56px;
+  margin-top: 40px;
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    word-spacing: 4px;
+  }
+  ul {
+    font-size: 0.8rem;
+    margin-top: 0;
+    max-height: 80vh;
+    overflow: scroll;
+    margin-bottom: 0;
+    li {
+      margin: 0;
+      display: block;
+      p {
+        margin-bottom: 0;
+      }
+    }
+    a {
+      padding: 4px 0.8rem;
+      display: block;
+      color: black;
+      color: var(--theme-dim-color);
+    }
+
+    a.active {
+      box-shadow: inset 4px 0 var(--theme-primary-hover);
+      color: var(--theme-color);
+      background: white;
+      background: var(--theme-hover);
+      border-radius: 4px;
+    }
+  }
+}

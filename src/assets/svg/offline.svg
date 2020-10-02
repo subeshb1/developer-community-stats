@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs id="defs2">
+        <marker id="Arrow1Lend" orient="auto" refX="0.0" refY="0.0" style="overflow:visible">
+            <path id="path1408" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z " style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)"/>
+        </marker>
+        <marker id="Arrow2Lend" orient="auto" refX="0.0" refY="0.0" style="overflow:visible">
+            <path id="path1426" d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z " style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(1.1) rotate(180) translate(1,0)"/>
+        </marker>
+    </defs>
+    <g id="layer1" style="display:inline;opacity:1" transform="translate(0,-270.54165)">
+        <rect id="rect907" width="98.115997" height="98.185135" x="1.1097434" y="271.38519" style="opacity:0.98400005;fill:#62edce;fill-opacity:1;stroke:#000000;stroke-width:0.97898889;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+    </g>
+    <g id="layer5" style="display:inline">
+        <g id="g2886" transform="translate(15.444015,7.2072072)">
+            <path id="path2859" cx="38.803089" cy="42.406693" r="16.023167" d="" style="opacity:0.98400005;fill:#f8cb00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+            <g id="g2902" transform="matrix(1.8365449,0,0,1.8365449,-32.739311,-33.349473)">
+                <g id="g2892">
+                    <path id="path2857" d="m 50.362232,-37.562153 a 16.023167,16.023167 0 0 1 -22.451191,0.655506" style="opacity:0.98400005;fill:#f8cb00;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="scale(1,-1)"/>
+                    <path id="circle2869" d="m 47.144197,-39.83193 a 12.144207,12.144207 0 0 1 -16.558991,0.114841" style="opacity:0.98400005;fill:#f8cb00;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="scale(1,-1)"/>
+                    <path id="circle2871" d="M 44.010344,-42.239833 A 8.2652473,8.2652473 0 0 1 33.304595,-42.487492" style="opacity:0.98400005;fill:#f8cb00;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="scale(1,-1)"/>
+                    <circle id="path2879" cx="10.117868" cy="60.176586" r="1.779548" style="opacity:0.98400005;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.62671661;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="rotate(-30)"/>
+                </g>
+                <rect id="rect2894" width="1.3086259" height="25.66361" x="55.417362" y="-12.586093" style="opacity:0.98400005;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56489009;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="rotate(45)"/>
+            </g>
+        </g>
+    </g>
+    <g id="layer6" style="display:none"/>
+</svg>
