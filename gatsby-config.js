@@ -200,7 +200,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Developer Community Stats`,
-        short_name: `SubeshBhandari`,
+        short_name: `Developer`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
