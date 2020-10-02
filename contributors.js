@@ -9,6 +9,10 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/subesh-bhandari-523438112/",
     country: "Nepal"
   },
+  "acorson1": {
+    name:"Alex Corson",
+    country:"United Kindom"
+  },
   "OmkarGeedh": {
     name: "Omkar Geedh",
     country: "India"
