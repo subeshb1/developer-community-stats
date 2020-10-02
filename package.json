@@ -19,6 +19,7 @@
     "antd": "^4.2.4",
     "change-case": "^3.1.0",
     "disqus-react": "^1.0.6",
+    "dotenv": "^8.2.0",
     "emotion-theming": "^10.0.27",
     "gatsby": "^2.23.7",
     "gatsby-image": "^2.0.22",
