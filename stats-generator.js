@@ -124,6 +124,8 @@ const fetchCountStats = (users) => {
     `
 
   return githubQuery(statsQuery).then(extractGraphqlJson).then(res => res.data).then(res => {
+    console.log(token)
+    console.log(apiUrl)
     return Object.entries(res).reduce((acc, user) => {
       acc[user[0]] = extractCountStats(user[1])
       return acc
