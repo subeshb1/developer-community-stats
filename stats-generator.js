@@ -15,7 +15,7 @@ const defaultConfig = {
   languageCount: true,
   includeContributedRepoLanguage: true,
   includePrivate: true,
-  excludedLanguages: [].map(str=>str.toLocaleLowerCase())
+  excludedLanguages: [].map(str => str.toLocaleLowerCase())
 }
 
 const config = {
@@ -87,9 +87,53 @@ year${year}: contributionsCollection(from: "${year}-01-01T00:00:00Z", to: "${yea
   }
 }
 `
+const userCountStatsQuery = user => `
+  ${user}: user(login: "${user}") {
+    repositories(isFork: false,${config.includePrivate ? '' : 'privacy: PUBLIC'}) {
+      totalCount
+    }
+    pullRequests {
+      totalCount
+    }
+    issues {
+      totalCount
+    }
+    followers {
+      totalCount
+    }
+    contributionsCollection {
+      contributionYears
+      avatarUrl
+      contributionCalendar {
+        totalContributions
+      }
+    }
+    repositoriesContributedTo${config.includePrivate ? '' : '(privacy: PUBLIC)'} {
+      totalCount
+    }
+  }
+`
+
+const fetchCountStats = (users) => {
+  const perUserQuery = users.map(userCountStatsQuery)
+
+  const statsQuery = `
+    {
+      ${perUserQuery.join("\n")}
+    }
+    `
+
+  return githubQuery(statsQuery).then(extractGraphqlJson).then(res => res.data).then(res => {
+    return Object.entries(res).reduce((acc, user) => {
+      acc[user[0]] = extractCountStats(user[1])
+      return acc
+    }, {})
+  })
+}
+
 
 const extractCountStats = (res) => {
-  const data = res.data.viewer;
+  const data = res;
   return {
     repositoryCount: data.repositories.totalCount,
     repoContributedCount: data.repositoriesContributedTo.totalCount,
@@ -97,7 +141,8 @@ const extractCountStats = (res) => {
     followersCount: data.followers.totalCount,
     issuesCount: data.issues.totalCount,
     pullRequestsCount: data.pullRequests.totalCount,
-    firstContribution: data.contributionsCollection.contributionYears.slice(-1)[0]
+    firstContribution: data.contributionsCollection.contributionYears.slice(-1)[0],
+    thisYearContribution: data.contributionsCollection.contributionCalendar.totalContributions
   }
 }
 
@@ -177,7 +222,7 @@ const fetchCompoundStats = async (countStats) => {
     return acc;
   }, {});
   const languages = responses[1].repoLanguages.concat(responses[2].repoLanguages).reduce((acc, language) => {
-    if(config.excludedLanguages.includes(language.toLocaleLowerCase())) {
+    if (config.excludedLanguages.includes(language.toLocaleLowerCase())) {
       return acc
     }
     if (acc[language]) {
@@ -199,5 +244,5 @@ const fetchCompoundStats = async (countStats) => {
 
 
 module.exports = {
-  
+  fetchCountStats
 }
