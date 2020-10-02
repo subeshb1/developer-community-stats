@@ -7,10 +7,20 @@ jobs:
   deploy-app:
     runs-on: ubuntu-latest
     steps:
+      - name: Cache multiple paths
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/cache
+            !~/cache/exclude
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Build Project
         uses: actions/setup-node@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
         with:
           node-version: '12'
       - run: npm i
