@@ -4,25 +4,33 @@ import { Link, graphql } from 'gatsby'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 import BlogPostTemplate from '../components/Layouts/BlogLayout'
+import Layout from '../components/Layouts/Layout'
+import DeveloperCard from '../components/DeveloperCard'
 
-class BlogHome extends React.Component {
+class DeveloperCommunityHome extends React.Component {
   render() {
-    const { data } = this.props
+    const { data: { allContributor: { nodes: contributors } } } = this.props
 
+    console.log(contributors)
     return (
-      <BlogPostTemplate>
+      <Layout>
         <SEO
           url="/"
-          title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          title="Developer Community Stats"
+          description="A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats."
+          keywords={[`GithubStats`, `github`, `stats`, `developer`, `community`]}
         />
 
-      </BlogPostTemplate>
+        {
+          contributors.map(contributorStats => <DeveloperCard {...contributorStats} key={contributorStats.id}/>)
+        }
+
+      </Layout>
     )
   }
 }
 
-export default BlogHome
+export default DeveloperCommunityHome
 
 export const pageQuery = graphql`
   query {
@@ -31,5 +39,25 @@ export const pageQuery = graphql`
         title
       }
     }
+    allContributor {
+    totalCount
+    nodes {
+      id
+      repositoryCount
+      contributionYears
+      country
+      firstContribution
+      followersCount
+      githubUserId
+      issuesCount
+      linkedin
+      name
+      pullRequestsCount
+      repoContributedCount
+      thisYearContribution
+      twitter
+      avatarUrl
+    }
+  }
   }
 `
