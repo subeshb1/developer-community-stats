@@ -1,0 +1,25 @@
+name: main-push-deploy-action
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build Project
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - run: npm i
+      - run: npm run build
+      - name: Deploy production to Netlify
+        uses: South-Paw/action-netlify-deploy@v1.0.4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
+          build-dir: './public'
+          comment-on-commit: true
