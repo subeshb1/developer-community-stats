@@ -11,7 +11,7 @@ module.exports = {
   },
   "OmkarGeedh": {
     name: "Omkar Geedh",
-     country: "India"
+    country: "India"
   },
   
 }
