@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import Popover from '../Popover'
+import { GrLinkedin, GrTwitter, GrGithub } from 'react-icons/gr'
 
 import { navDropDownFactory } from './common'
 import ThemePicker from './ThemePicker'
@@ -33,11 +34,7 @@ const NavBar = React.memo(props => {
   return (
     <>
       <nav className="lg-navbar">
-        <Image
-          fixed={navLogo.childImageSharp.fixed}
-          alt="Website logo"
-          className={'lg-navbar-img'}
-        />
+        <GrGithub />
         <Link to="/" className="lg-navbar__item lg-navbar__header">
           Developer Community Stats
         </Link>

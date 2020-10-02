@@ -9,6 +9,7 @@
   max-width: 500px;
   .developer-card-user-info {
     padding: 10px;
+    position: relative;
     flex: 1;
     flex-direction: column;
     display: flex;
@@ -16,6 +17,11 @@
     align-items: center;
     background: var(--theme-primary-bg);
     color: var(--theme-secondary-color);
+    span {
+      position: absolute;
+      top: 12px;
+      right: 10px;
+    }
     .developer-card-username {
       background: var(--theme-primary-hover);
       padding: 4px 0.8em;

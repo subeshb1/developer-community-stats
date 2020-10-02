@@ -12,7 +12,10 @@
   width: 100vw;
   background: var(--theme-primary-bg);
   box-shadow: 1px 3px 5px 0px var(--theme-navbar-box-shadow);
-
+  > svg {
+    font-size: 2rem;
+    color: var(--theme-secondary-color);
+  }
   .lg-navbar__item {
     font-size: 14px;
     user-select: none;

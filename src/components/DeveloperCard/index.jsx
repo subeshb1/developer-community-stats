@@ -21,6 +21,10 @@ export default function DeveloperCard({
   return (
     <div className="developer-card">
       <div className="developer-card-user-info">
+        <span
+          className={`flag-icon flag-icon-${countryCode.toLowerCase()} `}
+          title={country}
+        ></span>
         <div className="developer-card-username">{githubUserId}</div>
         <div className="developer-card-avatar">
           <img src={avatarUrl} alt={githubUserId} />
@@ -30,12 +34,12 @@ export default function DeveloperCard({
             <GrGithub />
           </a>
           {twitter && (
-            <a href={twitter}>
+            <a href={twitter} target="__blank"> 
               <GrTwitter />
             </a>
           )}
           {linkedin && (
-            <a href={linkedin}>
+            <a href={linkedin} target="__blank"> 
               <GrLinkedin />
             </a>
           )}
@@ -43,7 +47,7 @@ export default function DeveloperCard({
       </div>
       <div className="developer-card-user-stats">
         <div className="developer-card-name">{name}</div>
-        <div className="developer-card-stats">{name}</div>
+        <div className="developer-card-info">{name}</div>
       </div>
     </div>
   )
