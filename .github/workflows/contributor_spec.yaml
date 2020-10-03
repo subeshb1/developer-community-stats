@@ -1,8 +1,5 @@
 name: contributor-push-spec-action
-on: 
-  push:
-    branches-ignore:
-      - main
+on: [pull_request_target]
 jobs:
   test-build:
     runs-on: ubuntu-latest
