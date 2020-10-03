@@ -43,4 +43,8 @@ module.exports = {
     name: "Prajnakalpa Mishra",
     country: "India"
   },
+  "nisargpawade": {
+   country: "India",
+   name: "Nisarg Pawade",
+  },
 }
