@@ -1,4 +1,4 @@
-const contributors = require('./contributors')
+const contributors = require('./contributors.json')
 const stats = require('./stats-generator')
 const findCountryCode = require('./country-codes')
 

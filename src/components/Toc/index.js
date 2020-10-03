@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 
-
 class ErrorBoundary extends React.PureComponent {
   constructor() {
     super()
@@ -25,7 +24,6 @@ class ErrorBoundary extends React.PureComponent {
     return this.props.children
   }
 }
-
 
 const Listener = () => {
   useEffect(() => {
@@ -123,10 +121,12 @@ const Listener = () => {
 
       findLinksAndHeadings() {
         this.links = [...this.container.querySelectorAll('a')]
-        this.headings = this.links.map(link => {
-          let id = link.getAttribute('href')
-          return document.querySelector(id)
-        }).filter(x => x != null)
+        this.headings = this.links
+          .map(link => {
+            let id = link.getAttribute('href')
+            return document.querySelector(id)
+          })
+          .filter(x => x != null)
       },
     }
     TableOfContents.init()
@@ -134,7 +134,6 @@ const Listener = () => {
   return null
 }
 export default function Toc({ tableOfContents }) {
-
   return (
     <div className="table-of-contents">
       <ErrorBoundary>

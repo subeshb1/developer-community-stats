@@ -8,7 +8,7 @@ class NotFoundPage extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
-        <SEO title="404: Not Found"/>
+        <SEO title="404: Not Found" />
         <div className="not-found">
           <img src={notFound} alt="404 not found" />
           <div className="not-found__message">

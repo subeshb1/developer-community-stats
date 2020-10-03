@@ -1,1 +1,1 @@
-export * from './windowHooks';
+export * from './windowHooks'
