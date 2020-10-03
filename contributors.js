@@ -39,4 +39,8 @@ module.exports = {
     name: 'Abhijeet Rohidas Ekad',
     linkedin: 'https://www.linkedin.com/in/abhijeet-ekad-767a691aa/',
   },
+  "prajnakalpa": {
+    name: "Prajnakalpa Mishra",
+    country: "India"
+  },
 }
