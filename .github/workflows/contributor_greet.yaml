@@ -1,0 +1,14 @@
+name: greet-contributor-action
+on: [pull_request]
+
+jobs:
+  greet-user:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mshick/add-pr-comment@v1
+        with:
+          message: |
+            Thanks for contributing to `developer-community-stats`!. We are happy to have you as a contributor. Your PR will be reviewed and merged to master. sOnce it is merged you can see your stats in https://developer-community-stats.netlify.app/
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: 'github-actions[bot]'
+          allow-repeats: false
