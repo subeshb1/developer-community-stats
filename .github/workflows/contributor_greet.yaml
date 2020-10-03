@@ -5,13 +5,12 @@ jobs:
   greet-user:
     runs-on: ubuntu-latest
     steps:
-      - name: Create comment
-        uses: peter-evans/create-or-update-comment@v1
+      - uses: mshick/add-pr-comment@v1
         with:
-          body: |
-            This is a multi-line test comment
-            - With GitHub **Markdown** :sparkles:
-            - Created by [create-or-update-comment][1]
-
-            [1]: https://github.com/peter-evans/create-or-update-comment
-          reactions: heart, rocket, '+1'
+          message: |
+            **Hello**
+            🌏
+            !
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+          allow-repeats: true # This is the default
