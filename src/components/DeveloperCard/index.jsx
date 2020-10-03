@@ -21,25 +21,27 @@ export default function DeveloperCard({
   return (
     <div className="developer-card">
       <div className="developer-card-user-info">
-        <span
-          className={`flag-icon flag-icon-${countryCode.toLowerCase()} `}
-          title={country}
-        ></span>
+        {countryCode && (
+          <span
+            className={`flag-icon flag-icon-${countryCode.toLowerCase()} `}
+            title={country}
+          ></span>
+        )}
         <div className="developer-card-username">{githubUserId}</div>
         <div className="developer-card-avatar">
           <img src={avatarUrl} alt={githubUserId} />
         </div>
         <div className="developer-card-links">
-          <a href={`https://github.com/${githubUserId}`}>
+          <a href={`https://github.com/${githubUserId}`} target="__blank" rel="noreferrer" >
             <GrGithub />
           </a>
           {twitter && (
-            <a href={twitter} target="__blank">
+            <a href={twitter} target="__blank" rel="noreferrer" >
               <GrTwitter />
             </a>
           )}
           {linkedin && (
-            <a href={linkedin} target="__blank">
+            <a href={linkedin} target="__blank" rel="noreferrer" >
               <GrLinkedin />
             </a>
           )}

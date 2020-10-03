@@ -52,6 +52,7 @@
     "gatsby-transformer-remark": "^2.6.9",
     "gatsby-transformer-sharp": "^2.1.3",
     "gsap": "^3.2.6",
+    "jest": "^26.4.2",
     "mdx-utils": "^0.2.0",
     "moment": "^2.27.0",
     "nepali-date-converter": "^3.3.0",
@@ -102,7 +103,7 @@
   "scripts": {
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "test": "jest ./specs",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "start": "npm run develop",

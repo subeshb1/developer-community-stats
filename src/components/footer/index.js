@@ -7,36 +7,6 @@ export default class Footer extends Component {
       <div className="footer">
         <div className="links">
           <div className="group">
-            <Link to="/">Blogs</Link>
-            <Link to="/blog/games/build-a-snake-game" className="item">
-              Build a snake game
-            </Link>
-            <Link to="/blog/api-test/api-test-tutorial" className="item">
-              Test JSON api from terminal
-            </Link>
-          </div>
-          <div className="group">
-            <Link to="/app">Apps</Link>
-            <Link to="/app/sorting/" className="item">
-              Sorting Algorithms
-            </Link>
-            <Link to="/app/graph-search/" className="item">
-              Path finding Algorithms
-            </Link>
-            <Link to="/app/drawable-graph/" className="item">
-              Searching algorithm
-            </Link>
-            <Link to="/app/games/" className="item">
-              Play Games
-            </Link>
-          </div>
-          <div className="group">
-            Projects
-            <Link to="/api-test/" className="item">
-              api-test
-            </Link>
-          </div>
-          <div className="group">
             Stay In Touch
             <a
               href="https://twitter.com/subeshb1"
@@ -64,19 +34,10 @@ export default class Footer extends Component {
               <GrGithub />
               Github
             </a>
-            <a
-              href="/rss.xml"
-              className="item"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GrRss />
-              Rss
-            </a>
           </div>
         </div>
         <div className="copyright">
-          {new Date().getFullYear()} - Developer Community Stats
+          {new Date().getFullYear()} - Subesh Bhandari
         </div>
       </div>
     )

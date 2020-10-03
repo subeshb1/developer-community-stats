@@ -1,10 +1,10 @@
-name: main-push-deploy-action
-on:
+name: contributor-push-spec-action
+on: 
   push:
-    branches:
+    branches-ignore:
       - main
 jobs:
-  deploy-app:
+  test-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,14 +22,7 @@ jobs:
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package.lock.json') }}
       - run: npm i
+      - run: npm run test
       - env:
           GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
         run: npm run build
-      - name: Deploy production to Netlify
-        uses: South-Paw/action-netlify-deploy@v1.0.4
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
-          build-dir: './public'
-          comment-on-commit: true

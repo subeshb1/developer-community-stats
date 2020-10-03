@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-const root = "https://www.subeshbhandari.com";
+const root = 'https://www.subeshbhandari.com'
 function SEO({ description, lang, meta, keywords, title, url }) {
   return (
     <StaticQuery
@@ -54,9 +54,9 @@ function SEO({ description, lang, meta, keywords, title, url }) {
               .concat(
                 keywords.length > 0
                   ? {
-                    name: `keywords`,
-                    content: keywords.join(`, `),
-                  }
+                      name: `keywords`,
+                      content: keywords.join(`, `),
+                    }
                   : []
               )
               .concat(meta)}
