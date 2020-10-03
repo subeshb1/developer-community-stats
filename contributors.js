@@ -32,7 +32,7 @@ module.exports = {
   },
   abhijeetekad: {
     country: 'India',
-    name: 'Abhijeet Ekad',
+    name: 'Abhijeet Rohidas Ekad',
     linkedin: 'https://www.linkedin.com/in/abhijeet-ekad-767a691aa/',
   },
 }
