@@ -9,6 +9,7 @@ jobs:
         with:
           message: |
             Thanks for contributing to `developer-community-stats`!. We are happy to have you as a contributor. Your PR will be reviewed and merged to master. sOnce it is merged you can see your stats in https://developer-community-stats.netlify.app/
+            **Note: Don't forget to star the repository and follow @subeshb1 :)**
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
           allow-repeats: false
