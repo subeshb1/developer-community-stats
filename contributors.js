@@ -9,6 +9,10 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/subesh-bhandari-523438112/",
     country: "Nepal"
   },
+  "sketch-tester": {
+    name: "Sketch Tester",
+    country: "Kenya"
+  },
   "acorson1": {
     name:"Alex Corson",
     country:"United Kingdom"
