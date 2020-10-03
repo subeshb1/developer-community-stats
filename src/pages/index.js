@@ -15,7 +15,6 @@ class DeveloperCommunityHome extends React.Component {
       },
     } = this.props
 
-    console.log(contributors)
     return (
       <Layout>
         <SEO
