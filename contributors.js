@@ -24,6 +24,11 @@ module.exports = {
   "PankajGupta":{
     name: "Pankaj Gupta ",
     country: "India"
+  },
+  "Shubham-Agarwal16":{
+    name:"Shubham Agarwal",
+    country: "India",
+    linkedin: "www.linkedin.com/in/shubham-agarwal16"
   }
 
 }
