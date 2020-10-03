@@ -11,7 +11,7 @@ module.exports = {
   },
   "acorson1": {
     name:"Alex Corson",
-    country:"United Kindom"
+    country:"United Kingdom"
   },
   "OmkarGeedh": {
     name: "Omkar Geedh",
