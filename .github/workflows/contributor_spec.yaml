@@ -1,0 +1,20 @@
+name: contributor-push-spec-action
+on: 
+  push:
+    branches-ignore:
+      - main
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build Project
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - run: npm i
+      - run: npm run test
+      - env:
+          GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
+        run: npm run build
