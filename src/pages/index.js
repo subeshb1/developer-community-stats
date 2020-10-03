@@ -21,10 +21,11 @@ class DeveloperCommunityHome extends React.Component {
           keywords={[`GithubStats`, `github`, `stats`, `developer`, `community`]}
         />
 
-        {
-          contributors.map(contributorStats => <DeveloperCard {...contributorStats} key={contributorStats.id} />)
-        }
-
+        <div className="developer-card-container">
+          {
+            contributors.map(contributorStats => <DeveloperCard {...contributorStats} key={contributorStats.id} />)
+          }
+        </div>
       </Layout>
     )
   }
