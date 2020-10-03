@@ -43,8 +43,14 @@ module.exports = {
     name: "Prajnakalpa Mishra",
     country: "India"
   },
+  "J3ffJessie": {
+    name: "Jeff Jessie",
+    country: "United States",
+    twitter: "https://twitter.com/j3ffjessie",
+    linkedin: "http://linkedin.com/in/jeff-jessie-4b2323a9",
+  },
   "nisargpawade": {
    "country": "India",
    "name": "Nisarg Pawade",
-  },
+  }
 }
