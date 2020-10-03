@@ -40,7 +40,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allContributor {
+    allContributor(sort: {order: DESC, fields: thisYearContribution}) {
     totalCount
     nodes {
       id
