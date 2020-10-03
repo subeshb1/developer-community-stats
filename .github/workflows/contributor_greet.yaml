@@ -5,11 +5,12 @@ jobs:
   greet-user:
     runs-on: ubuntu-latest
     steps:
-      - uses: mshick/add-pr-comment@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Comment a pull_request
+        uses: ./
         with:
-          message: |
-            Thanks for contributing to `developer-community-stats`!. We are happy to have you as a contributor. Your PR will be reviewed and merged to master.
-            Once it is merged you can see your stats in https://developer-community-stats.netlify.app/
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
-          allow-repeats: true # This is the default
+          message: Thanks for contributing to `developer-community-stats`! We are happy to have you as a contributor. Your PR will be reviewed and merged to master. Once it is merged you can see your stats in https://developer-community-stats.netlify.app/
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          reactions: "+1 | laugh | hooray | heart | rocket"
