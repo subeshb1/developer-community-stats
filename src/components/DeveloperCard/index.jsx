@@ -21,10 +21,12 @@ export default function DeveloperCard({
   return (
     <div className="developer-card">
       <div className="developer-card-user-info">
-        <span
-          className={`flag-icon flag-icon-${countryCode.toLowerCase()} `}
-          title={country}
-        ></span>
+        {countryCode && (
+          <span
+            className={`flag-icon flag-icon-${countryCode.toLowerCase()} `}
+            title={country}
+          ></span>
+        )}
         <div className="developer-card-username">{githubUserId}</div>
         <div className="developer-card-avatar">
           <img src={avatarUrl} alt={githubUserId} />
