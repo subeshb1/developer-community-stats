@@ -14,8 +14,8 @@ module.exports = {
     country: "Kenya"
   },
   "acorson1": {
-    name:"Alex Corson",
-    country:"United Kingdom"
+    name: "Alex Corson",
+    country: "United Kingdom"
   },
   "OmkarGeedh": {
     name: "Omkar Geedh",
@@ -25,14 +25,18 @@ module.exports = {
     name: "Deyan Petrov",
     country: "United Kingdom"
   },
-  "PankajGupta":{
+  "PankajGupta": {
     name: "Pankaj Gupta ",
     country: "India"
   },
-  "Shubham-Agarwal16":{
-    name:"Shubham Agarwal",
+  "Shubham-Agarwal16": {
+    name: "Shubham Agarwal",
     country: "India",
     linkedin: "www.linkedin.com/in/shubham-agarwal16"
-  }
-
+  },
+  "abhijeetekad": {
+    country: 'India',
+    name: 'Abhijeet Rohidas Ekad',
+    linkedin: 'https://www.linkedin.com/in/abhijeet-ekad-767a691aa/',
+  },
 }
