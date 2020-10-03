@@ -1,5 +1,5 @@
 name: contributor-push-spec-action
-on: [pull_request_target]
+on: [pull_request]
 jobs:
   test-build:
     runs-on: ubuntu-latest
