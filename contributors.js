@@ -1,34 +1,38 @@
 module.exports = {
-  "slash-coders": {
-    name: "Slash Coders",
-    country: "United States"
+  'slash-coders': {
+    name: 'Slash Coders',
+    country: 'United States',
   },
-  "subeshb1": {
-    name: "Subesh Bhandari",
-    twitter: "https://twitter.com/subeshb1",
-    linkedin: "https://www.linkedin.com/in/subesh-bhandari-523438112/",
-    country: "Nepal"
+  subeshb1: {
+    name: 'Subesh Bhandari',
+    twitter: 'https://twitter.com/subeshb1',
+    linkedin: 'https://www.linkedin.com/in/subesh-bhandari-523438112/',
+    country: 'Nepal',
   },
-  "acorson1": {
-    name:"Alex Corson",
-    country:"United Kingdom"
+  acorson1: {
+    name: 'Alex Corson',
+    country: 'United Kingdom',
   },
-  "OmkarGeedh": {
-    name: "Omkar Geedh",
-    country: "India"
+  OmkarGeedh: {
+    name: 'Omkar Geedh',
+    country: 'India',
   },
-  "WickedInvi": {
-    name: "Deyan Petrov",
-    country: "United Kingdom"
+  WickedInvi: {
+    name: 'Deyan Petrov',
+    country: 'United Kingdom',
   },
-  "PankajGupta":{
-    name: "Pankaj Gupta ",
-    country: "India"
+  PankajGupta: {
+    name: 'Pankaj Gupta ',
+    country: 'India',
   },
-  "Shubham-Agarwal16":{
-    name:"Shubham Agarwal",
-    country: "India",
-    linkedin: "www.linkedin.com/in/shubham-agarwal16"
-  }
-
+  'Shubham-Agarwal16': {
+    name: 'Shubham Agarwal',
+    country: 'India',
+    linkedin: 'www.linkedin.com/in/shubham-agarwal16',
+  },
+  abhijeetekad: {
+    country: 'India',
+    name: 'Abhijeet Ekad',
+    linkedin: 'https://www.linkedin.com/in/abhijeet-ekad-767a691aa/',
+  },
 }
