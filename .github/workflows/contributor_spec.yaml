@@ -22,4 +22,5 @@ jobs:
       - run: npm run test
       - env:
           GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
+          ENV_TYPE: mock
         run: npm run build

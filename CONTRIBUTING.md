@@ -1,14 +1,34 @@
-# Developer Community stats
+# Contributing to Developer Community stats
 
-A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats.
+We love contributions! We want to make contributing to this project as easy and friendly as possible, whether it's:
 
-Currently only basic Github stats are shown. In the future on clicking the user card will show detailed stats of the user.
+- Beginner PR requests
+- Questions regarding any problems
+- Submitting a fix
+- Proposing new features
+- Becoming a maintainer
+- Suggestions and Feedbacks
 
-![stats](./stats.png)
+## We Develop with Github
 
-## Contributing to Developer Community stats
+We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
-### Contributing to Open issues and Challenges
+## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+
+Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
+
+1. Fork the repo and create your branch from `master`.
+2. If you've added code that should be tested, add tests.
+3. If you've changed APIs, update the documentation.
+4. Ensure the test suite passes.
+5. Make sure your code lints.
+6. Issue that pull request!
+
+## Any contributions you make will be under the MIT Software License
+
+In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
+
+## Contributing to Open issues and Challenges
 
 The repository consists of Open issues encouraging beginners to take their first step to contribute to Open source. If you have any ideas regarding challenges, suggestions or feedback don't feel hesitant, create some issues.
 
@@ -16,7 +36,7 @@ When contributing to an issue be sure to read through the description and follow
 
 The most common contribution is adding yourself to `contributors.json`. See issue https://github.com/subeshb1/developer-community-stats/issues/8 on how to add your info and view your Github stats in https://developer-community-stats.netlify.app/.
 
-### Contributing to Core Website
+## Contributing to Core Website
 
 The core website is built with Gatsby, React and Github Graphql API. Follow the following steps to contribute to the website
 
@@ -52,7 +72,3 @@ $ git push
 # Make a pull request of your newly changed branch
 [https://github.com/subeshb1/developer-community-stats/compare](https://github.com/username/developer-community-stats/compare)
 ```
-
-## License
-
-[MIT](https://github.com/subeshb1/developer-community-stats/blob/main/LICENSE)

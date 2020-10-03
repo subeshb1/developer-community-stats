@@ -1,5 +1,11 @@
 const contributors = require('./contributors.json')
-const stats = require('./stats-generator')
+let stats
+if (process.env.ENV_TYPE === 'mock') {
+  stats = require('./mock-stats-generator')
+} else {
+  stats = require('./stats-generator')
+}
+
 const findCountryCode = require('./country-codes')
 
 exports.sourceNodes = async ({
