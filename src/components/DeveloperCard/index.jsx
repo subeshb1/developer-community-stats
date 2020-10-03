@@ -32,16 +32,16 @@ export default function DeveloperCard({
           <img src={avatarUrl} alt={githubUserId} />
         </div>
         <div className="developer-card-links">
-          <a href={`https://github.com/${githubUserId}`}>
+          <a href={`https://github.com/${githubUserId}`} target="__blank" rel="noreferrer" >
             <GrGithub />
           </a>
           {twitter && (
-            <a href={twitter} target="__blank">
+            <a href={twitter} target="__blank" rel="noreferrer" >
               <GrTwitter />
             </a>
           )}
           {linkedin && (
-            <a href={linkedin} target="__blank">
+            <a href={linkedin} target="__blank" rel="noreferrer" >
               <GrLinkedin />
             </a>
           )}
