@@ -13,6 +13,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12'
+      - name: Cache multiple paths
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/cache
+            !~/cache/exclude
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package.lock.json') }}
       - run: npm i
       - run: npm run test
       - env:
