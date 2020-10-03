@@ -32,16 +32,20 @@ export default function DeveloperCard({
           <img src={avatarUrl} alt={githubUserId} />
         </div>
         <div className="developer-card-links">
-          <a href={`https://github.com/${githubUserId}`} target="__blank" rel="noreferrer" >
+          <a
+            href={`https://github.com/${githubUserId}`}
+            target="__blank"
+            rel="noreferrer"
+          >
             <GrGithub />
           </a>
           {twitter && (
-            <a href={twitter} target="__blank" rel="noreferrer" >
+            <a href={twitter} target="__blank" rel="noreferrer">
               <GrTwitter />
             </a>
           )}
           {linkedin && (
-            <a href={linkedin} target="__blank" rel="noreferrer" >
+            <a href={linkedin} target="__blank" rel="noreferrer">
               <GrLinkedin />
             </a>
           )}
@@ -50,6 +54,10 @@ export default function DeveloperCard({
       <div className="developer-card-user-stats">
         <div className="developer-card-name">{name}</div>
         <div className="developer-card-detail">
+          <div className="developer-card-title">Contribution(This Year)</div>
+          <div className="developer-card-value">{thisYearContribution}</div>
+        </div>
+        <div className="developer-card-detail">
           <div className="developer-card-title">No. of Repositories</div>
           <div className="developer-card-value">{repositoryCount}</div>
         </div>
@@ -57,14 +65,7 @@ export default function DeveloperCard({
           <div className="developer-card-title">No. of Repos Contributed</div>
           <div className="developer-card-value">{repoContributedCount}</div>
         </div>
-        <div className="developer-card-detail">
-          <div className="developer-card-title">Contribution(This Year)</div>
-          <div className="developer-card-value">{thisYearContribution}</div>
-        </div>
-        <div className="developer-card-detail">
-          <div className="developer-card-title">Followers</div>
-          <div className="developer-card-value">{followersCount}</div>
-        </div>
+
         <div className="developer-card-detail">
           <div className="developer-card-title">Total Pull Requests</div>
           <div className="developer-card-value">{pullRequestsCount}</div>
@@ -72,6 +73,10 @@ export default function DeveloperCard({
         <div className="developer-card-detail">
           <div className="developer-card-title">Total Issues</div>
           <div className="developer-card-value">{issuesCount}</div>
+        </div>
+        <div className="developer-card-detail">
+          <div className="developer-card-title">Followers</div>
+          <div className="developer-card-value">{followersCount}</div>
         </div>
       </div>
     </div>
