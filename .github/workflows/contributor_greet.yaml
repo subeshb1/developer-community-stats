@@ -8,9 +8,8 @@ jobs:
       - uses: mshick/add-pr-comment@v1
         with:
           message: |
-            **Hello**
-            🌏
-            !
+            Thanks for contributing to `developer-community-stats`!. We are happy to have you as a contributor. Your PR will be reviewed and merged to master.
+            Once it is merged you can see your stats in https://developer-community-stats.netlify.app/
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
           allow-repeats: true # This is the default
