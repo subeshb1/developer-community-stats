@@ -14,7 +14,7 @@ The repository consists of Open issues encouraging beginners to take their first
 
 When contributing to an issue be sure to read through the description and follow the steps and make sure all the builds in the PR succeed.
 
-The most common contribution is adding yourself to `contribution.json`. See issue https://github.com/subeshb1/developer-community-stats/issues/8 on how to add your info and view your Github stats in https://developer-community-stats.netlify.app/.
+The most common contribution is adding yourself to `contributors.json`. See issue https://github.com/subeshb1/developer-community-stats/issues/8 on how to add your info and view your Github stats in https://developer-community-stats.netlify.app/.
 
 ### Contributing to Core Website
 
