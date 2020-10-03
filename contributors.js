@@ -1,46 +1,46 @@
 module.exports = {
   "slash-coders": {
-    name: "Slash Coders",
-    country: "United States"
+    "name": "Slash Coders",
+    "country": "United States"
   },
   "subeshb1": {
-    name: "Subesh Bhandari",
-    twitter: "https://twitter.com/subeshb1",
-    linkedin: "https://www.linkedin.com/in/subesh-bhandari-523438112/",
-    country: "Nepal"
+    "name": "Subesh Bhandari",
+    "twitter": "https://twitter.com/subeshb1",
+    "linkedin": "https://www.linkedin.com/in/subesh-bhandari-523438112/",
+    "country": "Nepal"
   },
   "sketch-tester": {
-    name: "Sketch Tester",
-    country: "Kenya"
+    "name": "Sketch Tester",
+    "country": "Kenya"
   },
   "acorson1": {
-    name: "Alex Corson",
-    country: "United Kingdom"
+    "name": "Alex Corson",
+    "country": "United Kingdom"
   },
   "OmkarGeedh": {
-    name: "Omkar Geedh",
-    country: "India"
+    "name": "Omkar Geedh",
+    "country": "India"
   },
   "WickedInvi": {
-    name: "Deyan Petrov",
-    country: "United Kingdom"
+    "name": "Deyan Petrov",
+    "country": "United Kingdom"
   },
   "PankajGupta": {
-    name: "Pankaj Gupta ",
-    country: "India"
+    "name": "Pankaj Gupta ",
+    "country": "India"
   },
   "Shubham-Agarwal16": {
-    name: "Shubham Agarwal",
-    country: "India",
-    linkedin: "www.linkedin.com/in/shubham-agarwal16"
+    "name": "Shubham Agarwal",
+    "country": "India",
+    "linkedin": "www.linkedin.com/in/shubham-agarwal16"
   },
   "abhijeetekad": {
-    country: 'India',
-    name: 'Abhijeet Rohidas Ekad',
-    linkedin: 'https://www.linkedin.com/in/abhijeet-ekad-767a691aa/',
+    "country": 'India',
+    "name": 'Abhijeet Rohidas Ekad',
+    "linkedin": 'https://www.linkedin.com/in/abhijeet-ekad-767a691aa/',
   },
   "nisargpawade": {
-   country: "India",
-   name: "Nisarg Pawade",
+   "country": "India",
+   "name": "Nisarg Pawade",
   },
 }
