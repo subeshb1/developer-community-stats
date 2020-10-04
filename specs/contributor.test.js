@@ -1,4 +1,4 @@
-const { default: Item } = require('antd/lib/list/Item')
+const fetch = require('node-fetch');
 const contributors = require('../contributors.json')
 
 
@@ -33,5 +33,19 @@ describe('Check if required attributes is contributors are present and in correc
         return currentId
       })
     expect(sorted).toBe(true)
+  });
+
+  it('Check if github user id exists', () => {
+    expect.assertions(1);
+    const users = process.env.NEW_USER ? process.env.NEW_USER.split(",") : [];
+    return Promise.all(users
+      .map((user) => fetch(`https://api.github.com/users/${user}`).then(res => res.status)))
+      .then(responses => {
+        const result = responses.every(res => res === 200)
+        if (!result) {
+          console.log(`The newly added users don't Exist: [${users}]`)
+        }
+        expect(result).toBe(true)
+      })
   });
 })
