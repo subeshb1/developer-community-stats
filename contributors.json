@@ -18,6 +18,11 @@
     "name": "Jeff Jessie",
     "twitter": "https://twitter.com/j3ffjessie"
   },
+  "LeoAlvarenga": {
+    "country": "Brazil",
+    "linkedin": "https://www.linkedin.com/in/leonardo-alvarenga-035a52104/",
+    "name": "Leonardo Alvarenga"
+  },
   "nisargpawade": {
     "country": "India",
     "name": "Nisarg Pawade"
@@ -64,5 +69,5 @@
   "WickedInvi": {
     "country": "United Kingdom",
     "name": "Deyan Petrov"
-  }  
+  }
 }
