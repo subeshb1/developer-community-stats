@@ -66,13 +66,14 @@
     "name": "Subesh Bhandari",
     "twitter": "https://twitter.com/subeshb1"
   },
-  "WickedInvi": {
-    "country": "United Kingdom",
-    "name": "Deyan Petrov"
-  },
   "veerraj": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/rajveer-choudhary-287706178/",
     "name": "Rajveer Choudhary"
+  },
+  "WickedInvi": {
+    "country": "United Kingdom",
+    "name": "Deyan Petrov"
   }
+ 
 }
