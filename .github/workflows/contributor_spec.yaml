@@ -19,7 +19,7 @@ jobs:
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package.lock.json') }}
       - run: npm i
-      - run: npm run test
+      - run: NEW_USER=$(git show main:contributors.json | jq -r --argjson new "$(cat contributors.json)" '. | keys - ($new | keys) | join(",")') npm run test
       - env:
           GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
           ENV_TYPE: mock
