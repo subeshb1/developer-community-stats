@@ -16,10 +16,15 @@
     "country": "India",
     "name": "Sunny Kushwaha"
   },
+  "azriakmalk": {
+    "country": "Indonesia",
+    "linkedin": "https://www.linkedin.com/in/azri-akmal-kurniawan-b69746100/",
+    "name": "Azri Akmal"
+  },
   "catw101": {
     "country": "United States",
     "name": "Catelen Wu"
-  },  
+  },
   "DOCTSTR": {
     "country": "India",
     "name": "Rushiraj Hada"
@@ -50,15 +55,15 @@
     "name": "Leonardo Alvarenga"
   },
   "mani-rsg": {
-    "country": "India", 
+    "country": "India",
     "name": "Manigandan Ravi"
- },
+  },
   "MasterBrian99": {
-    "country": "Sri Lanka", 
-    "name": "Pasindu P Konghawaththa", 
+    "country": "Sri Lanka",
     "linkedin": "https://www.linkedin.com/in/pasindu-p-konghawaththa-3808861a0/",
+    "name": "Pasindu P Konghawaththa",
     "twitter": "https://twitter.com/Master_br1an"
- },
+  },
   "mohammadanang": {
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/anangm182",
@@ -125,13 +130,12 @@
     "name": "Rajveer Choudhary"
   },
   "voidxyzvoidxyz": {
-   "country": "India",
-    "name": "Mohammed Shakir",
-    "linkedin" : "www.linkedin.com/in/mohammed-shakir-26256717b"
+    "country": "India",
+    "linkedin": "www.linkedin.com/in/mohammed-shakir-26256717b",
+    "name": "Mohammed Shakir"
   },
   "WickedInvi": {
     "country": "United Kingdom",
     "name": "Deyan Petrov"
   }
-  
 }
