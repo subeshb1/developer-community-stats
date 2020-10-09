@@ -53,6 +53,9 @@ $ git push
 [https://github.com/subeshb1/developer-community-stats/compare](https://github.com/username/developer-community-stats/compare)
 ```
 
+### Have some Suggestions or a new Idea?
+Add your idea/suggestion in the `IDEAS.md` file.
+
 ## License
 
 [MIT](https://github.com/subeshb1/developer-community-stats/blob/main/LICENSE)
