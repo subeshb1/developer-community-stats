@@ -42,9 +42,9 @@
     "website": "https://www.quora.com/q/abettercommunity"
   },
   "hasna-akbarali": {
-     "country": "India",
-     "name": "Hasna Akbar Ali",
-     "linkedin": "https://www.linkedin.com/in/hasna-akbar-ali-1485981b0/"
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/hasna-akbar-ali-1485981b0/",
+    "name": "Hasna Akbar Ali"
   },
   "isabellabond": {
     "country": "United States",
@@ -88,6 +88,11 @@
     "name": "Moh Prilaksono",
     "twitter": "https://twitter.com/MohPrilaksono"
   },
+  "Mr-emeka": {
+    "country": "Nigeria",
+    "linkedin": "https://www.linkedin.com/in/chukwuemeka-ukpai-7232571a1/",
+    "name": "Ukpai Chukwuemeka"
+  },
   "nisargpawade": {
     "country": "India",
     "name": "Nisarg Pawade"
@@ -115,8 +120,8 @@
   },
   "Quattro04": {
     "country": "Slovenia",
-    "name": "Matija Jeras",
-    "linkedin": "https://www.linkedin.com/in/matija-jeras/"
+    "linkedin": "https://www.linkedin.com/in/matija-jeras/",
+    "name": "Matija Jeras"
   },
   "ShreyanBudhouliya": {
     "country": "India",
