@@ -62,6 +62,7 @@ export const pageQuery = graphql`
         githubUserId
         issuesCount
         linkedin
+        website
         name
         pullRequestsCount
         repoContributedCount
