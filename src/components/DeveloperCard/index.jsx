@@ -1,5 +1,6 @@
 import React from 'react'
-import { GrLinkedin, GrTwitter, GrGithub, GrGlobe } from 'react-icons/gr'
+import { GrLinkedin, GrTwitter, GrGithub } from 'react-icons/gr'
+import { FaLink } from 'react-icons/fa'
 
 export default function DeveloperCard({
   repositoryCount,
@@ -52,7 +53,7 @@ export default function DeveloperCard({
           )}
           {website && (
             <a href={website} target="__blank" rel="noreferrer">
-              <GrGlobe />
+              <FaLink />
             </a>
           )}
         </div>
