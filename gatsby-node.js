@@ -1,4 +1,4 @@
-const contributors = require('./contributors.json')
+const rawContributors = require('./contributors.json')
 let stats
 if (process.env.ENV_TYPE === 'mock') {
   stats = require('./mock-stats-generator')
@@ -7,6 +7,12 @@ if (process.env.ENV_TYPE === 'mock') {
 }
 
 const findCountryCode = require('./country-codes')
+
+let contributors = {}
+//Sort contributors github id in alphabetical order
+Object.keys(rawContributors).sort().forEach(function(githubUserId) {
+  contributors[githubUserId] = rawContributors[githubUserId];
+});
 
 exports.sourceNodes = async ({
   actions,
