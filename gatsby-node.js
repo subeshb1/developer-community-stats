@@ -10,10 +10,9 @@ const findCountryCode = require('./country-codes')
 
 let contributors = {}
 //Sort contributors github id in alphabetical order
-Object.keys(rawContributors).sort().forEach(function(githubUserId) {
+Object.keys(rawContributors).sort().forEach((githubUserId) => {
   contributors[githubUserId] = rawContributors[githubUserId];
 });
-
 exports.sourceNodes = async ({
   actions,
   createContentDigest,
