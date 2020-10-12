@@ -35,5 +35,5 @@ exports.sourceNodes = async ({
         },
       })
     })
-  }).catch(err => console.error())
+  }).catch(console.error)
 }
