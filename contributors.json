@@ -126,7 +126,7 @@
   "RAYogeshwaran": {
     "country": "India",
     "name": "Yogeshwaran"
-    },
+  },
   "shankar524": {
     "country": "Nepal",
     "linkedin": "https://www.linkedin.com/in/er-shankar-acharya/",
@@ -153,7 +153,8 @@
     "country": "Nepal",
     "linkedin": "https://www.linkedin.com/in/subesh-bhandari-523438112/",
     "name": "Subesh Bhandari",
-    "twitter": "https://twitter.com/subeshb1"
+    "twitter": "https://twitter.com/subeshb1",
+    "website": "http://subeshbhandari.com/"
   },
   "veerraj": {
     "country": "India",
