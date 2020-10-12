@@ -1,5 +1,5 @@
 import React from 'react'
-import { GrLinkedin, GrTwitter, GrGithub } from 'react-icons/gr'
+import { GrLinkedin, GrTwitter, GrGithub, GrGlobe } from 'react-icons/gr'
 
 export default function DeveloperCard({
   repositoryCount,
@@ -17,6 +17,7 @@ export default function DeveloperCard({
   repoContributedCount,
   thisYearContribution,
   twitter,
+  website,
 }) {
   return (
     <div className="developer-card">
@@ -47,6 +48,11 @@ export default function DeveloperCard({
           {linkedin && (
             <a href={linkedin} target="__blank" rel="noreferrer">
               <GrLinkedin />
+            </a>
+          )}
+          {website && (
+            <a href={website} target="__blank" rel="noreferrer">
+              <GrGlobe />
             </a>
           )}
         </div>
