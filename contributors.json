@@ -118,6 +118,11 @@
     "country": "India",
     "name": "Prajnakalpa Mishra"
   },
+  "pranshumaheshwari": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/pranshu-m-59074297/",
+    "name": "Pranshu Maheshwari"
+  },
   "Quattro04": {
     "country": "Slovenia",
     "linkedin": "https://www.linkedin.com/in/matija-jeras/",
@@ -134,8 +139,8 @@
   "shankar524": {
     "country": "Nepal",
     "linkedin": "https://www.linkedin.com/in/er-shankar-acharya/",
-    "website": "https://shankar524.github.io",
-    "name": "Shankar Acharya"
+    "name": "Shankar Acharya",
+    "website": "https://shankar524.github.io"
   },
   "ShreyanBudhouliya": {
     "country": "India",
@@ -161,7 +166,7 @@
     "twitter": "https://twitter.com/subeshb1",
     "website": "http://subeshbhandari.com/"
   },
-   "Swapnil074": {
+  "Swapnil074": {
     "country": "India",
     "name": "Swapnil Sinha"
   },
