@@ -6,7 +6,6 @@ import { GrLinkedin, GrTwitter, GrGithub } from 'react-icons/gr'
 
 import { navDropDownFactory } from './common'
 import ThemePicker from './ThemePicker'
-// import MobileNav from './MobileNav'
 const NavBar = React.memo(props => {
   const {
     navLogo,
@@ -34,7 +33,15 @@ const NavBar = React.memo(props => {
   return (
     <>
       <nav className="lg-navbar">
-        <a href="https://github.com/subeshb1/developer-community-stats" target="_blank" rel="noopener noreferrer" ><GrGithub /></a>
+        <a
+          href="https://github.com/subeshb1/developer-community-stats"
+          target="_blank"
+          id="colorless-link"
+          rel="noopener noreferrer"
+          style={{ fontSize: '1.5rem' }}
+        >
+          <GrGithub />
+        </a>
         <Link to="/" className="lg-navbar__item lg-navbar__header">
           Developer Community Stats
         </Link>
