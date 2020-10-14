@@ -3,8 +3,6 @@
 
 <br/>
 
-- 🌱 I’m currently taking the 30 days of Google Cloud Challenge**
-
-
-
-<img src="https://google.qwiklabs.com/public_profiles/352c89d9-69e3-4d5a-88b7-3280517be527">
+-  I’m currently taking the 30 days of Google Cloud Challenge**
+- Link to my LinkedIn profile : https://www.linkedin.com/in/sarthak-jain-181980167/
+- See my badges @ https://google.qwiklabs.com/public_profiles/352c89d9-69e3-4d5a-88b7-3280517be527
