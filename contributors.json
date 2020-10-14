@@ -31,8 +31,8 @@
   },
   "ChristineJ82": {
     "country": "United States",
-    "name": "Christine Jackson",
-    "linkedin": "https://www.linkedin.com/in/christinejackson82/"
+    "linkedin": "https://www.linkedin.com/in/christinejackson82/",
+    "name": "Christine Jackson"
   },
   "DOCTSTR": {
     "country": "India",
@@ -75,12 +75,12 @@
     "country": "Netherlands",
     "name": "Kyara van Putten"
   },
-"Kritimakaushal": {
-   "country": "India",
-   "name": "Kritima Kaushal",
-   "linkedin": "https://www.linkedin.com/in/kritima-kaushal-41918519a",
-   "twitter": "https://twitter.com/KritimaKaushal"
-},
+  "Kritimakaushal": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/kritima-kaushal-41918519a",
+    "name": "Kritima Kaushal",
+    "twitter": "https://twitter.com/KritimaKaushal"
+  },
   "LeoAlvarenga": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/leonardo-alvarenga-035a52104/",
@@ -181,10 +181,15 @@
   },
   "sonylomo": {
     "country": "Kenya",
-    "name": "Sonia Lomo",
     "linkedin": "https://www.linkedin.com/in/sonia-lomo/",
+    "name": "Sonia Lomo",
     "twitter": "https://twitter.com/sony_lomo",
-    "website":"https://sonylomo.github.io/"
+    "website": "https://sonylomo.github.io/"
+  },
+  "SrijitaSarkar99": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/srijita-sarkar-1241041b4/",
+    "name": "Srijita Sarkar"
   },
   "subeshb1": {
     "country": "Nepal",
