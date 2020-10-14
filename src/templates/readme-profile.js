@@ -5,6 +5,7 @@ import Layout from '../components/Layouts/Layout'
 import { rhythm, scale } from '../utils/typography'
 import Toc from '../components/Toc'
 import { If } from '../components/utils'
+import DeveloperCard from '../components/DeveloperCard'
 
 
 const BlogContent = React.memo(({ html }) => {
@@ -13,13 +14,12 @@ const BlogContent = React.memo(({ html }) => {
 
 function BlogPost(props) {
   const post = props.data.markdownRemark
-  const siteTitle = props.data.site.siteMetadata.title
-  const { previous, next } = props.pageContext
-
+  const card = props.data.contributor
   return (
     <Layout>
       <div className="blog-main-container">
         <main className="blog-mid-container blog-post-content">
+          <div className="developer-card-container"><DeveloperCard {...card} /></div>
           <BlogContent html={post.html} />
           <hr
             style={{
@@ -35,12 +35,31 @@ function BlogPost(props) {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query($slug: String!, $githubUserId: String!) {
     site {
       siteMetadata {
         title
         author
       }
+    }
+    contributor(githubUserId: {eq: $githubUserId}) {
+      id
+      countryCode
+      repositoryCount
+      contributionYears
+      country
+      firstContribution
+      followersCount
+      githubUserId
+      issuesCount
+      linkedin
+      website
+      name
+      pullRequestsCount
+      repoContributedCount
+      thisYearContribution
+      twitter
+      avatarUrl
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
