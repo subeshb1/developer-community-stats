@@ -54,6 +54,12 @@
     "twitter": "https://twitter.com/eDangol901",
     "website": "https://www.quora.com/q/abettercommunity"
   },
+  "femakin": {
+    "country": "Nigeria",
+    "linkedin": "https://www.linkedin.com/in/oluwafemi-tosin-akinyemi-6b028270/",
+    "name": "Femi Akinyemi",
+    "twitter": "https://twitter.com/akinyemi_t"
+  },
   "hambali999": {
     "country": "Singapore",
     "linkedin": "https://www.linkedin.com/in/nur-hambali-064126131/",
@@ -230,11 +236,5 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
-  },
-  "femakin": {
-    "country": "Nigeria",
-    "linkedin": "https://www.linkedin.com/in/oluwafemi-tosin-akinyemi-6b028270/",
-    "name": "Femi Akinyemi",
-    "twitter": "https://twitter.com/akinyemi_t"
   }
 }
