@@ -21,6 +21,10 @@
     "linkedin": "https://www.linkedin.com/in/azri-akmal-kurniawan-b69746100/",
     "name": "Azri Akmal"
   },
+  "binismail": {
+    "country": "Nigeria",
+    "name": "Khalid Ismail"
+  },
   "catw101": {
     "country": "United States",
     "name": "Catelen Wu"
@@ -45,6 +49,11 @@
     "name": "Elina Dangol",
     "twitter": "https://twitter.com/eDangol901",
     "website": "https://www.quora.com/q/abettercommunity"
+  },
+  "hambali999": {
+    "country": "Singapore",
+    "linkedin": "https://www.linkedin.com/in/nur-hambali-064126131/",
+    "name": "Nur Hambali"
   },
   "hasna-akbarali": {
     "country": "India",
@@ -201,5 +210,9 @@
   "WickedInvi": {
     "country": "United Kingdom",
     "name": "Deyan Petrov"
+  },
+  "xxx32": {
+    "country": "India",
+    "name": "Aarushi"
   }
 }
