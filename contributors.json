@@ -75,12 +75,12 @@
     "country": "Netherlands",
     "name": "Kyara van Putten"
   },
-"Kritimakaushal": {
-   "country": "India",
-   "name": "Kritima Kaushal",
-   "linkedin": "https://www.linkedin.com/in/kritima-kaushal-41918519a",
-   "twitter": "https://twitter.com/KritimaKaushal"
-},
+  "Kritimakaushal": {
+    "country": "India",
+    "name": "Kritima Kaushal",
+    "linkedin": "https://www.linkedin.com/in/kritima-kaushal-41918519a",
+    "twitter": "https://twitter.com/KritimaKaushal"
+  },
   "LeoAlvarenga": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/leonardo-alvarenga-035a52104/",
@@ -184,7 +184,7 @@
     "name": "Sonia Lomo",
     "linkedin": "https://www.linkedin.com/in/sonia-lomo/",
     "twitter": "https://twitter.com/sony_lomo",
-    "website":"https://sonylomo.github.io/"
+    "website": "https://sonylomo.github.io/"
   },
   "subeshb1": {
     "country": "Nepal",
@@ -214,5 +214,9 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
+  },
+  "oli799": {
+    "country": "Hungary",
+    "name": "Oliver Reider"
   }
 }
