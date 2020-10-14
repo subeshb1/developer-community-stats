@@ -256,5 +256,11 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
+  },
+  "prateekcode":{
+    "country": "India",
+    "name": "Prateek",
+    "linkedin": "https://www.linkedin.com/in/pratiekray/",
+    "twitter": "https://twitter.com/pratiekray"
   }
 }
