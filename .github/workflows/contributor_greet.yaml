@@ -8,8 +8,15 @@ jobs:
       - uses: mshick/add-pr-comment@v1
         with:
           message: |
-            Thanks for contributing to `developer-community-stats`! We are happy to have you as a contributor. Your PR will be reviewed and merged to master. Once it is merged you can see your stats in https://developer-community-stats.netlify.app/
-            **Note: Don't forget to star the repository and follow @subeshb1 :)**
+            Thanks for contributing to `developer-community-stats`! 
+            We are happy to have you as a contributor. Your PR will be reviewed and merged to master. 
+            Once it is merged you can see your stats in: https://developer-community-stats.netlify.app/
+
+
+            If you want to contribute to other issues check out [Issues needed Help](https://github.com/subeshb1/developer-community-stats/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+
+
+            **Note: Don't forget to star, share the repository and follow @subeshb1 :)**
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
           allow-repeats: false
