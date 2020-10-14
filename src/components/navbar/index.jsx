@@ -34,7 +34,7 @@ const NavBar = React.memo(props => {
   return (
     <>
       <nav className="lg-navbar">
-        <GrGithub />
+        <a href="https://github.com/subeshb1/developer-community-stats" target="_blank" rel="noopener noreferrer" ><GrGithub /></a>
         <Link to="/" className="lg-navbar__item lg-navbar__header">
           Developer Community Stats
         </Link>
