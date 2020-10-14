@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+a.developer-card-link, #colorless-link{
+  color: unset;
+  cursor: pointer;
+}
 .developer-card-container {
   display: flex;
   flex-wrap: wrap;
