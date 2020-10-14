@@ -26,6 +26,7 @@ exports.createPages = ({ graphql, actions }) => {
               id
               fields {
                 slug
+                githubUserId
               }
             }
           }
@@ -49,6 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
+          githubUserId: post.node.fields.githubUserId,
           previous,
           next,
         },
@@ -73,6 +75,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: `slug`,
       node,
       value,
+    })
+    createNodeField({
+      name: `githubUserId`,
+      node,
+      value: value.split('/').splice(-1)[0],
     })
   }
 }
