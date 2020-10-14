@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-a.developer-card-link, #colorless-link{
+a.developer-card-link,
+#colorless-link {
   color: unset;
   cursor: pointer;
+  svg {
+    color: var(--theme-secondary-color);
+  }
 }
 .developer-card-container {
   display: flex;
