@@ -42,8 +42,7 @@ export default function DeveloperCard({
           <div className="developer-card-links">
             <a
               href={`https://github.com/${githubUserId}`}
-              target="__blank"
-              rel="noreferrer"
+              // removed the rel for that cause the bug.
             >
               <GrGithub />
             </a>
