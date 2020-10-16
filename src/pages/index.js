@@ -31,8 +31,8 @@ class DeveloperCommunityHome extends React.Component {
         />
 
         <div className="developer-card-container">
-          {contributors.map(contributorStats => (
-            <DeveloperCard {...contributorStats} key={contributorStats.id} />
+          {contributors.map((contributorStats,i) => (
+            <DeveloperCard key={i} position={i+1} {...contributorStats} key={contributorStats.id} />
           ))}
         </div>
       </Layout>
