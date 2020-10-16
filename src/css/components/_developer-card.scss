@@ -15,7 +15,7 @@
     padding: 0px 56px;
     min-width: 300px;
     img {
-      margin: 10px;
+      margin-right: 10px;
     }
   }
 
@@ -102,6 +102,29 @@ a.developer-card-link,
       display: flex;
       justify-content: space-between;
     }
+    &:hover,
+    &:active {
+      .developer-card-hover {
+        display: flex;
+      }
+    }
+    .developer-card-hover {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+      background: var(--theme-primary-bg);
+      opacity: 0.8;
+      .developer-card-link {
+        color: var(--theme-secondary-color);
+        display: flex;
+        padding: 4px 1em;
+        border: 2px solid white;
+      }
+    }
     .developer-card-detail {
       padding: 1px 20px;
       font-size: 0.8rem;
@@ -125,6 +148,14 @@ a.developer-card-link,
       flex-direction: column;
       min-width: unset;
       padding-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .readme-profile {
+    .readme-mid-container {
+      padding: 0px 1.125rem;
     }
   }
 }

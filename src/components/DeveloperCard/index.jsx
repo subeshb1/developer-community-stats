@@ -61,16 +61,20 @@ export default function DeveloperCard({
         </div>
       </div>
       <div className="developer-card-user-stats">
-        <Link
-          className="developer-card-link"
-          id="colorless-link"
-          to={`/profile/${githubUserId}`}
-        >
-          
-        </Link>
+        {position && (
+          <div className="developer-card-hover">
+            <Link
+              className="developer-card-link"
+              to={`/profile/${githubUserId}`}
+            >
+              View Profile
+            </Link>
+          </div>
+        )}
+
         <div className="developer-card-name">
           {name}
-          {position && <span># {position}</span>}
+          {position && <span># {position} </span>}
         </div>
         <div className="developer-card-detail">
           <div className="developer-card-title">Contribution(This Year)</div>
