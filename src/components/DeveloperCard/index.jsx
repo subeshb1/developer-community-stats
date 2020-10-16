@@ -20,6 +20,7 @@ export default function DeveloperCard({
   thisYearContribution,
   twitter,
   website,
+  position,
 }) {
   return (
     <Link
@@ -65,7 +66,10 @@ export default function DeveloperCard({
           </div>
         </div>
         <div className="developer-card-user-stats">
-          <div className="developer-card-name">{name}</div>
+          <div className="developer-card-name">
+            {name}
+            <span># {position}</span>
+          </div>
           <div className="developer-card-detail">
             <div className="developer-card-title">Contribution(This Year)</div>
             <div className="developer-card-value">{thisYearContribution}</div>
