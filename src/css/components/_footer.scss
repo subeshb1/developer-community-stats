@@ -68,6 +68,17 @@
   margin: 20px;
 }
 
+.footer .madeWith {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+}
+
+.madeWith {
+  font-size: 0.8rem;
+}
+
 @media (max-width: 700px) {
   .footer {
     padding: 0 20px;

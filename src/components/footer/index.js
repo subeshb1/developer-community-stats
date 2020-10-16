@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import { GrLinkedin, GrTwitter, GrGithub, GrRss } from 'react-icons/gr'
+import { GrLinkedin, GrTwitter, GrGithub, GrRss, GrGraphQl, GrGatsbyjs } from 'react-icons/gr'
+import { FaGithub, FaReact } from 'react-icons/fa';
 export default class Footer extends Component {
   render() {
     return (
@@ -38,6 +39,13 @@ export default class Footer extends Component {
         </div>
         <div className="copyright">
           {new Date().getFullYear()} - Subesh Bhandari
+        </div>
+        <div className="madeWith">
+          Made with
+          <a href="https://reactjs.org/"><FaReact /></a>
+          <a href="https://github.com"><FaGithub /></a>
+          <a href="https://graphql.org/"><GrGraphQl /></a>
+          <a href="https://www.gatsbyjs.com/"><GrGatsbyjs /></a>
         </div>
       </div>
     )
