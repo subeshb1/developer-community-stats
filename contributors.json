@@ -152,11 +152,6 @@
     "name": "Leonardo Alvarenga"
      
   },
-  "xcyraxx": {
-   "country": "Oman", //
-   "name": "Adil Jafar",
-   
-  },
   "mani-rsg": {
     "country": "India",
     "name": "Manigandan Ravi"
@@ -374,6 +369,10 @@
   "WickedInvi": {
     "country": "United Kingdom",
     "name": "Deyan Petrov"
+  },
+  "xcyraxx": {
+   "country": "Oman",
+   "name": "Adil Jafar"
   },
   "xdebbie": {
     "country": "France",
