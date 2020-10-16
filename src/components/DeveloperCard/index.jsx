@@ -68,7 +68,7 @@ export default function DeveloperCard({
         <div className="developer-card-user-stats">
           <div className="developer-card-name">
             {name}
-            <span># {position}</span>
+            {position && <span># {position}</span>}
           </div>
           <div className="developer-card-detail">
             <div className="developer-card-title">Contribution(This Year)</div>
