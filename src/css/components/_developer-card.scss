@@ -100,6 +100,8 @@ a.developer-card-link,
       padding: 10px 20px;
       font-size: 1.2rem;
       // font-weight: bold;
+      display: flex;
+      justify-content: space-between;
     }
     .developer-card-detail {
       padding: 1px 20px;
