@@ -53,6 +53,12 @@
     "country": "Nigeria",
     "name": "Khalid Ismail"
   },
+  "blee1710": {
+    "country": "Australia",
+    "linkedin": "https://www.linkedin.com/in/brandon-lee-a95b8b1a2/",
+    "name": "Brandon Lee",
+    "website": "https://brndnlee.me/"
+  },
   "catw101": {
     "country": "United States",
     "name": "Catelen Wu"
@@ -262,7 +268,7 @@
   "RajeshNathani": {
     "country": "India",
     "name": "Rajesh Nathani",
-    "website" : "http://rajeshnathani.co"
+    "website": "http://rajeshnathani.co"
   },
   "RajivSah": {
     "country": "Nepal",
