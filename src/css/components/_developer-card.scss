@@ -1,80 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-a.developer-card-link, #colorless-link{
+.readme-profile {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+  .readme-mid-container {
+    flex: 6;
+    flex-grow: 6;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 0px 56px;
+    min-width: 300px;
+    img {
+      margin: 10px;
+    }
+  }
+
+  .blog-main-container {
+    flex: 10;
+  }
+  a.developer-card-link {
+    display: flex;
+    flex: 1;
+    .developer-card {
+      flex-direction: column;
+      min-width: 300px;
+    }
+  }
+}
+a.developer-card-link,
+#colorless-link {
   color: unset;
   cursor: pointer;
+  svg {
+    color: var(--theme-secondary-color);
+  }
 }
 .developer-card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  .developer-card {
+}
+.developer-card {
+  flex: 1;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px 1px var(--theme-navbar-box-shadow);
+  min-width: 450px;
+  .developer-card-user-info {
+    padding: 10px;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
     display: flex;
-    font-family: 'Open Sans', sans-serif;
-    flex-wrap: wrap;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 8px 1px var(--theme-navbar-box-shadow);
-    min-width: 450px;
-    .developer-card-user-info {
-      padding: 10px;
-      position: relative;
-      flex: 1;
-      flex-direction: column;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    justify-content: center;
+    align-items: center;
+    background: var(--theme-primary-bg);
+    color: var(--theme-secondary-color);
+    span {
+      position: absolute;
+      top: 12px;
+      right: 10px;
+    }
+    .developer-card-username {
+      background: var(--theme-primary-hover);
+      padding: 4px 0.8em;
+      font-size: 0.8rem;
+      line-height: 1;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+    .developer-card-avatar {
+      width: 150px;
+      margin-bottom: 10px;
+      height: 150px;
+      border-radius: 100%;
+      overflow: hidden;
       background: var(--theme-primary-bg);
-      color: var(--theme-secondary-color);
-      span {
-        position: absolute;
-        top: 12px;
-        right: 10px;
-      }
-      .developer-card-username {
-        background: var(--theme-primary-hover);
-        padding: 4px 0.8em;
-        font-size: 0.8rem;
-        line-height: 1;
-        border-radius: 20px;
-        margin-bottom: 10px;
-      }
-      .developer-card-avatar {
-        width: 150px;
-        margin-bottom: 10px;
-        height: 150px;
-        border-radius: 100%;
-        overflow: hidden;
-        background: var(--theme-primary-bg);
-      }
-      .developer-card-links {
-        display: flex;
-        a {
-          color: inherit;
-          margin: 0 10px;
-        }
+    }
+    .developer-card-links {
+      display: flex;
+      a {
+        color: inherit;
+        margin: 0 10px;
       }
     }
-    margin: 10px;
-    .developer-card-user-stats {
-      flex: 2;
-      .developer-card-name {
-        font-family: 'Bebas Neue', cursive;
-        padding: 10px 20px;
-        font-size: 1.2rem;
-        // font-weight: bold;
-      }
-      .developer-card-detail {
-        padding: 1px 20px;
-        font-size: 0.8rem;
+  }
+  margin: 10px;
+  .developer-card-user-stats {
+    flex: 2;
+    .developer-card-name {
+      font-family: 'Bebas Neue', cursive;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      // font-weight: bold;
+    }
+    .developer-card-detail {
+      padding: 1px 20px;
+      font-size: 0.8rem;
 
-        display: flex;
-        justify-content: space-between;
-        .developer-card-title {
-          opacity: 0.7;
-        }
-        .developer-card-value {
-          font-weight: bolder;
-        }
+      display: flex;
+      justify-content: space-between;
+      .developer-card-title {
+        opacity: 0.7;
+      }
+      .developer-card-value {
+        font-weight: bolder;
       }
     }
   }

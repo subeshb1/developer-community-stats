@@ -17,18 +17,20 @@ function BlogPost(props) {
   const card = props.data.contributor
   return (
     <Layout>
-      <div className="blog-main-container">
-        <main className="blog-mid-container blog-post-content">
-          <div className="developer-card-container"><DeveloperCard {...card} /></div>
-          <BlogContent html={post.html} />
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-            }}
-          />
-        </main>
+      <div className="readme-profile">
+        <DeveloperCard {...card} />
+        <div className="blog-main-container">
+          <main className="readme-mid-container blog-post-content">
+            <BlogContent html={post.html} />
+            <hr
+              style={{
+                marginBottom: rhythm(1),
+              }}
+            />
+          </main>
+        </div>
       </div>
-    </Layout>
+    </Layout >
   )
 }
 

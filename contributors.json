@@ -135,17 +135,17 @@
     "name": "Jeff Jessie",
     "twitter": "https://twitter.com/j3ffjessie"
   },
-  "joharikushagra":{
-    "country":"India",
-    "linkedin":"https://www.linkedin.com/in/kushagra-johari-707183191/",
-    "name":"Kushagra Johari",
-    "website":"https://mrweber.netlify.app/"
+  "joharikushagra": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/kushagra-johari-707183191/",
+    "name": "Kushagra Johari",
+    "website": "https://mrweber.netlify.app/"
   },
-"khandelwal20sid": {
-    "country": "India", 
-    "name": "Siddharth Khandelwal",
-    "linkedin": "https://www.linkedin.com/in/siddharth-khandelwal-980992173/"
-},
+  "khandelwal20sid": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/siddharth-khandelwal-980992173/",
+    "name": "Siddharth Khandelwal"
+  },
   "Kiralinn": {
     "country": "Netherlands",
     "name": "Kyara van Putten"
@@ -357,6 +357,13 @@
     "country": "India",
     "name": "Swapnil Sinha"
   },
+  "thpadelis": {
+    "country": "Greece",
+    "linkedin": "https://www.linkedin.com/in/padelis-theodosiou/",
+    "name": "Padelis Theodosiou",
+    "twitter": "https://twitter.com/ThPadelis",
+    "website": "http://padelis.theodosiou.me/"
+  },
   "Thusal06": {
     "country": "Sri Lanka",
     "linkedin": "https://www.linkedin.com/in/thusal-ranawaka-773aa1189/",
@@ -392,7 +399,7 @@
   "xcyraxx": {
     "country": "Oman",
     "name": "Adil Jafar"
-   },
+  },
   "xdebbie": {
     "country": "France",
     "linkedin": "https://www.linkedin.com/in/deborah-caldeira/",
