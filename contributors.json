@@ -38,6 +38,11 @@
     "linkedin": "https://www.linkedin.com/in/azri-akmal-kurniawan-b69746100/",
     "name": "Azri Akmal"
   },
+  "b2pacific": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/prashant-pandey-3545aa1ab/",
+    "name": "Prashant Pandey"
+  },
   "binismail": {
     "country": "Nigeria",
     "name": "Khalid Ismail"
@@ -69,8 +74,8 @@
   },
   "faisaljamil25": {
     "country": "India",
-    "name": "Faisal Jamil",
-    "linkedin": "https://www.linkedin.com/in/faisaljamil25/"
+    "linkedin": "https://www.linkedin.com/in/faisaljamil25/",
+    "name": "Faisal Jamil"
   },
   "femakin": {
     "country": "Nigeria",
@@ -108,10 +113,10 @@
     "name": "Kyara van Putten"
   },
   "kree666": {
-   "country": "United States", 
-   "name": "Emily Basile",
-   "linkedin": "https://www.linkedin.com/in/emily-basile-03427312a/"
-},
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/emily-basile-03427312a/",
+    "name": "Emily Basile"
+  },
   "Kritimakaushal": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/kritima-kaushal-41918519a",
@@ -128,11 +133,11 @@
     "name": "Manigandan Ravi"
   },
   "MannanAhmad": {
+    "blog": "https://gyanwithmannan.blogspot.com",
     "country": "India",
-    "name": "Sayed Mannan Ahmad",
     "Linkedin": "https://www.linkedin.com/in/gyanwithmannan/",
-    "website": "https://memannan.cf",
-    "blog": "https://gyanwithmannan.blogspot.com"
+    "name": "Sayed Mannan Ahmad",
+    "website": "https://memannan.cf"
   },
   "MasterBrian99": {
     "country": "Sri Lanka",
@@ -239,8 +244,8 @@
   },
   "rzadev": {
     "country": "Indonesia",
-    "name": "Mohammad Reza",
     "linkedin": "https://www.linkedin.com/in/rezadev/",
+    "name": "Mohammad Reza",
     "twitter": "https://twitter.com/rza9001",
     "website": "https://rzadev.github.io/work.html"
   },
@@ -308,11 +313,11 @@
   },
   "vunderkind": {
     "country": "Nigeria",
-    "name": "Justin Irabor",
     "linkedin": "https://www.linkedin.com/in/justinirabor/",
+    "name": "Justin Irabor",
     "twitter": "https://twitter.com/lifeofmogwai",
-    "website":"https://justinirabor.com"
- },
+    "website": "https://justinirabor.com"
+  },
   "WickedInvi": {
     "country": "United Kingdom",
     "name": "Deyan Petrov"
