@@ -1,7 +1,7 @@
 {
   "21Rutam": {
-   "country": "India",
-   "name": "Rutam Prita Mishra"
+    "country": "India",
+    "name": "Rutam Prita Mishra"
   },
   "abhijeetekad": {
     "country": "India",
@@ -67,6 +67,10 @@
     "name": "Brandon Lee",
     "website": "https://brndnlee.me/"
   },
+  "brymopo": {
+    "country": "Colombia",
+    "name": "Bryan Moreno"
+  },
   "catw101": {
     "country": "United States",
     "name": "Catelen Wu"
@@ -115,10 +119,10 @@
     "name": "Femi Akinyemi",
     "twitter": "https://twitter.com/akinyemi_t"
   },
-  "Gaurab4":{
-    "country":"India",
+  "Gaurab4": {
+    "country": "India",
     "name": "Gaurab"
-  },  
+  },
   "ghanender-chauhan": {
     "country": "India",
     "name": "Ghanender Chauhan"
@@ -135,11 +139,11 @@
   },
   "hilbug": {
     "country": "United States",
-    "name": "Hilary Ferraro",
     "linkedin": "https://www.linkedin.com/in/hferraro/",
+    "name": "Hilary Ferraro",
     "twitter": "https://twitter.com/HilbugCodes",
-    "website":"https://hilbug.github.io/"
- },
+    "website": "https://hilbug.github.io/"
+  },
   "hinsxd": {
     "country": "Hong Kong",
     "name": "Alvin Li",
