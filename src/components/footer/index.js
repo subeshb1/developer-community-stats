@@ -42,10 +42,10 @@ export default class Footer extends Component {
         </div>
         <div className="madeWith">
           Made with
-          <a href="https://reactjs.org/"><FaReact /></a>
-          <a href="https://github.com"><FaGithub /></a>
-          <a href="https://graphql.org/"><GrGraphQl /></a>
-          <a href="https://www.gatsbyjs.com/"><GrGatsbyjs /></a>
+          <a href="https://reactjs.org/" className="item"><FaReact /></a>
+          <a href="https://github.com" className="item"><FaGithub /></a>
+          <a href="https://graphql.org/" className="item"><GrGraphQl /></a>
+          <a href="https://www.gatsbyjs.com/" className="item"><GrGatsbyjs /></a>
         </div>
       </div>
     )

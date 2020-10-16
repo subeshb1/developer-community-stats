@@ -76,7 +76,14 @@
 }
 
 .madeWith {
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+.madeWith .item {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 700px) {
