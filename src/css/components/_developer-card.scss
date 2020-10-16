@@ -22,13 +22,13 @@
   .blog-main-container {
     flex: 10;
   }
+  .developer-card {
+    flex-direction: column;
+    min-width: 300px;
+    flex: 1;
+  }
   a.developer-card-link {
     display: flex;
-    flex: 1;
-    .developer-card {
-      flex-direction: column;
-      min-width: 300px;
-    }
   }
 }
 a.developer-card-link,
