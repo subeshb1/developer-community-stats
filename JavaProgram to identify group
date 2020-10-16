@@ -1,0 +1,58 @@
+package com.company;
+import java.util.Scanner;
+
+
+public class Main {
+
+
+
+    public static void main(String[] args) {
+
+        System.out.println("Tax Calculator App");
+        System.out.println("-----Welcome-----");
+
+        int number;
+        System.out.println("Enter total person count");
+        Scanner scanner = new Scanner(System.in);
+        number = scanner.nextInt();
+
+        Scanner sac = new Scanner(System.in);
+        Scanner saca = new Scanner(System.in);
+
+        String[] name = new String[number];
+        long [] income = new long[number];
+        for (int i = 0; i < number; i++) {
+            System.out.println("Enter name ");
+            name[i] = sac.nextLine();
+            System.out.println("Enter " + name[i] + "`s " + "Annual Income");
+            income[i] = saca.nextLong();
+        }
+        calculateTax(name= name,income);
+
+    }
+
+
+
+    public static void calculateTax(String name, long income ) {
+
+        if (income >= 300000) {
+            System.out.println(name + " is liable to pay 20% of his income as tax");
+        } else if (income >= 100000) {
+            System.out.println(name + " is liable to pay 10% of his income as tax");
+        } else {
+            System.out.println(name + " is exempted from paying tax");
+        }
+        System.out.println( name + ":" + income);
+
+
+        
+
+
+    }
+
+
+}
+
+
+
+
