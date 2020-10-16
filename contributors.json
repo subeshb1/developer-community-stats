@@ -327,5 +327,12 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
+  },
+  "sunildipun": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/sunilbehera95/",
+    "name": "Sunil Behera",
+    "twitter": "https://twitter.com/sunilbehera",
+    "website": "https://sunildipun.github.io/portfolio/"
   }
 }
