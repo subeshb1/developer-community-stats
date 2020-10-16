@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jeema Riyana</h1>
-<h3 align="center">A Software Developer From Sri Lanka</h3>
+<h3 align="center">A Software Developer from Sri Lanka</h3>
 
 <br/>
 
