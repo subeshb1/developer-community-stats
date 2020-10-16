@@ -25,7 +25,9 @@
   .developer-card {
     flex-direction: column;
     min-width: 300px;
-    padding-bottom: 10px;
+    .developer-card-user-stats {
+      padding-bottom: 10px;
+    }
     flex: 1;
   }
 }
@@ -122,7 +124,8 @@ a.developer-card-link,
         color: var(--theme-secondary-color);
         display: flex;
         padding: 4px 1em;
-        border: 2px solid white;
+        border: 2px solid var(--theme-secondary-color);
+        border-radius: 4px;
       }
     }
     .developer-card-detail {
@@ -147,7 +150,9 @@ a.developer-card-link,
     .developer-card {
       flex-direction: column;
       min-width: unset;
-      padding-bottom: 10px;
+      .developer-card-user-stats {
+        padding-bottom: 10px;
+      }
     }
   }
 }
