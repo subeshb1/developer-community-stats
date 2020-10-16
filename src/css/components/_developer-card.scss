@@ -25,10 +25,8 @@
   .developer-card {
     flex-direction: column;
     min-width: 300px;
+    padding-bottom: 10px;
     flex: 1;
-  }
-  a.developer-card-link {
-    display: flex;
   }
 }
 a.developer-card-link,
@@ -95,6 +93,7 @@ a.developer-card-link,
   margin: 10px;
   .developer-card-user-stats {
     flex: 2;
+    position: relative;
     .developer-card-name {
       font-family: 'Bebas Neue', cursive;
       padding: 10px 20px;
@@ -125,6 +124,7 @@ a.developer-card-link,
     .developer-card {
       flex-direction: column;
       min-width: unset;
+      padding-bottom: 10px;
     }
   }
 }

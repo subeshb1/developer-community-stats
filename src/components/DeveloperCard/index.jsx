@@ -65,7 +65,9 @@ export default function DeveloperCard({
           className="developer-card-link"
           id="colorless-link"
           to={`/profile/${githubUserId}`}
-        ></Link>
+        >
+          
+        </Link>
         <div className="developer-card-name">
           {name}
           {position && <span># {position}</span>}
