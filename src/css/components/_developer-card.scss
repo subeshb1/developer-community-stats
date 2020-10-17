@@ -106,11 +106,11 @@ a.developer-card-link,
     &:hover,
     &:active {
       .developer-card-hover {
-        display: flex;
+        opacity: 0.8;
       }
     }
     .developer-card-hover {
-      display: none;
+      display: flex;
       position: absolute;
       width: 100%;
       height: 100%;
@@ -118,7 +118,8 @@ a.developer-card-link,
       align-items: center;
       z-index: 10;
       background: var(--theme-primary-bg);
-      opacity: 0.8;
+      opacity: 0;
+      transition: opacity 0.5s ease;
       .developer-card-link {
         color: var(--theme-secondary-color);
         display: flex;
