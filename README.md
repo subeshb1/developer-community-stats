@@ -1,13 +1,12 @@
 # Developer Community stats
 
-![](https://img.shields.io/badge/country-25%2B-red)
+![Contributors](https://img.shields.io/github/contributors/subeshb1/developer-community-stats)
 ![Closed PR](https://img.shields.io/github/issues-pr-closed/subeshb1/developer-community-stats)
 ![Stars](https://img.shields.io/github/stars/subeshb1/developer-community-stats)
 ![License](https://img.shields.io/github/license/subeshb1/developer-community-stats)
 ![Issues](https://img.shields.io/github/issues/subeshb1/developer-community-stats)
 ![Forks](https://img.shields.io/github/forks/subeshb1/developer-community-stats)
 ![Contributor Country](https://img.shields.io/badge/ContributorsCountry-25%2B-red)
-
 ![main-push-deploy-action](https://github.com/subeshb1/developer-community-stats/workflows/main-push-deploy-action/badge.svg)
 
 
