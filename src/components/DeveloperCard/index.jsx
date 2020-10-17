@@ -21,6 +21,7 @@ export default function DeveloperCard({
   twitter,
   website,
   position,
+  searchKey,
 }) {
   return (
     <div className="developer-card">
@@ -31,7 +32,17 @@ export default function DeveloperCard({
             title={country}
           ></span>
         )}
-        <div className="developer-card-username">{githubUserId}</div>
+        <div
+          className="developer-card-username"
+          dangerouslySetInnerHTML={{
+            __html: !!searchKey
+              ? githubUserId.replace(
+                  searchKey,
+                  `<div class="highlight">${searchKey}</div>`
+                )
+              : githubUserId,
+          }}
+        ></div>
         <div className="developer-card-avatar">
           <img src={avatarUrl} alt={githubUserId} />
         </div>
