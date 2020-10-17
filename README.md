@@ -1,8 +1,17 @@
 # Developer Community stats
 
-A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats.
+![](https://img.shields.io/badge/country-25%2B-red)
+![Closed PR](https://img.shields.io/github/issues-pr-closed/subeshb1/developer-community-stats)
+![Stars](https://img.shields.io/github/stars/subeshb1/developer-community-stats)
+![License](https://img.shields.io/github/license/subeshb1/developer-community-stats)
+![Issues](https://img.shields.io/github/issues/subeshb1/developer-community-stats)
+![Forks](https://img.shields.io/github/forks/subeshb1/developer-community-stats)
+![Contributor Country](https://img.shields.io/badge/ContributorsCountry-25%2B-red)
 
-Currently only basic Github stats are shown. In the future on clicking the user card will show detailed stats of the user.
+![main-push-deploy-action](https://github.com/subeshb1/developer-community-stats/workflows/main-push-deploy-action/badge.svg)
+
+
+A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats.
 
 ![stats](./stats.png)
 
@@ -54,8 +63,15 @@ $ git push
 ```
 
 ### Have some Suggestions or a new Idea?
+
 Add your idea/suggestion in the `IDEAS.md` file.
 
 ## License
 
 [MIT](https://github.com/subeshb1/developer-community-stats/blob/main/LICENSE)
+
+
+## Contributors
+<a href="https://github.com/subeshb1/developer-community-stats/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=subeshb1/developer-community-stats" />
+</a>
