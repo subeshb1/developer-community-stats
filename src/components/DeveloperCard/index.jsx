@@ -1,6 +1,7 @@
 import React from 'react'
 import { GrLinkedin, GrTwitter, GrGithub } from 'react-icons/gr'
 import { FaLink } from 'react-icons/fa'
+import { Link } from 'gatsby'
 
 export default function DeveloperCard({
   repositoryCount,
@@ -19,6 +20,7 @@ export default function DeveloperCard({
   thisYearContribution,
   twitter,
   website,
+  position,
 }) {
   return (
     <div className="developer-card">
@@ -59,7 +61,21 @@ export default function DeveloperCard({
         </div>
       </div>
       <div className="developer-card-user-stats">
-        <div className="developer-card-name">{name}</div>
+        {position && (
+          <div className="developer-card-hover">
+            <Link
+              className="developer-card-link"
+              to={`/profile/${githubUserId}`}
+            >
+              View Profile
+            </Link>
+          </div>
+        )}
+
+        <div className="developer-card-name">
+          {name}
+          {position && <span># {position} </span>}
+        </div>
         <div className="developer-card-detail">
           <div className="developer-card-title">Contribution(This Year)</div>
           <div className="developer-card-value">{thisYearContribution}</div>

@@ -181,20 +181,17 @@
     min-height: 56px;
   }
   .st-nav-breaker {
-    height: 56px;
+    display: none;
   }
 }
 @media (max-width: 700px) {
   .lg-navbar {
     .lg-navbar__item {
-      display: none;
+      display: block;
     }
     .lg-navbar__header {
       display: block;
     }
-    position: relative;
-  }
-  .nav-breaker {
-    display: none;
+    position: fixed;
   }
 }

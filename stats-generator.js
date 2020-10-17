@@ -88,7 +88,9 @@ year${year}: contributionsCollection(from: "${year}-01-01T00:00:00Z", to: "${yea
 }
 `
 const userCountStatsQuery = user => `
-  ${user.replace("-","___kebab___")}: user(login: "${user}") {
+  ${user.replace("-", "___kebab___").replace(/^([0-9])?/, (match) => {
+  return "__NUMBER__" + match
+})}: user(login: "${user}") {
     repositories(isFork: false,${config.includePrivate ? '' : 'privacy: PUBLIC'}) {
       totalCount
     }
@@ -125,7 +127,7 @@ const fetchCountStats = (users) => {
 
   return githubQuery(statsQuery).then(extractGraphqlJson).then(res => res.data).then(res => {
     return Object.entries(res).reduce((acc, user) => {
-      acc[user[0].replace("___kebab___","-")] = extractCountStats(user[1])
+      acc[user[0].replace("___kebab___", "-").replace("__NUMBER__", "")] = extractCountStats(user[1])
       return acc
     }, {})
   })
