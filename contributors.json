@@ -35,8 +35,8 @@
     "website": "https://anacarolinaarellano.dev/"
   },
   "anu-ragi": {
-   "country": "India",
-   "name": "Anu Ragi"
+    "country": "India",
+    "name": "Anu Ragi"
   },
   "aortiz24": {
     "country": "United States",
@@ -189,8 +189,8 @@
     "website": "https://hinsxd.dev/"
   },
   "improbably": {
-    "country":"United States",
-    "name":"Fox Radosevich",
+    "country": "United States",
+    "name": "Fox Radosevich",
     "linkedin": "https://www.linkedin.com/in/david6fox/",
     "twitter": "https://twitter.com/OnlyImprobable"
   },
@@ -234,6 +234,12 @@
     "linkedin": "https://www.linkedin.com/in/kritima-kaushal-41918519a",
     "name": "Kritima Kaushal",
     "twitter": "https://twitter.com/KritimaKaushal"
+  },
+  "kumarisurbhi": {
+    "country": "India",
+    "name": "Surbhi Kumari",
+    "Linkedin": "https://www.linkedin.com/in/surbhi-kumari-18aa8b152/",
+    "twitter": "https://twitter.com/SurbhiK79202217"
   },
   "LeoAlvarenga": {
     "country": "Brazil",
@@ -318,8 +324,8 @@
     "country": "India",
     "name": "Nisarg Pawade"
   },
-  "nitch193":{
-    "country":"India",
+  "nitch193": {
+    "country": "India",
     "name": "Nitesh Kumar"
   },
   "oli799": {
@@ -423,7 +429,7 @@
     "name": "Sami Beig",
     "linkedin": "https://www.linkedin.com/in/sami-beig-792346165/"
   },
-  "saranshkotnala":{
+  "saranshkotnala": {
     "country": "India",
     "name": "Saransh Kotnala"
   },
