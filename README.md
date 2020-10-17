@@ -1,4 +1,4 @@
-# Developer Community stats
+🚀 # Developer Community stats
 
 ![Contributors](https://img.shields.io/github/contributors/subeshb1/developer-community-stats)
 ![Closed PR](https://img.shields.io/github/issues-pr-closed/subeshb1/developer-community-stats)
