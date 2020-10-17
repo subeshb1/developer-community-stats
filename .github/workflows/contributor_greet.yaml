@@ -16,6 +16,8 @@ jobs:
             If you want to contribute to other issues check out [Issues needed Help](https://github.com/subeshb1/developer-community-stats/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 
+            Please share your feedback and suggestions in this Issue: [Suggestions](https://github.com/subeshb1/developer-community-stats/issues/202)
+            This will help us improve a lot :)
             **Note: Don't forget to star, share the repository and follow @subeshb1 :)**
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
