@@ -545,5 +545,11 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
+  },
+  "adhityamurali":{
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/adhitya-murali/",
+    "name": "Adhitya Murai",
+    "website": "https://thatcoffeeeguy.com/"
   }
 }
