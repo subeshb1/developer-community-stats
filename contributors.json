@@ -17,18 +17,18 @@
     "country": "United Kingdom",
     "name": "Alex Corson"
   },
+  "adhityamurali":{
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/adhitya-murali/",
+    "name": "Adhitya Murai",
+    "website": "https://thatcoffeeeguy.com/"
+  },
   "adibemohamed": {
     "country": "Morocco",
     "linkedin": "https://www.linkedin.com/in/adibemohamed/",
     "name": "Adibe Mohamed",
     "twitter": "https://twitter.com/adibe.mohamed",
     "website": "https://adibemohamed.herokuapp.com/"
-  },
-  "adhityamurali":{
-    "country": "India",
-    "linkedin": "https://www.linkedin.com/in/adhitya-murali/",
-    "name": "Adhitya Murai",
-    "website": "https://thatcoffeeeguy.com/"
   },
   "alvinuday": {
     "country": "India",
