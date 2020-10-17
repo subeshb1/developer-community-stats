@@ -24,6 +24,12 @@
     "twitter": "https://twitter.com/adibe.mohamed",
     "website": "https://adibemohamed.herokuapp.com/"
   },
+  "adhityamurali":{
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/adhitya-murali/",
+    "name": "Adhitya Murai",
+    "website": "https://thatcoffeeeguy.com/"
+  },
   "alvinuday": {
     "country": "India",
     "name": "Alvin Adarsh Kumar"
@@ -545,11 +551,5 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
-  },
-  "adhityamurali":{
-    "country": "India",
-    "linkedin": "https://www.linkedin.com/in/adhitya-murali/",
-    "name": "Adhitya Murai",
-    "website": "https://thatcoffeeeguy.com/"
   }
 }
