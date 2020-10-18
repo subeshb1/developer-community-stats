@@ -277,6 +277,13 @@ select:disabled {
       }
     }
   }
+
+  @media only screen and (max-width: 375px) {
+    min-width: 18rem;
+  }
+  @media only screen and (max-width: 320px) {
+    min-width: 16rem;
+  }
 }
 
 .add-filter-overlay {
