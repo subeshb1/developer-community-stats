@@ -34,7 +34,7 @@
       color: white;
       color: var(--theme-secondary-color);
       display: flex;
-      overflow: scroll;
+      overflow: scroll hidden;
     }
     .theme-picker__object {
       width: 50px;
