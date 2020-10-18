@@ -2,7 +2,7 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const contributorsList = require('./contributors.json')
 let stats
-if (true) {
+if (process.env.ENV_TYPE === 'mock') {
   stats = require('./mock-stats-generator')
 } else {
   stats = require('./stats-generator')
