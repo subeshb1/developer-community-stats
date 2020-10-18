@@ -74,6 +74,14 @@ a.developer-card-link,
       line-height: 1;
       border-radius: 20px;
       margin-bottom: 10px;
+      display: flex;
+      white-space: pre;
+      margin-top: 24px;
+      align-items: center;
+      .highlight {
+        background-color: yellow;
+        color: black;
+      }
     }
     .developer-card-avatar {
       width: 150px;

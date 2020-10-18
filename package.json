@@ -8,6 +8,7 @@
     "url": "https://github.com/subeshb1/developer-community-stats/issues"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
