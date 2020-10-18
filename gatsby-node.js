@@ -2,14 +2,13 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const contributorsList = require('./contributors.json')
 let stats
-if (process.env.ENV_TYPE === 'mock') {
+if (true) {
   stats = require('./mock-stats-generator')
 } else {
   stats = require('./stats-generator')
 }
 
 const findCountryCode = require('./country-codes')
-
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -18,9 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(
     `
       {
-        allMarkdownRemark(
-          limit: 1000
-        ) {
+        allMarkdownRemark(limit: 1000) {
           edges {
             node {
               id
@@ -59,7 +56,6 @@ exports.createPages = ({ graphql, actions }) => {
   })
 }
 
-
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
@@ -84,7 +80,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-
 exports.sourceNodes = async ({
   actions,
   createContentDigest,
@@ -94,20 +89,26 @@ exports.sourceNodes = async ({
   const { createNode } = actions
 
   return Promise.all(
-    Object.keys(contributorsList).reduce((batch, item) => {
-      if (batch[batch.length - 1].length === 20) {
-        batch.push([item])
-      } else {
-        batch[batch.length - 1].push(item)
-      }
-      return batch
-    }, [[]])
+    Object.keys(contributorsList)
+      .reduce(
+        (batch, item) => {
+          if (batch[batch.length - 1].length === 20) {
+            batch.push([item])
+          } else {
+            batch[batch.length - 1].push(item)
+          }
+          return batch
+        },
+        [[]]
+      )
       .map(contributors => stats.fetchCountStats(contributors))
-  ).then((allContributors) => allContributors.reduce((obj, nobj) => ({ ...obj, ...nobj }), {}))
+  )
+    .then(allContributors =>
+      allContributors.reduce((obj, nobj) => ({ ...obj, ...nobj }), {})
+    )
     .then(contributorStats => {
       // loop through data and create Gatsby nodes
       Object.entries(contributorStats).forEach(([contributor, information]) => {
-
         createNode({
           ...information,
           ...contributorsList[contributor],
@@ -123,5 +124,6 @@ exports.sourceNodes = async ({
           },
         })
       })
-    }).catch(console.error)
+    })
+    .catch(console.error)
 }

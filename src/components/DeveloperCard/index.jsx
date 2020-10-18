@@ -26,23 +26,25 @@ export default function DeveloperCard({
   return (
     <div className="developer-card">
       <div className="developer-card-user-info">
-        {countryCode && (
-          <span
-            className={`flag-icon flag-icon-${countryCode.toLowerCase()} `}
-            title={country}
-          ></span>
-        )}
-        <div
-          className="developer-card-username"
-          dangerouslySetInnerHTML={{
-            __html: !!searchKey
-              ? githubUserId.replace(
-                  searchKey,
-                  `<div class="highlight">${searchKey}</div>`
-                )
-              : githubUserId,
-          }}
-        ></div>
+        <div className="username-flag-container">
+          <div
+            className="developer-card-username"
+            dangerouslySetInnerHTML={{
+              __html: !!searchKey
+                ? githubUserId.replace(
+                    searchKey,
+                    `<div class="highlight">${searchKey}</div>`
+                  )
+                : githubUserId,
+            }}
+          />
+          {countryCode && (
+            <span
+              className={`flag-icon flag-icon-${countryCode.toLowerCase()} `}
+              title={country}
+            ></span>
+          )}
+        </div>
         <div className="developer-card-avatar">
           <img src={avatarUrl} alt={githubUserId} />
         </div>

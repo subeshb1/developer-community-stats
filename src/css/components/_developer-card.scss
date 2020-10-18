@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 .readme-profile {
   display: flex;
   justify-content: space-around;
@@ -46,7 +46,7 @@ a.developer-card-link,
 }
 .developer-card {
   display: flex;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   flex-wrap: wrap;
   border-radius: 10px;
   overflow: hidden;
@@ -62,25 +62,32 @@ a.developer-card-link,
     align-items: center;
     background: var(--theme-primary-bg);
     color: var(--theme-secondary-color);
-    span {
-      position: absolute;
-      top: 12px;
-      right: 10px;
-    }
-    .developer-card-username {
-      background: var(--theme-primary-hover);
-      padding: 4px 0.8em;
-      font-size: 0.8rem;
-      line-height: 1;
-      border-radius: 20px;
+    // span {
+    //   position: absolute;
+    //   top: 12px;
+    //   right: 10px;
+    // }
+    .username-flag-container {
+      display: grid;
+      grid-template-columns: 7rem 24px;
       margin-bottom: 10px;
-      display: flex;
-      white-space: pre;
-      margin-top: 24px;
-      align-items: center;
-      .highlight {
-        background-color: yellow;
-        color: black;
+      grid-gap: 6px;
+      padding-left: 1rem;
+      .developer-card-username {
+        justify-self: center;
+        overflow: hidden;
+        word-break: break-all;
+        background: var(--theme-primary-hover);
+        padding: 4px 0.8em;
+        font-size: 0.8rem;
+        line-height: 1;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        .highlight {
+          background-color: yellow;
+          color: black;
+        }
       }
     }
     .developer-card-avatar {
@@ -104,7 +111,7 @@ a.developer-card-link,
     flex: 2;
     position: relative;
     .developer-card-name {
-      font-family: 'Bebas Neue', cursive;
+      font-family: "Bebas Neue", cursive;
       padding: 10px 20px;
       font-size: 1.2rem;
       // font-weight: bold;
