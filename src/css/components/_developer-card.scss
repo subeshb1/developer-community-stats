@@ -17,6 +17,16 @@
     img {
       margin-right: 10px;
     }
+    #blog-section {
+      h1 {
+        margin: 3.5rem;
+        font-weight: 900;
+      }
+      h3 {
+        margin: 1rem;
+        font-weight: 900;
+      }
+    }
   }
 
   .blog-main-container {
@@ -106,7 +116,7 @@ a.developer-card-link,
       }
     }
   }
-  margin: 10px;
+  margin: 0.8rem 0.5rem;
   .developer-card-user-stats {
     flex: 2;
     position: relative;
