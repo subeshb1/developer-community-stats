@@ -217,6 +217,10 @@ select:disabled {
     display: flex;
     flex-wrap: wrap;
     margin-top: 4px;
+    button.button {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
     .sort-field {
       margin: 4px;
       width: fit-content;
