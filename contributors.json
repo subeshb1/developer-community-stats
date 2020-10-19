@@ -137,8 +137,8 @@
   },
   "BillGun": {
     "country": "Indonesia",
-    "name": "Billy Gunawan",
-    "linkedin": "https://www.linkedin.com/in/billgun/"
+    "linkedin": "https://www.linkedin.com/in/billgun/",
+    "name": "Billy Gunawan"
   },
   "binismail": {
     "country": "Nigeria",
@@ -283,10 +283,10 @@
     "website": "https://hinsxd.dev/"
   },
   "iamgiribabu": {
-    "country": "India", 
-    "name": "Giribabu", 
-    "linkedin": "https://www.linkedin.com/in/giribabu-anisetti-208863154/", 
-    "twitter": "https://twitter.com/giri_anisetti" 
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/giribabu-anisetti-208863154/",
+    "name": "Giribabu",
+    "twitter": "https://twitter.com/giri_anisetti"
   },
   "improbably": {
     "country": "United States",
@@ -613,6 +613,11 @@
     "linkedin": "https://www.linkedin.com/in/sami-beig-792346165/",
     "name": "Sami Beig"
   },
+  "sanjus-robotic-studio": {
+    "country": "India",
+    "name": "Sanjiv Anand",
+    "website": "www.sanjusroboticsstudio.me"
+  },
   "saranshkotnala": {
     "country": "India",
     "name": "Saransh Kotnala"
@@ -663,8 +668,8 @@
   },
   "SnexusG": {
     "country": "India",
-    "name": "Swapnil Gore",
     "linkedin": "https://www.linkedin.com/in/swapnil-gore-2902/",
+    "name": "Swapnil Gore",
     "twitter": "https://twitter.com/SwapnilGore029"
   },
   "sonylomo": {
