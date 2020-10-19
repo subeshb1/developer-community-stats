@@ -455,6 +455,11 @@ const countryCodeMappings = [
     "code": "GY"
   },
   {
+    "name": "Anguilla",
+    "dial_code": "+1 264",
+    "code": "AI"
+  },
+  {
     "name": "Haiti",
     "dial_code": "+509",
     "code": "HT"

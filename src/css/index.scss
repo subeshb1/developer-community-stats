@@ -1,17 +1,17 @@
-@import 'markdown';
-@import 'components/navbar';
-@import 'components/tooltip';
-@import 'components/theme-picker';
-@import 'components/code-snippet';
-@import 'components/developer-card';
-@import 'components/table-of-contents';
-@import 'layout/blog_layout';
-@import 'components/sidebar';
-@import 'components/footer';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "markdown";
+@import "components/navbar";
+@import "components/tooltip";
+@import "components/theme-picker";
+@import "components/code-snippet";
+@import "components/developer-card";
+@import "components/table-of-contents";
+@import "layout/blog_layout";
+@import "components/sidebar";
+@import "components/footer";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 $background: white;
 $color: black;
 
@@ -35,7 +35,7 @@ $color: black;
   --theme-secondary-color: #ffffff;
   --theme-secondary-bg: #f4f4f4;
   --theme-primary-hover: #424653;
-  --theme-picker-box-shadow: rgb(0, 0, 0) 0px 4px 8px -2px,rgba(0, 0, 0, 0.31) 0px 0px 1px;
+  --theme-picker-box-shadow: rgb(0, 0, 0) 0px 4px 8px -2px, rgba(0, 0, 0, 0.31) 0px 0px 1px;
   --theme-navbar-box-shadow: #484848ab;
   --theme-navbar-box-shadow: #c9c9c9ab;
   --theme-background: white;
@@ -152,7 +152,8 @@ a {
 }
 .app-container button,
 .container button,
-.theme-picker__input-group button, .button {
+.theme-picker__input-group button,
+.button {
   position: relative;
   border: none;
   padding: 4px 1rem;
@@ -161,7 +162,7 @@ a {
   border-radius: 4px;
   align-self: start;
   font-size: 0.8rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   justify-self: start;
   background: var(--theme-primary-bg);
   color: var(--theme-secondary-color);
@@ -199,4 +200,111 @@ select:disabled {
 
 .relative {
   position: relative;
+}
+
+.filter-bar {
+  min-width: 22rem;
+  max-width: 50%;
+  margin: 2rem auto 1rem auto;
+  .add-filter-button {
+    margin: 0.5rem 0;
+  }
+  .filters-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sort-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+    .sort-field {
+      margin: 4px;
+      width: fit-content;
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: #ebebeb;
+      border: 1px solid #d8d8d8;
+      color: black;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .search-bar {
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+    input {
+      color: black;
+      &:focus,
+      &:active {
+        border-color: var(--theme-secondary-color);
+      }
+      &::placeholder {
+        color: black !important;
+      }
+    }
+    button {
+      .ant-btn-primary {
+        &:hover,
+        &:focus,
+        &:active {
+          background: var(--theme-primary-bg);
+          color: var(--theme-secondary-color);
+        }
+      }
+      background: var(--theme-primary-bg);
+      color: var(--theme-secondary-color);
+    }
+  }
+
+  .ant-tag {
+    &.filter {
+      font-size: 14px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      margin: 6px;
+      display: flex;
+      align-items: center;
+      width: fit-content;
+      span {
+        margin-left: 6px;
+        padding-left: 6px;
+        svg {
+          height: 15px;
+          width: 15px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    min-width: 18rem;
+  }
+  @media only screen and (max-width: 320px) {
+    min-width: 16rem;
+  }
+}
+
+.add-filter-overlay {
+  .ant-popover-content {
+    width: 15rem;
+    .ant-popover-inner {
+      .ant-popover-inner-content {
+        .add-filter-container {
+          .ant-select {
+            width: 100% !important;
+            margin-bottom: 0.5rem;
+          }
+          .action-buttons {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0.5rem 0;
+          }
+        }
+      }
+    }
+  }
 }
