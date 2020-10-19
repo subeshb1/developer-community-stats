@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I am Sanjiv Anand </h1>
-<h3 align="center">A Programmer cum Robotics Project Developer From India</h3>
+<h3 align="center">A Programmer and a Robotics Project Developer From India</h3>
 
 <br/>
 
