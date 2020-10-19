@@ -704,6 +704,11 @@
     "name": "Shashinka Liyanage",
     "twitter": "https://twitter.com/shashinkaliyanage"
   },
+  "shehzadosama": {
+    "country": "Pakistan",
+    "linkedin": "https://www.linkedin.com/in/shehzad-osama-bb3679a1/",
+    "name": "Shehzad Osama"
+  },
   "shinigami2905": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/aayush-meshram-a7170a1a2/",
@@ -724,7 +729,7 @@
     "linkedin": "www.linkedin.com/in/shubham-agarwal16",
     "name": "Shubham Agarwal"
   },
-   "shubhik7": {
+  "shubhik7": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/shubhi-kulshreshtha-13822b1b6",
     "name": "Shubhi Kulshreshtha"
@@ -877,11 +882,11 @@
     "name": "Aarushi"
   },
   "YashAmin-01": {
-   "country": "India", 
-   "name": "Yash Amin"
+    "country": "India",
+    "name": "Yash Amin"
   },
   "yonaka-37": {
-   "country": "Indonesia",
-   "name": "Yusril"
+    "country": "Indonesia",
+    "name": "Yusril"
   }
 }
