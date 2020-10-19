@@ -137,8 +137,8 @@
   },
   "BillGun": {
     "country": "Indonesia",
-    "name": "Billy Gunawan",
-    "linkedin": "https://www.linkedin.com/in/billgun/"
+    "linkedin": "https://www.linkedin.com/in/billgun/",
+    "name": "Billy Gunawan"
   },
   "binismail": {
     "country": "Nigeria",
@@ -283,10 +283,10 @@
     "website": "https://hinsxd.dev/"
   },
   "iamgiribabu": {
-    "country": "India", 
-    "name": "Giribabu", 
-    "linkedin": "https://www.linkedin.com/in/giribabu-anisetti-208863154/", 
-    "twitter": "https://twitter.com/giri_anisetti" 
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/giribabu-anisetti-208863154/",
+    "name": "Giribabu",
+    "twitter": "https://twitter.com/giri_anisetti"
   },
   "improbably": {
     "country": "United States",
@@ -304,6 +304,10 @@
     "linkedin": "http://linkedin.com/in/jeff-jessie-4b2323a9",
     "name": "Jeff Jessie",
     "twitter": "https://twitter.com/j3ffjessie"
+  },
+  "jakolax": {
+    "country": "Netherlands",
+    "name": "Jan Carlo"
   },
   "jamesmulligan": {
     "country": "Ireland",
@@ -663,8 +667,8 @@
   },
   "SnexusG": {
     "country": "India",
-    "name": "Swapnil Gore",
     "linkedin": "https://www.linkedin.com/in/swapnil-gore-2902/",
+    "name": "Swapnil Gore",
     "twitter": "https://twitter.com/SwapnilGore029"
   },
   "sonylomo": {
