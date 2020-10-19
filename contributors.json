@@ -42,6 +42,11 @@
     "twitter": "https://twitter.com/adibe.mohamed",
     "website": "https://adibemohamed.herokuapp.com/"
   },
+  "aishwaryakore": {
+    "country": "India", 
+    "name": "Aishwarya",
+    "linkedin": "https://www.linkedin.com/in/aishwaryakore"
+ },
   "alvinuday": {
     "country": "India",
     "name": "Alvin Adarsh Kumar"
@@ -653,10 +658,6 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
-  },
-  "aishwaryakore": {
-    "country": "India", 
-    "name": "Aishwarya",
-    "linkedin": "https://www.linkedin.com/in/aishwaryakore"
- }
+  }
+  
 }
