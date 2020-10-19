@@ -594,6 +594,10 @@
     "country": "India",
     "name": "Saransh Kotnala"
   },
+  "Semvrij": {
+    "country": "Netherlands",
+    "name": "Sem"
+  },
   "shankar524": {
     "country": "Nepal",
     "linkedin": "https://www.linkedin.com/in/er-shankar-acharya/",
@@ -601,10 +605,10 @@
     "website": "https://shankar524.github.io"
   },
   "shashinkaliyanage": {
-   "country": "Sri lanka",
-   "name": "Shashinka Liyanage",
-   "linkedin": "www.linkedin.com/in/shashinka-abeygoda-liyanage-b31b4718b",
-   "twitter": "https://twitter.com/shashinkaliyanage"
+    "country": "Sri lanka",
+    "linkedin": "www.linkedin.com/in/shashinka-abeygoda-liyanage-b31b4718b",
+    "name": "Shashinka Liyanage",
+    "twitter": "https://twitter.com/shashinkaliyanage"
   },
   "shinigami2905": {
     "country": "India",
@@ -699,7 +703,7 @@
     "country": "India",
     "name": "Tushar"
   },
-  "vasu2907":{
+  "vasu2907": {
     "country": "India",
     "name": "Vasu Agrawal"
   },
