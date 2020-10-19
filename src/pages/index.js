@@ -207,7 +207,7 @@ class DeveloperCommunityHome extends React.Component {
         <div className="filter-bar">
           <input
             size="large"
-            className="search-bar"
+            className="app-input"
             placeholder="Search dev by username"
             onChange={this.handleSearchChange}
             value={this.state.searchText}
