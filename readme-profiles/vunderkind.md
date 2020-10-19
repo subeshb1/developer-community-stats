@@ -18,6 +18,6 @@ What I'm currently interested in:
 - 3D
 - Interaction design
 
-<img src="https://github-profile-trophy.vercel.app/?username=vunderkind&theme=dracula&column=3&margin-w=15&margin-h=15 (https://github.com/ryo-ma/github-profile-trophy)">
+<img src="https://github-profile-trophy.vercel.app/?username=tae8838&theme=dracula&column=3&margin-w=15&margin-h=15 (https://github.com/ryo-ma/github-profile-trophy)">
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=vunderkind&show_icons=true&count_private=true&theme=dark" alt="vunderkind" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tae8838&show_icons=true&count_private=true&theme=dark" alt="tae8838" /></p>
