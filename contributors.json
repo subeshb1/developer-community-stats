@@ -1,4 +1,4 @@
-{
+﻿{
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -854,4 +854,9 @@
     "country": "India",
     "name": "Aarushi"
   }
+
+  "YashAmin-01": {
+   "country": "India", // Required
+   "name": "Yash Amin", // Required
+}
 }
