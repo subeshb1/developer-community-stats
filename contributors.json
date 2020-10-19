@@ -465,11 +465,11 @@
     "name": "Prajnakalpa Mishra"
   },
   "PranayK-666": {
-   "country": "India", // Required
-   "name": "Pranay Khosla", // Required
-   "linkedin": "linkedin URL", // Optional
-   "twitter": "twitter URL", // Optional
-   "website":"website or blog URL"//Optional
+   "country": "India",
+   "name": "Pranay Khosla",
+   "linkedin": "linkedin URL",
+   "twitter": "twitter URL",
+   "website":"website or blog URL"
 },
   "pranshumaheshwari": {
     "country": "India",
@@ -662,4 +662,3 @@
     "name": "Aarushi"
   }
 }
-
