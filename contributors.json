@@ -1,4 +1,9 @@
 {
+  "tzAcee": {
+    "country": "Germany", 
+    "name": "Maxim Leis",
+    "twitter": "https://twitter.com/CodeFleex"
+  },
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -657,9 +662,9 @@
   },
   "SnexusG": {
     "country": "India",
-    "name" : "Swapnil Gore",
-    "linkedin" : "https://www.linkedin.com/in/swapnil-gore-2902/",
-    "twitter" : "https://twitter.com/SwapnilGore029"
+    "name": "Swapnil Gore",
+    "linkedin": "https://www.linkedin.com/in/swapnil-gore-2902/",
+    "twitter": "https://twitter.com/SwapnilGore029"
   },
   "sonylomo": {
     "country": "Kenya",
