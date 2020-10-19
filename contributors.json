@@ -252,6 +252,11 @@
     "linkedin": "https://www.linkedin.com/in/faisaljamil25/",
     "name": "Faisal Jamil"
   },
+  "FavourOyewumi7": {
+    "country": "Nigeria",
+    "name": "Oyewumi Favour",
+    "twitter": "https://twitter.com/ayomideif"
+  },
   "femakin": {
     "country": "Nigeria",
     "linkedin": "https://www.linkedin.com/in/oluwafemi-tosin-akinyemi-6b028270/",
@@ -920,4 +925,5 @@
     "country": "Indonesia",
     "name": "Yusril"
   }
+
 }
