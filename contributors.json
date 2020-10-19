@@ -266,10 +266,10 @@
   },
   "jboullianne": {
     "country": "United States",
-    "name": "Jean-Marc Boullianne",
     "linkedin": "https://www.linkedin.com/in/jean-marc-boullianne-aa3a9787/",
+    "name": "Jean-Marc Boullianne",
     "twitter": "https://twitter.com/TrailingClosure",
-    "website":"https://trailingclosure.com/"
+    "website": "https://trailingclosure.com/"
   },
   "jhonatanbeltran": {
     "country": "Colombia",
@@ -388,6 +388,12 @@
     "country": "Nigeria",
     "linkedin": "https://www.linkedin.com/in/chukwuemeka-ukpai-7232571a1/",
     "name": "Ukpai Chukwuemeka"
+  },
+  "Mre11i0t": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/pavan-karthick-m-4a712a139/",
+    "name": "Pavan Karthick M",
+    "twitter": "https://twitter.com/e11i0t_"
   },
   "mustafamasvi": {
     "country": "India",
