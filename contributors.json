@@ -653,5 +653,10 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
-  }
+  },
+  "aishwaryakore": {
+    "country": "India", 
+    "name": "Aishwarya",
+    "linkedin": "https://www.linkedin.com/in/aishwaryakore"
+ }
 }
