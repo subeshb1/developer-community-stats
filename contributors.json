@@ -643,6 +643,12 @@
     "country": "United States",
     "name": "Slash Coders"
   },
+  "SnexusG": {
+    "country": "India",
+    "name" : "Swapnil Gore",
+    "linkedin" : "https://www.linkedin.com/in/swapnil-gore-2902/",
+    "twitter" : "https://twitter.com/SwapnilGore029"
+  },
   "sonylomo": {
     "country": "Kenya",
     "linkedin": "https://www.linkedin.com/in/sonia-lomo/",
@@ -763,11 +769,5 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
-  },
-  "SnexusG": {
-    "country": "India",
-    "name" : "Swapnil Gore",
-    "linkedin" : "https://www.linkedin.com/in/swapnil-gore-2902/",
-    "twitter" : "https://twitter.com/SwapnilGore029"
   }
 }
