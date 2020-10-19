@@ -16,6 +16,10 @@
     font-size: 2rem;
     color: var(--theme-secondary-color);
   }
+  button.lg-navbar__item {
+    padding: 0;
+    transform: translateY(3px);
+  }
   .lg-navbar__item {
     font-size: 14px;
     user-select: none;
@@ -175,6 +179,22 @@
   }
 }
 
+@media (min-width: 310px) and (max-width: 352px) {
+  .lg-navbar {
+    padding: 10px 10px;
+    margin: 0;
+  }
+  a.lg-navbar__item {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 700px) {
+  .lg-navbar {
+    button.lg-navbar__item {
+      padding: 2px 0.5em;
+    }
+  }
+}
 @media (max-width: 700px) {
   .st-navbar {
     display: flex;
