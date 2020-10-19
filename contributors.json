@@ -884,4 +884,9 @@
    "country": "Indonesia",
    "name": "Yusril"
   }
+  "<namruthahri>": {
+   "country": "India", // Required
+   "name": "Namrutha", // Required
+   "linkedin": "https://www.linkedin.com/in/namrutha-hari-0376331b4/",
+}
 }
