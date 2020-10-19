@@ -798,6 +798,12 @@
     "twitter": "https://twitter.com/tae8838",
     "website": "https://tae8838.github.io/"
   },
+  "Tawishi": {
+   "country": "India",
+   "name": "Tawishi", 
+   "linkedin": "https://www.linkedin.com/in/tawishi-s-191857131/", 
+   "twitter": "https://twitter.com/Tawishi1", 
+  },
   "thpadelis": {
     "country": "Greece",
     "linkedin": "https://www.linkedin.com/in/padelis-theodosiou/",
@@ -883,12 +889,6 @@
   "yonaka-37": {
    "country": "Indonesia",
    "name": "Yusril"
-  }
-  "Tawishi": {
-   "country": "India",
-   "name": "Tawishi", 
-   "linkedin": "https://www.linkedin.com/in/tawishi-s-191857131/", 
-   "twitter": "https://twitter.com/Tawishi1", 
   }
 }
 
