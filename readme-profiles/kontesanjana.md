@@ -5,6 +5,6 @@
 
 ## First time with OpenSource and **Hacktoberfest**!!
 
-- I'm still learning!
+
 
 *Thank you*
