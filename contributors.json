@@ -883,5 +883,12 @@
   "yonaka-37": {
    "country": "Indonesia",
    "name": "Yusril"
-  }
+  },
+  "Jobly": {
+    "country": "Nigeria",
+    "name": "Job Oaikhenah",
+    "linkedin": "https://www.linkedin.com/in/job-oaikhenah-5056111a1/", 
+    "twitter": "https://twitter.com/_Joblyn_",
+    "website":"https://www.job-oaikhenah.netlify.app"
+  } 
 }
