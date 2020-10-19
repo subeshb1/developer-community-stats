@@ -3,10 +3,10 @@
     "country": "India",
     "name": "Rutam Prita Mishra"
   },
-   "5h0bh4nk": {
-   "country": "India",
-   "name": "Shubhank Kulshreshtha",
-   "linkedin": "https://www.linkedin.com/in/shubhank-kulshreshtha-782627190/"
+  "5h0bh4nk": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/shubhank-kulshreshtha-782627190/",
+    "name": "Shubhank Kulshreshtha"
   },
   "96RadhikaJadhav": {
     "country": "India",
@@ -14,7 +14,6 @@
     "name": "Radhika Jadhav",
     "twitter": "https://twitter.com/Radhika47579652/status/1297174421124182016"
   },
-
   "AAAliBaba": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/arafat-arman-0207a714a/",
@@ -161,7 +160,7 @@
     "linkedin": "https://www.linkedin.com/in/christinejackson82/",
     "name": "Christine Jackson"
   },
-  "Code-hunter-star":{
+  "Code-hunter-star": {
     "country": "India",
     "name": "sonu"
   },
@@ -274,6 +273,10 @@
     "linkedin": "http://linkedin.com/in/jeff-jessie-4b2323a9",
     "name": "Jeff Jessie",
     "twitter": "https://twitter.com/j3ffjessie"
+  },
+  "jamesmulligan": {
+    "country": "Ireland",
+    "name": "James Mulligan"
   },
   "Janitham97": {
     "country": "Sri lanka",
@@ -563,8 +566,8 @@
   },
   "sagarpandyansit": {
     "country": "India",
-    "name": "Sagar Pandya",
     "linkedin": "https://www.linkedin.com/in/sagar-pandya-nsit/",
+    "name": "Sagar Pandya",
     "website": "http://sagarpandyansit.github.io/"
   },
   "SamiBeig": {
@@ -622,9 +625,9 @@
     "linkedin": "https://www.linkedin.com/in/srijita-sarkar-1241041b4/",
     "name": "Srijita Sarkar"
   },
-  "studpeps":{
-    "country":"India",
-    "name":"Stuti Prasad"
+  "studpeps": {
+    "country": "India",
+    "name": "Stuti Prasad"
   },
   "subeshb1": {
     "country": "Nepal",
