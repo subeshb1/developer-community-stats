@@ -217,11 +217,6 @@
     "name": "Dhondup Lama",
     "twitter": "https://twitter.com/titungdup"
   },
-  "engrrbilal": {
-    "country": "Pakistan",
-    "linkedin": "https://www.linkedin.com/in/engineermuhammadbilal/",
-    "name": "Muhammad Bilal"
-  },
   "elinaDangol": {
     "country": "Nepal",
     "linkedin": "https://www.linkedin.com/in/elina-dangol-732a94157/",
@@ -236,6 +231,11 @@
   "EmeraldEntities": {
     "country": "Canada",
     "name": "Joseph Wang"
+  },
+  "engrrbilal": {
+    "country": "Pakistan",
+    "linkedin": "https://www.linkedin.com/in/engineermuhammadbilal/",
+    "name": "Muhammad Bilal"
   },
   "faisaljamil25": {
     "country": "India",
