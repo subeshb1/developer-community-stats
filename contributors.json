@@ -679,6 +679,11 @@
     "linkedin": "https://www.linkedin.com/in/sami-beig-792346165/",
     "name": "Sami Beig"
   },
+  "samuelesimone": {
+    "country": "Italy",
+    "linkedin": "https://www.linkedin.com/in/samuele-simone/",
+    "name": "Samuele Simone"
+  },
   "sanjus-robotic-studio": {
     "country": "India",
     "name": "Sanjiv Anand",
@@ -724,7 +729,7 @@
     "linkedin": "www.linkedin.com/in/shubham-agarwal16",
     "name": "Shubham Agarwal"
   },
-   "shubhik7": {
+  "shubhik7": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/shubhi-kulshreshtha-13822b1b6",
     "name": "Shubhi Kulshreshtha"
@@ -877,11 +882,11 @@
     "name": "Aarushi"
   },
   "YashAmin-01": {
-   "country": "India", 
-   "name": "Yash Amin"
+    "country": "India",
+    "name": "Yash Amin"
   },
   "yonaka-37": {
-   "country": "Indonesia",
-   "name": "Yusril"
+    "country": "Indonesia",
+    "name": "Yusril"
   }
 }
