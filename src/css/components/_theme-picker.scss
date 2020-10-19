@@ -3,6 +3,8 @@
   width: 100vw;
   background: var(--theme-primary-bg);
   max-width: 500px;
+  max-height: 90vh;
+  overflow: scroll;
   display: flex;
   padding: 10px;
   border-radius: 4px;
