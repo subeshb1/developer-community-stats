@@ -3,6 +3,11 @@
     "country": "India",
     "name": "Rutam Prita Mishra"
   },
+  "5h0bh4nk": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/shubhank-kulshreshtha-782627190/",
+    "name": "Shubhank Kulshreshtha"
+  },
   "96RadhikaJadhav": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/radhika-jadhav-297672160/",
@@ -47,6 +52,12 @@
     "linkedin": "https://www.linkedin.com/in/aishwaryakore",
     "name": "Aishwarya"
   },
+  "alexkimeu0": {
+    "country": "Kenya",
+    "linkedin": "https://www.linkedin.com/in/alexkimeu0/",
+    "name": "Alex Kimeu",
+    "twitter": "https://twitter.com/alexkimeu0"
+  },
   "alvinuday": {
     "country": "India",
     "name": "Alvin Adarsh Kumar"
@@ -68,7 +79,7 @@
   },
   "anshutoppo": {
     "country": "India",
-    "name": "Anshu T "
+    "name": "Anshu Toppo"
   },
   "anu-ragi": {
     "country": "India",
@@ -159,9 +170,14 @@
     "linkedin": "https://www.linkedin.com/in/christinejackson82/",
     "name": "Christine Jackson"
   },
-  "Code-hunter-star":{
+  "Code-hunter-star": {
     "country": "India",
     "name": "sonu"
+  },
+  "degram": {
+    "country": "Ukraine",
+    "linkedin": "https://www.linkedin.com/in/aleksandr-gubin-7482a21b7/",
+    "name": "Aleksandr Gubin"
   },
   "devblin": {
     "country": "India",
@@ -272,6 +288,10 @@
     "linkedin": "http://linkedin.com/in/jeff-jessie-4b2323a9",
     "name": "Jeff Jessie",
     "twitter": "https://twitter.com/j3ffjessie"
+  },
+  "jamesmulligan": {
+    "country": "Ireland",
+    "name": "James Mulligan"
   },
   "Janitham97": {
     "country": "Sri lanka",
@@ -559,6 +579,12 @@
     "twitter": "https://twitter.com/rza9001",
     "website": "https://rzadev.github.io/work.html"
   },
+  "sagarpandyansit": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/sagar-pandya-nsit/",
+    "name": "Sagar Pandya",
+    "website": "http://sagarpandyansit.github.io/"
+  },
   "SamiBeig": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/sami-beig-792346165/",
@@ -573,6 +599,12 @@
     "linkedin": "https://www.linkedin.com/in/er-shankar-acharya/",
     "name": "Shankar Acharya",
     "website": "https://shankar524.github.io"
+  },
+  "shashinkaliyanage": {
+   "country": "Sri lanka",
+   "name": "Shashinka Liyanage",
+   "linkedin": "www.linkedin.com/in/shashinka-abeygoda-liyanage-b31b4718b",
+   "twitter": "https://twitter.com/shashinkaliyanage"
   },
   "shinigami2905": {
     "country": "India",
@@ -614,6 +646,10 @@
     "linkedin": "https://www.linkedin.com/in/srijita-sarkar-1241041b4/",
     "name": "Srijita Sarkar"
   },
+  "studpeps": {
+    "country": "India",
+    "name": "Stuti Prasad"
+  },
   "subeshb1": {
     "country": "Nepal",
     "linkedin": "https://www.linkedin.com/in/subesh-bhandari-523438112/",
@@ -625,6 +661,11 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sufiyan-ansari-1823b2192/",
     "name": "Mohd Sufiyan Ansari"
+  },
+  "sukhatmegaurav": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/gauravsukhatme/",
+    "name": "Gaurav Sukhatme"
   },
   "sunildipun": {
     "country": "India",
@@ -657,6 +698,10 @@
   "tooshar": {
     "country": "India",
     "name": "Tushar"
+  },
+  "vasu2907":{
+    "country": "India",
+    "name": "Vasu Agrawal"
   },
   "vatsalvj": {
     "country": "India",
@@ -709,5 +754,5 @@
   "xxx32": {
     "country": "India",
     "name": "Aarushi"
-  } 
+  }
 }
