@@ -514,6 +514,10 @@
     "name": "Namita Shetty",
     "twitter": "NA"
   },
+  "<namruthahari>": {
+   "country": "India",
+   "name": "Namrutha",
+},
   "NathanPickard": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/nathanpickard/",
@@ -884,4 +888,5 @@
    "country": "Indonesia",
    "name": "Yusril"
   }
+ 
 }
