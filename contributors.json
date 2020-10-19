@@ -1,8 +1,4 @@
 {
-  "studpeps":{
-  "country":"India",
-  "name":"Stuti Prasad"
-},
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -625,6 +621,10 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/srijita-sarkar-1241041b4/",
     "name": "Srijita Sarkar"
+  },
+  "studpeps":{
+    "country":"India",
+    "name":"Stuti Prasad"
   },
   "subeshb1": {
     "country": "Nepal",
