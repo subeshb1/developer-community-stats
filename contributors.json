@@ -855,8 +855,8 @@
     "name": "Aarushi"
   }
 
-  "YashAmin-01": {
-   "country": "India", // Required
-   "name": "Yash Amin", // Required
+  "YashAmin-01" {
+   "country": "India", 
+   "name": "Yash Amin", 
 }
 }
