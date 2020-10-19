@@ -5,10 +5,10 @@
   },
   "96RadhikaJadhav": {
     "country": "India",
-    "name": "Radhika Jadhav",
     "linkedin": "https://www.linkedin.com/in/radhika-jadhav-297672160/",
+    "name": "Radhika Jadhav",
     "twitter": "https://twitter.com/Radhika47579652/status/1297174421124182016"
- },
+  },
   "AAAliBaba": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/arafat-arman-0207a714a/",
@@ -21,8 +21,8 @@
   },
   "Abhikumar98": {
     "country": "India",
-    "name": "Abhishek Kumar",
     "linkedin": "https://www.linkedin.com/in/abhishekkumar98/",
+    "name": "Abhishek Kumar",
     "twitter": "https://twitter.com/abhikumar_98"
   },
   "acorson1": {
@@ -270,6 +270,11 @@
     "name": "Kushagra Johari",
     "website": "https://mrweber.netlify.app/"
   },
+  "KGene1901": {
+    "country": "Malaysia",
+    "linkedin": "https://www.linkedin.com/in/kah-gene-leong-73500b196/",
+    "name": "Kah Gene Leong"
+  },
   "khandelwal20sid": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/siddharth-khandelwal-980992173/",
@@ -343,7 +348,6 @@
     "twitter": "https://twitter.com/codebymdb",
     "website": "https://codebymdb.com/"
   },
-  
   "mehrapi": {
     "country": "Germany",
     "linkedin": "https://www.linkedin.com/in/sylviacims/",
@@ -406,7 +410,7 @@
     "name": "Nitesh Kumar"
   },
   "Nyd3lig": {
-    "country": "Norway", 
+    "country": "Norway",
     "name": "Dines Larsen"
   },
   "oli799": {
