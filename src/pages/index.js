@@ -6,11 +6,8 @@ import { rhythm } from '../utils/typography'
 import BlogPostTemplate from '../components/Layouts/BlogLayout'
 import Layout from '../components/Layouts/Layout'
 import DeveloperCard from '../components/DeveloperCard'
-import Search from 'antd/lib/input/Search'
-import 'antd/dist/antd.css'
-import { Button, Input, Popover, Select, Tag } from 'antd'
-import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons'
 
+import { AiOutlineArrowUp, AiOutlineArrowDown } from "react-icons/ai";
 class DeveloperCommunityHome extends React.Component {
   constructor(props) {
     super(props)
@@ -137,40 +134,40 @@ class DeveloperCommunityHome extends React.Component {
   getSortedList = contributors => {
     const list = !!this.state.sort
       ? contributors.sort((a, b) => {
-          if (this.state.sort.order === 'asc') {
-            if (b[this.state.sort.type]) {
-              if (typeof b[this.state.sort.type] === 'number') {
-                const order = a[this.state.sort.type] - b[this.state.sort.type]
-                return order
-              } else {
-                const order =
-                  b[this.state.sort.type] &&
-                  b[this.state.sort.type]
-                    .toString()
-                    .localeCompare(
-                      a[this.state.sort.type] &&
-                        a[this.state.sort.type].toString()
-                    )
-                return order
-              }
-            }
-          } else {
+        if (this.state.sort.order === 'asc') {
+          if (b[this.state.sort.type]) {
             if (typeof b[this.state.sort.type] === 'number') {
-              const order = b[this.state.sort.type] - a[this.state.sort.type]
+              const order = a[this.state.sort.type] - b[this.state.sort.type]
               return order
             } else {
               const order =
-                a[this.state.sort.type] &&
-                a[this.state.sort.type]
+                b[this.state.sort.type] &&
+                b[this.state.sort.type]
                   .toString()
                   .localeCompare(
-                    b[this.state.sort.type] &&
-                      b[this.state.sort.type].toString()
+                    a[this.state.sort.type] &&
+                    a[this.state.sort.type].toString()
                   )
               return order
             }
           }
-        })
+        } else {
+          if (typeof b[this.state.sort.type] === 'number') {
+            const order = b[this.state.sort.type] - a[this.state.sort.type]
+            return order
+          } else {
+            const order =
+              a[this.state.sort.type] &&
+              a[this.state.sort.type]
+                .toString()
+                .localeCompare(
+                  b[this.state.sort.type] &&
+                  b[this.state.sort.type].toString()
+                )
+            return order
+          }
+        }
+      })
       : contributors
 
     return list
@@ -208,8 +205,7 @@ class DeveloperCommunityHome extends React.Component {
           ]}
         />
         <div className="filter-bar">
-          <Input
-            enterButton="Search"
+          <input
             size="large"
             className="search-bar"
             placeholder="Search dev by username"
@@ -218,93 +214,20 @@ class DeveloperCommunityHome extends React.Component {
           />
           <div className="sort-list">
             {this.state.sortableFields.map(sort => (
-              <div
+              <button
                 key={sort.type}
                 onClick={() => this.toggleSort(sort)}
-                className="sort-field"
+                className="button"
               >
                 {sort.name}{' '}
                 {this.state.sort && sort.type === this.state.sort.type ? (
                   this.state.sort.order === 'asc' ? (
-                    <ArrowUpOutlined />
+                    <AiOutlineArrowUp />
                   ) : (
-                    <ArrowDownOutlined />
-                  )
+                      <AiOutlineArrowDown />
+                    )
                 ) : null}
-              </div>
-            ))}
-          </div>
-          <Popover
-            overlayClassName="add-filter-overlay"
-            onVisibleChange={this.onPopoverVisibilityChange}
-            visible={this.state.isAddFilterPopoverOpen}
-            placement="bottom"
-            content={
-              <div className="add-filter-container">
-                <Select
-                  placeholder="Select a filter"
-                  allowClear
-                  style={{ width: 120 }}
-                  onChange={this.updateSelectedFilterType}
-                >
-                  {this.state.filterableFields.map(filter => (
-                    <Select.Option
-                      value={JSON.stringify({
-                        name: filter.name,
-                        type: filter.type,
-                      })}
-                    >
-                      {filter.name}
-                    </Select.Option>
-                  ))}
-                </Select>
-                <Input
-                  placeholder="Enter a filter value"
-                  onChange={this.updateSelectedFilterValue}
-                />
-                {!!this.state.selectedFilter.name && (
-                  <span className="filter-preview">
-                    {this.state.selectedFilter.name} ={' '}
-                    {this.state.selectedFilter.value}
-                  </span>
-                )}
-                <div className="action-buttons">
-                  <Button type="outline" onClick={this.hidePopover}>
-                    Cancel
-                  </Button>
-                  <Button type="primary" onClick={this.addFilter}>
-                    Apply
-                  </Button>
-                </div>
-              </div>
-            }
-            destroyTooltipOnHide
-            title="Add filter"
-            trigger="click"
-            disabled={
-              this.state.filters.length === this.state.filterableFields.length
-            }
-          >
-            <Button
-              disabled={
-                this.state.filters.length === this.state.filterableFields.length
-              }
-              className="add-filter-button"
-              type="primary"
-            >
-              Add filter
-            </Button>
-          </Popover>
-          <div className="filters-list">
-            {this.state.filters.map((filter, index) => (
-              <Tag
-                className="filter"
-                closable
-                key={index}
-                onClose={() => this.deleteFilter(index)}
-              >
-                {`${filter.name} = ${filter.value}`}
-              </Tag>
+              </button>
             ))}
           </div>
         </div>
