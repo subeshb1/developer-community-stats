@@ -68,11 +68,6 @@
     "name": "Ana Carolina Arellano",
     "website": "https://anacarolinaarellano.dev/"
   },
-  "kontesanjana":{
-    "country": "India",
-    "linkedin": "https://www.linkedin.com/in/sanjana-konte-3646441a5/",
-    "name": "konte sanjana"
-  },
   "ankit-rawani": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/ankit-r-422192135/",
@@ -348,6 +343,11 @@
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/emily-basile-03427312a/",
     "name": "Emily Basile"
+  },
+  "kontesanjana":{
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/sanjana-konte-3646441a5/",
+    "name": "konte sanjana"
   },
   "Kritimakaushal": {
     "country": "India",
