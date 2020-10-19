@@ -251,10 +251,10 @@
     "name": "Ghanender Chauhan"
   },
   "gisabernardess": {
-   "country": "Brazil",
-   "name": "Gisele Bernardes",
-   "linkedin": "https://www.linkedin.com/in/gisabernardess/",
-   "twitter": "https://twitter.com/gisabernardess"
+    "country": "Brazil",
+    "linkedin": "https://www.linkedin.com/in/gisabernardess/",
+    "name": "Gisele Bernardes",
+    "twitter": "https://twitter.com/gisabernardess"
   },
   "hambali999": {
     "country": "Singapore",
@@ -341,6 +341,10 @@
     "linkedin": "https://www.linkedin.com/in/jhonatan-beltran-834234b7/",
     "name": "Jhonatan Beltran"
   },
+  "jimlynx": {
+    "country": "Ireland",
+    "name": "Jim Morel"
+  },
   "joharikushagra": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/kushagra-johari-707183191/",
@@ -361,7 +365,7 @@
     "country": "Netherlands",
     "name": "Kyara van Putten"
   },
-  "kontesanjana":{
+  "kontesanjana": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sanjana-konte-3646441a5/",
     "name": "konte sanjana"
@@ -589,12 +593,12 @@
     "linkedin": "https://www.linkedin.com/in/matija-jeras/",
     "name": "Matija Jeras"
   },
-  "raj5036":{
+  "raj5036": {
     "country": "India",
+    "linkedin": "https://www.linkedin.com/in/rajkarmakar97/",
     "name": "Raj Karmakar",
-    "linkedin": "https://www.linkedin.com/in/rajkarmakar97/", 
     "twitter": "https://twitter.com/RajKarm42837213",
-    "website":"https://raj5036.github.io/portfolio/dist/"
+    "website": "https://raj5036.github.io/portfolio/dist/"
   },
   "RajeshNathani": {
     "country": "India",
