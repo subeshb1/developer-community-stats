@@ -15,11 +15,13 @@ jobs:
           CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
           CONTEXT: ${{ toJSON(github) }}
           VALUE: ${{ github.event.workflow_run.conclusion }}
-        run: echo "$CHECK" && echo $VALUE && echo $CONTEXT
+          DATA: ${{ github.event.workflow_run.pull_requests[0].number }}
+        run: echo $DATA && $CONTEXT
       - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-        uses: mshick/add-pr-comment@v1
+        uses: peter-evans/create-or-update-comment@v1
         with:
-          message: |
+          issue-number: ${{ github.event.workflow_run.pull_requests[0].number }}
+          body: |
             It looks like you haven't order the JSON values in **ascending order alphabetically ignoring case** by Github user name or your JSON syntax is wrong. Please read the issue description before taking them.
 
             If you know about nodejs run the following command to sort the list:
@@ -36,6 +38,4 @@ jobs:
 
 
             If you still have problem you can tag in a maintainer: @subeshb1
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-token-user-login: 'github-actions[bot]'
-          allow-repeats: true
+          reactions: '+1'
