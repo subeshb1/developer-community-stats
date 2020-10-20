@@ -21,6 +21,10 @@ jobs:
           workflow: ${{ github.event.workflow.id }}
       - run: echo "##[set-output name=id;]$(jq '.number' my-artifact/data.json)"
         id: pull_request
+      - run: jq '.number' my-artifact/data.json
+      - env:
+          TEST:  steps.pull_request.outputs.output.id
+        run: echo $TEST  
       - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: peter-evans/create-or-update-comment@v1
         with:
