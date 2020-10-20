@@ -1,5 +1,4 @@
 {
-  
   "5h0bh4nk": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/shubhank-kulshreshtha-782627190/",
@@ -311,6 +310,11 @@
     "linkedin": "https://www.linkedin.com/in/nur-hambali-064126131/",
     "name": "Nur Hambali"
   },
+  "hardik7e": {
+   "country": "India", 
+   "name": "Hardik Singh", 
+   "linkedin": "https://www.linkedin.com/in/sensei9717/"
+  },
   "hasna-akbarali": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/hasna-akbar-ali-1485981b0/",
@@ -558,6 +562,11 @@
     "name": "Moh Prilaksono",
     "twitter": "https://twitter.com/MohPrilaksono"
   },
+  "mohsin-code": {
+    "country": "Pakistan",
+    "name": "Mohsin Shah",
+    "website":"https://mohsin-code.github.io/"
+  },
   "molleer": {
     "country": "Sweden",
     "linkedin": "https://www.linkedin.com/in/damoller",
@@ -749,6 +758,10 @@
     "twitter": "https://twitter.com/rza9001",
     "website": "https://rzadev.github.io/work.html"
   },
+  "sadathshariff": {
+    "country":"India",
+     "name" :  "Sadathulla Shariff"
+  },
   "sagarpandyansit": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sagar-pandya-nsit/",
@@ -783,6 +796,10 @@
     "linkedin": "https://www.linkedin.com/in/er-shankar-acharya/",
     "name": "Shankar Acharya",
     "website": "https://shankar524.github.io"
+  },
+   "Shashi-14": {
+    "country": "Sri Lanka",
+    "name": "Nirmani"
   },
   "shashinkaliyanage": {
     "country": "Sri lanka",
@@ -997,5 +1014,4 @@
     "country": "Indonesia",
     "name": "Yusril"
   }
-
 }
