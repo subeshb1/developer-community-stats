@@ -1,7 +1,9 @@
 name: ContributorSpecFailure
 on: 
   workflow_run:
-     types:
+    workflows:
+      - ContributorSpec
+    types:
        - completed
 jobs:
   test-build:
