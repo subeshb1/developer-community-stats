@@ -866,6 +866,11 @@
     "name": "Rendani Sandra Luvhengo",
     "twitter": "https://twitter.com/rendani18824096/"
   },
+  "reshma-avvaru":{
+  "country":"India",
+  "name":"Reshma Avvaru",
+  "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
+},
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
@@ -1207,9 +1212,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-  "reshma-avvaru":{
-  "country":"India",
-  "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
-}
+  }
 }
