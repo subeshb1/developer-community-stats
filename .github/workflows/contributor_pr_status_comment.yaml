@@ -3,6 +3,7 @@ on:
   workflow_run:
     workflows:
       - ContributorSpec
+      - greet-contributor-action
     types:
        - completed
 jobs:
@@ -12,8 +13,9 @@ jobs:
       - name: Print github context
         env:
           CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
+          CONTEXT: ${{ toJSON(github) }}
           VALUE: ${{ github.event.workflow_run.conclusion }}
-        run: echo "$CHECK" && echo $VALUE
+        run: echo "$CHECK" && echo $VALUE && echo $CONTEXT
       - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: mshick/add-pr-comment@v1
         with:
