@@ -434,7 +434,6 @@
     "name": "Fox Radosevich",
     "twitter": "https://twitter.com/OnlyImprobable"
   },
-  {
   "ipapast": {
     "country": "United Kingdom",
     "name": "Iliana"
@@ -719,11 +718,11 @@
     "name": "Namrutha"
   },
   "narenbakshi97": {
-   "country": "United States",
-   "name": "Naren Bakshi",
-   "linkedin": "https://www.linkedin.com/in/naren-bakshi/",
-   "twitter": "https://twitter.com/narenbakshi97",
-   "website":"https://narenbakshi97.github.io/naren/"
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/naren-bakshi/",
+    "name": "Naren Bakshi",
+    "twitter": "https://twitter.com/narenbakshi97",
+    "website": "https://narenbakshi97.github.io/naren/"
   },
   "NathanPickard": {
     "country": "United States",
@@ -887,11 +886,11 @@
     "name": "Rendani Sandra Luvhengo",
     "twitter": "https://twitter.com/rendani18824096/"
   },
-  "reshma-avvaru":{
-  "country":"India",
-  "name":"Reshma Avvaru",
-  "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
-},
+  "reshma-avvaru": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/reshma-avvaru",
+    "name": "Reshma Avvaru"
+  },
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
