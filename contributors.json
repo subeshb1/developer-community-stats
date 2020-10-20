@@ -78,10 +78,10 @@
   },
   "amit14mitra": {
     "country": "India",
-    "name": "Amit Kumar Mitra",
     "linkedin": "www.linkedin.com/in/amit-kumar-mitra-351ba8190/",
+    "name": "Amit Kumar Mitra",
     "twitter": "twitter.com/Amitmitra141",
-    "website":"https://akm-website.netlify.app/"
+    "website": "https://akm-website.netlify.app/"
   },
   "ana-vela": {
     "country": "United States",
@@ -659,6 +659,12 @@
     "linkedin": "https://www.linkedin.com/in/pavan-karthick-m-4a712a139/",
     "name": "Pavan Karthick M",
     "twitter": "https://twitter.com/e11i0t_"
+  },
+  "Mugilan-Codes": {
+    "country": "India",
+    "name": "Mugilan E.S.",
+    "linkedin": "https://www.linkedin.com/in/mugilan-codes/",
+    "twitter": "https://twitter.com/MugilanCodes"
   },
   "mustafamasvi": {
     "country": "India",
