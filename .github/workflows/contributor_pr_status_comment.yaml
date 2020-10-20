@@ -1,12 +1,20 @@
 name: ContributorSpecFailure
-on: status
+on: 
+  workflow_run:
+    workflows:
+      - ContributorSpec
+    types:
+       - completed
 jobs:
   test-build:
     runs-on: ubuntu-latest
     steps:
-      - run:
-          printenv
-      - if: github.event.status == 'failure'
+      - name: Print github context
+        env:
+          CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
+          VALUE: ${{ github.event.workflow_run.conclusion }}
+        run: echo "$CHECK" && echo $VALUE
+      - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: mshick/add-pr-comment@v1
         with:
           message: |

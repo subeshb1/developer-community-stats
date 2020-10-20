@@ -1,4 +1,4 @@
-name: ContributorSpec
+name: "ContributorSpec"
 on: [pull_request]
 jobs:
   test-build:
