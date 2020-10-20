@@ -6,6 +6,7 @@ on:
     paths:
       - '**.js'
       - '!**.md'
+      - '!**.yaml'
     branches:
       - main
 jobs:
