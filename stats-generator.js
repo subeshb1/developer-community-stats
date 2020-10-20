@@ -48,7 +48,7 @@ const githubAPIQuery = async (query) => fetch(query, {
 
 const extractGraphqlJson = res => {
   return res.json().then(res => {
-    if (res.errors && res.errors.length) {
+    if (res.errors && res.errors.length > res.data.length) {
       throw res
     }
     return res

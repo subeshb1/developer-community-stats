@@ -71,6 +71,11 @@
     "country": "Nigeria",
     "name": "Ibrahim Musa"
   },
+  "amirtechnoide": {
+    "country": "cameroon",
+    "linkedin": "https://www.linkedin.com/in/amir-toukour-87b2291a1/",
+    "name": "Amir toukour"
+  },
   "ana-vela": {
     "country": "United States",
     "name": "Ana Vela"
@@ -89,6 +94,11 @@
   "anshika0207": {
     "country": "India",
     "name": "Anshika Bhatt"
+  },
+  "AnshumanMahato": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/anshuman-mahato-15b74b1a9/",
+    "name": "Anshuman Mahato"
   },
   "anshutoppo": {
     "country": "India",
@@ -120,6 +130,10 @@
     "country": "Thailand",
     "linkedin": "https://www.linkedin.com/in/sirawit-arayatrakullikit-5a73821b9/",
     "name": "Sirawit Arayatrakullikit"
+  },
+  "Ashlin21dev": {
+    "country": "India",
+    "name": "Ashlin Dev"
   },
   "auxfuse": {
     "country": "Ireland",
@@ -165,6 +179,11 @@
   "bernawastaken": {
     "country": "Portugal",
     "name": "Bernardo"
+  },
+  "BhanukaC": {
+    "country": "Sri Lanka",
+    "linkedin": "https://www.linkedin.com/in/bhanukauyanage",
+    "name": "Bhanuka Uyanage"
   },
   "BillGun": {
     "country": "Indonesia",
@@ -227,6 +246,11 @@
     "country": "India",
     "name": "sonu"
   },
+  "dao-phuong": {
+    "country": "Vietnam",
+    "linkedin": "https://www.linkedin.com/in/phuong-dao-duy-6159b7a4/",
+    "name": "Dao Duy Phuong"
+  },
   "degram": {
     "country": "Ukraine",
     "linkedin": "https://www.linkedin.com/in/aleksandr-gubin-7482a21b7/",
@@ -256,6 +280,13 @@
     "country": "Nepal",
     "name": "Dhondup Lama",
     "twitter": "https://twitter.com/titungdup"
+  },
+  "eldrige": {
+    "country": "Cameroon",
+    "name": "Apoh Prince Eldrige",
+    "linkedin":"https://www.linkedin.com/in/prince-eldrige-9b64881b2/",
+    "twitter": "https://twitter.com/Apoh68673473",
+    "website": "https://eldrige.github.io/Portfolio/"
   },
   "elinaDangol": {
     "country": "Nepal",
@@ -353,8 +384,8 @@
   },
   "himanshu2408": {
     "country": "India",
-    "name": "Himanshu Singh",
-    "linkedin": "https://www.linkedin.com/in/himanshu-s/"
+    "linkedin": "https://www.linkedin.com/in/himanshu-s/",
+    "name": "Himanshu Singh"
   },
   "hinsxd": {
     "country": "Hong Kong",
@@ -441,6 +472,12 @@
     "name": "Kushagra Johari",
     "website": "https://mrweber.netlify.app/"
   },
+  "kannupriyasingh": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/kannu-priya-4a38b0157",
+    "name": "Kannu Priya",
+    "twitter": "https://twitter.com/impriya_kannu?s=09"
+  },
   "KGene1901": {
     "country": "Malaysia",
     "linkedin": "https://www.linkedin.com/in/kah-gene-leong-73500b196/",
@@ -509,6 +546,11 @@
   "lindarama": {
     "country": "Indonesia",
     "name": "Linda Ramadhani"
+  },
+  "Lontchi12": {
+    "country": "Cameroon",
+    "linkedin": "https://www.linkedin.com/in/lontchi-lionelle-6a887715b",
+    "name": "Kamthie Lontchi Lionelle"
   },
   "maeeast": {
     "country": "United States",
@@ -705,6 +747,11 @@
     "country": "United States",
     "name": "Brian Corbett"
   },
+  "pooja2299": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/pooja-yadav-b537181a7/",
+    "name": "Pooja Yadav"
+  },
   "prabhat34": {
     "country": "India",
     "name": "Prabhat kumar singh"
@@ -767,6 +814,12 @@
     "country": "India",
     "name": "Yogeshwaran"
   },
+  "Renda02": {
+    "country": "Spain",
+    "linkedin": "https://www.linkedin.com/in/rendani-luvhengo/",
+    "name": "Rendani Sandra Luvhengo",
+    "twitter": "https://twitter.com/rendani18824096/"
+  },
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
@@ -823,6 +876,12 @@
   "saranshkotnala": {
     "country": "India",
     "name": "Saransh Kotnala"
+  },
+  "seananth": {
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/in/sean-s%C3%A4fstr%C3%B6m/",
+    "name": "Sean Säfström",
+    "twitter": "https://twitter.com/safstrm"
   },
   "Semvrij": {
     "country": "Netherlands",
@@ -1054,6 +1113,11 @@
     "country": "India",
     "name": "Aarushi"
   },
+  "yagyikprajapat": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/yagyik-prajapat-627320192/",
+    "name": "Yagyik Prajapat"
+  },
   "YashAmin-01": {
     "country": "India",
     "name": "Yash Amin"
@@ -1065,8 +1129,7 @@
   "yunweneric": {
     "country": "Cameroon",
     "name": "Yunwen Eric",
-    "linkedin": "https://www.linkedin.com/in/yunwen-eric-40517a147/",
-    "twitter": "https://twitter.com/Yunweneric"
+    "linkedin": "https://www.linkedin.com/in/yunwen-eric-40517a147/"   
   },
   "Zura79": {
     "country": "Indonesia",

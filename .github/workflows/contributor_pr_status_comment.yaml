@@ -9,19 +9,17 @@ jobs:
   test-build:
     runs-on: ubuntu-latest
     steps:
-      - name: Print github context
-        env:
-          CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
+      - env:
           CONTEXT: ${{ toJSON(github) }}
-          VALUE: ${{ github.event.workflow_run.conclusion }}
         run: echo $CONTEXT
       - name: Download artifact
         uses: dawidd6/action-download-artifact@v2
         with:
           workflow: ${{ github.event.workflow.id }}
-      - run: echo "##[set-output name=id;]$(jq '.number' my-artifact/data.json)"
+      - run: echo "##[set-output name=id;]$(jq '.event.number' ${{ github.event.workflow_run.id }}/data.json)"
         id: pull_request
-      - run: jq '.number' my-artifact/data.json
+      - run: jq '.event.number' ${{ github.event.workflow_run.id }}/data.json
+      - run: jq '.' ${{ github.event.workflow_run.id }}/data.json
       - env:
           TEST:  steps.pull_request.outputs.id
         run: echo $TEST  
@@ -46,11 +44,13 @@ jobs:
 
 
             If you still have problem you can tag in a maintainer: @subeshb1
-      
+          reactions: eyes, -1, confused
       - if: ${{ github.event.workflow_run.conclusion == 'success' }}
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{ steps.pull_request.outputs.id }} 
           body: |
-            Congratulations
-          reactions: '+1'
+            Great! Your PR has succesfully passed all the checks. 🚀
+            Your PR will be merged by a maintainer. Please be patience.
+            In the mean while checkout the issues for anything you can help out on: [Issues needed Help](https://github.com/subeshb1/developer-community-stats/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+          reactions: heart, hooray, +1, rocket
