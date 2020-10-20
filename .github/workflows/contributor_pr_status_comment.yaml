@@ -2,7 +2,7 @@ name: ContributorSpecFailure
 on: 
   workflow_run:
     workflows:
-      # - ContributorSpec
+      - ContributorSpec
       - greet-contributor-action
     types:
        - completed
