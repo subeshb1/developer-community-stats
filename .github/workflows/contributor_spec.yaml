@@ -7,7 +7,7 @@ jobs:
       - name: Print github context
         env:
           CONTEXT: ${{ toJSON(github) }}
-        run: echo $CONTEXT
+        run: echo $CONTEXT && echo $GITHUB_EVENT_PATH
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Build Project
