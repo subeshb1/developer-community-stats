@@ -3,7 +3,6 @@
     "country": "India",
     "name": "Rutam Prita Mishra"
   },
-  
   "5h0bh4nk": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/shubhank-kulshreshtha-782627190/",
@@ -387,8 +386,8 @@
   },
   "japnit01": {
     "country": "India",
-    "name": "Japnit Singh",
-    "linkedin": "https://www.linkedin.com/in/japnit-singh-1500561ab/"
+    "linkedin": "https://www.linkedin.com/in/japnit-singh-1500561ab/",
+    "name": "Japnit Singh"
   },
   "jboullianne": {
     "country": "United States",
@@ -408,8 +407,8 @@
   },
   "Joblyn": {
     "country": "Nigeria",
-    "name": "Job Oaikhenah",
     "linkedin": "https://www.linkedin.com/in/job-oaikhenah-5056111a1/",
+    "name": "Job Oaikhenah",
     "twitter": "https://twitter.com/_Joblyn_",
     "website": "https://www.job-oaikhenah.netlify.app"
   },
@@ -465,9 +464,9 @@
     "name": "Shoichiro Kawauchi"
   },
   "LeGnaice": {
-    "name": "João Azevedo",
     "country": "Portugal",
-    "linkedin": "https://www.linkedin.com/in/joao-carreira-azevedo/"
+    "linkedin": "https://www.linkedin.com/in/joao-carreira-azevedo/",
+    "name": "João Azevedo"
   },
   "LeoAlvarenga": {
     "country": "Brazil",
@@ -548,8 +547,8 @@
   },
   "mohammedaz33m": {
     "country": "India",
-    "name": "Mohammed Azeem",
     "linkedin": "https://www.linkedin.com/in/mohammed-azeem78/",
+    "name": "Mohammed Azeem",
     "twitter": "https://twitter.com/Mohammed_Azeem_"
   },
   "mohprilaksono": {
@@ -561,7 +560,7 @@
   "mohsin-code": {
     "country": "Pakistan",
     "name": "Mohsin Shah",
-    "website":"https://mohsin-code.github.io/"
+    "website": "https://mohsin-code.github.io/"
   },
   "molleer": {
     "country": "Sweden",
@@ -755,8 +754,8 @@
     "website": "https://rzadev.github.io/work.html"
   },
   "sadathshariff": {
-    "country":"India",
-     "name" :  "Sadathulla Shariff"
+    "country": "India",
+    "name": "Sadathulla Shariff"
   },
   "sagarpandyansit": {
     "country": "India",
@@ -900,8 +899,8 @@
   },
   "Tawishi": {
     "country": "India",
-    "name": "Tawishi",
     "linkedin": "https://www.linkedin.com/in/tawishi-s-191857131/",
+    "name": "Tawishi",
     "twitter": "https://twitter.com/Tawishi1"
   },
   "therealsanjeev": {
@@ -958,8 +957,8 @@
   },
   "vppillai": {
     "country": "India",
-    "name": "Vysakh P Pillai",
     "linkedin": "https://www.linkedin.com/in/vysakh-pillai/",
+    "name": "Vysakh P Pillai",
     "website": "https://embeddedinn.xyz"
   },
   "vunderkind": {
@@ -1005,6 +1004,10 @@
   "yonaka-37": {
     "country": "Indonesia",
     "name": "Yusril"
+  },
+  "Zura79": {
+    "country": "Indonesia",
+    "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
+    "name": "Fardeen Atallah Kabir Muhammad"
   }
-
 }
