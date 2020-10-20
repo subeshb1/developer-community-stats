@@ -1,5 +1,4 @@
-{
-  
+{ 
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -131,6 +130,10 @@
     "country": "Thailand",
     "linkedin": "https://www.linkedin.com/in/sirawit-arayatrakullikit-5a73821b9/",
     "name": "Sirawit Arayatrakullikit"
+  },
+  "Ashlin21dev": {
+    "country": "India",
+    "name": "Ashlin Dev"
   },
   "auxfuse": {
     "country": "Ireland",
