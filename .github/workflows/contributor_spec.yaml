@@ -27,5 +27,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         if: always()
         with:
-          name: ${{ github.run_id }} 
+          name: my-artifact 
           path: ./data.json
