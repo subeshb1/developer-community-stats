@@ -1,5 +1,8 @@
 name: ContributorSpecFailure
-on: status
+on: 
+  workflow_run:
+    workflows:
+      - ContributorSpec
 jobs:
   test-build:
     runs-on: ubuntu-latest
