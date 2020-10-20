@@ -102,7 +102,7 @@
     "country": "United States",
     "name": "Andrea Ortiz"
   },
-  "aparnagopalakrishnan432":{
+  "aparnagopalakrishnan432": {
     "country": "India",
     "name": "Aparna Gopalakrishnan"
   },
@@ -320,8 +320,8 @@
   },
   "hardik7e": {
     "country": "India",
-    "name": "Hardik Singh",
-    "linkedin": "https://www.linkedin.com/in/sensei9717/"
+    "linkedin": "https://www.linkedin.com/in/sensei9717/",
+    "name": "Hardik Singh"
   },
   "hasna-akbarali": {
     "country": "India",
@@ -693,6 +693,11 @@
   "prabhat34": {
     "country": "India",
     "name": "Prabhat kumar singh"
+  },
+  "pradnyavk": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/pradnyakatigar",
+    "name": "Pradnya Katigar"
   },
   "prajnakalpa": {
     "country": "India",
