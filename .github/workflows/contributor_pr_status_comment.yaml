@@ -19,7 +19,7 @@ jobs:
         uses: dawidd6/action-download-artifact@v2
         with:
           workflow: ${{ github.event.workflow.id }}
-      - run: echo "##[set-output name=id;]$(jq '.number' ./data.json)"
+      - run: echo "##[set-output name=id;]$(jq '.number' my-artifact/data.json)"
         id: pull_request
       - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: peter-evans/create-or-update-comment@v1
