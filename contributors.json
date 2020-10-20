@@ -416,6 +416,13 @@
     "linkedin": "https://www.linkedin.com/in/honorezemagho",
     "name": "ZEMAGHO KALONG EUGENE HONORE"
   },
+  "hu-qi": {
+    "country": "China",
+    "linkedin": "https://www.linkedin.com/in/琦-胡-26bb34a1/",
+    "name": "胡琦",
+    "twitter": "https://twitter.com/huqii",
+    "website": "https://www.fashaoge.com"
+  },
   "iamgiribabu": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/giribabu-anisetti-208863154/",
@@ -714,11 +721,11 @@
     "name": "Namrutha"
   },
   "narenbakshi97": {
-   "country": "United States",
-   "name": "Naren Bakshi",
-   "linkedin": "https://www.linkedin.com/in/naren-bakshi/",
-   "twitter": "https://twitter.com/narenbakshi97",
-   "website":"https://narenbakshi97.github.io/naren/"
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/naren-bakshi/",
+    "name": "Naren Bakshi",
+    "twitter": "https://twitter.com/narenbakshi97",
+    "website": "https://narenbakshi97.github.io/naren/"
   },
   "NathanPickard": {
     "country": "United States",
@@ -882,11 +889,11 @@
     "name": "Rendani Sandra Luvhengo",
     "twitter": "https://twitter.com/rendani18824096/"
   },
-  "reshma-avvaru":{
-  "country":"India",
-  "name":"Reshma Avvaru",
-  "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
-},
+  "reshma-avvaru": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/reshma-avvaru",
+    "name": "Reshma Avvaru"
+  },
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
