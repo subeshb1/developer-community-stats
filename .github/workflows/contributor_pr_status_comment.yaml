@@ -23,12 +23,12 @@ jobs:
         id: pull_request
       - run: jq '.number' my-artifact/data.json
       - env:
-          TEST:  steps.pull_request.outputs.output.id
+          TEST:  steps.pull_request.outputs.id
         run: echo $TEST  
       - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: peter-evans/create-or-update-comment@v1
         with:
-          issue-number: ${{ steps.pull_request.outputs.output.id }} 
+          issue-number: ${{ steps.pull_request.outputs.id }} 
           body: |
             It looks like you haven't order the JSON values in **ascending order alphabetically ignoring case** by Github user name or your JSON syntax is wrong. Please read the issue description before taking them.
 
@@ -50,7 +50,7 @@ jobs:
       - if: ${{ github.event.workflow_run.conclusion == 'success' }}
         uses: peter-evans/create-or-update-comment@v1
         with:
-          issue-number: ${{ steps.pull_request.outputs.output.id }} 
+          issue-number: ${{ steps.pull_request.outputs.id }} 
           body: |
             Congratulations
           reactions: '+1'
