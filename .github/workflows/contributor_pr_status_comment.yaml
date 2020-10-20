@@ -27,4 +27,4 @@ jobs:
             If you still have problem you can tag in a maintainer: @subeshb1
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
-          allow-repeats: false
+          allow-repeats: true
