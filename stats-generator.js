@@ -88,7 +88,7 @@ year${year}: contributionsCollection(from: "${year}-01-01T00:00:00Z", to: "${yea
 }
 `
 const userCountStatsQuery = user => `
-  ${user.replace(/-/g, "___kebab___").replace(/^([0-9])?/, (match) => {
+  ${user.replace(/-/g, "___kebab___").replace(/^([0-9])/, (match) => {
   return "__NUMBER__" + match
 })}: user(login: "${user}") {
     repositories(isFork: false,${config.includePrivate ? '' : 'privacy: PUBLIC'}) {
