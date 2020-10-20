@@ -6,7 +6,8 @@ jobs:
     steps:
       - run:
           printenv
-      - uses: mshick/add-pr-comment@v1
+      - if: github.event.status == 'failure'
+        uses: mshick/add-pr-comment@v1
         with:
           message: |
             It looks like you haven't order the JSON values in **ascending order alphabetically ignoring case** by Github user name or your JSON syntax is wrong. Please read the issue description before taking them.
