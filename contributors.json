@@ -257,11 +257,6 @@
     "twitter": "https://twitter.com/eDangol901",
     "website": "https://www.quora.com/q/abettercommunity"
   },
-  "hardik7e": {
-   "country": "India", 
-   "name": "Hardik Singh", 
-   "linkedin": "https://www.linkedin.com/in/sensei9717/"
-  },
   "Elisecroft": {
     "country": "France",
     "name": "Elise Guezel"
@@ -315,6 +310,11 @@
     "country": "Singapore",
     "linkedin": "https://www.linkedin.com/in/nur-hambali-064126131/",
     "name": "Nur Hambali"
+  },
+  "hardik7e": {
+   "country": "India", 
+   "name": "Hardik Singh", 
+   "linkedin": "https://www.linkedin.com/in/sensei9717/"
   },
   "hasna-akbarali": {
     "country": "India",
