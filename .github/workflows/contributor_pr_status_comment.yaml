@@ -11,8 +11,9 @@ jobs:
     steps:
       - name: Print github context
         env:
-          GITHUB_CONTEXT: ${{ toJSON(github) }}
-        run: echo "$GITHUB_CONTEXT"
+          CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
+          VALUE: ${{ github.event.workflow_run.conclusion }}
+        run: echo "$CHECK" && echo $VALUE
       - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: mshick/add-pr-comment@v1
         with:
