@@ -232,6 +232,11 @@
     "country": "India",
     "name": "sonu"
   },
+  "dao-phuong": {
+    "country": "Vietnam",
+    "linkedin": "https://www.linkedin.com/in/phuong-dao-duy-6159b7a4/",
+    "name": "Dao Duy Phuong"
+  },
   "degram": {
     "country": "Ukraine",
     "linkedin": "https://www.linkedin.com/in/aleksandr-gubin-7482a21b7/",
@@ -515,10 +520,10 @@
     "country": "Indonesia",
     "name": "Linda Ramadhani"
   },
-  "lontchilionelle":{
+  "lontchilionelle": {
     "country": "Cameroon",
-    "name": "Kamthie Lontchi Lionelle",
-    "linkedin": "https://www.linkedin.com/in/lontchi-lionelle-6a887715b"
+    "linkedin": "https://www.linkedin.com/in/lontchi-lionelle-6a887715b",
+    "name": "Kamthie Lontchi Lionelle"
   },
   "maeeast": {
     "country": "United States",
