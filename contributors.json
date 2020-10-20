@@ -284,13 +284,7 @@
   "dipanshubhola1009": {
     "country": "India",
     "name": "Dipanshu Bhola"
-  },
-  "Divakar": {
-    "country": "India",
-    "Github": "https://github.com/rexdivakar",
-    "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/",
-    "name": "Divakar"
-  },
+  },  
   "DOCTSTR": {
     "country": "India",
     "name": "Rushiraj Hada"
@@ -496,11 +490,6 @@
     "linkedin": "https://www.linkedin.com/in/kannu-priya-4a38b0157",
     "name": "Kannu Priya",
     "twitter": "https://twitter.com/impriya_kannu?s=09"
-  },
-  "keiteo": {
-    "country": "Singapore",
-    "linkedin": "https://www.linkedin.com/in/keiteo/",
-    "name": "Keith Teo"
   },
   "KGene1901": {
     "country": "Malaysia",
@@ -713,13 +702,6 @@
     "country": "India",
     "name": "Namrutha"
   },
-  "narenbakshi97": {
-   "country": "United States",
-   "name": "Naren Bakshi",
-   "linkedin": "https://www.linkedin.com/in/naren-bakshi/",
-   "twitter": "https://twitter.com/narenbakshi97",
-   "website":"https://narenbakshi97.github.io/naren/"
-  },
   "NathanPickard": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/nathanpickard/",
@@ -887,6 +869,13 @@
   "name":"Reshma Avvaru",
   "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
 },
+  "rexdivakar": {
+  "country": "India",
+   "name": "Divakar",
+  "Github": "https://github.com/rexdivakar",
+  "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/"
+
+  },
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
