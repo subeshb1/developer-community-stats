@@ -1,10 +1,4 @@
 {
-  "that-coder": {
-    "country": "India",
-    "name": "Jayakrishnan JR",
-    "linkedin": "https://www.linkedin.com/in/jrjayakrishnan/",
-    "twitter": "https://twitter.com/that_coder",
-  },
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -289,8 +283,8 @@
   },
   "eldrige": {
     "country": "Cameroon",
-    "name": "Apoh Prince Eldrige",
     "linkedin": "https://www.linkedin.com/in/prince-eldrige-9b64881b2/",
+    "name": "Apoh Prince Eldrige",
     "twitter": "https://twitter.com/Apoh68673473",
     "website": "https://eldrige.github.io/Portfolio/"
   },
@@ -1018,6 +1012,12 @@
     "name": "Tawishi",
     "twitter": "https://twitter.com/Tawishi1"
   },
+  "that-coder": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/jrjayakrishnan/",
+    "name": "Jayakrishnan JR",
+    "twitter": "https://twitter.com/that_coder"
+  },
   "therealsanjeev": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/therealsanjeev/",
@@ -1134,8 +1134,8 @@
   },
   "yunweneric": {
     "country": "Cameroon",
-    "name": "Yunwen Eric",
     "linkedin": "https://www.linkedin.com/in/yunwen-eric-40517a147/",
+    "name": "Yunwen Eric",
     "twitter": "https://twitter.com/Yunweneric"
   },
   "Zura79": {
