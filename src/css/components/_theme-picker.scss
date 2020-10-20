@@ -1,7 +1,8 @@
 .theme-picker {
   font-size: 14px;
   width: 100vw;
-  background: var(--theme-primary-bg);
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 90%);
   max-width: 500px;
   max-height: 90vh;
   overflow: scroll;
@@ -59,7 +60,8 @@
       align-items: center;
       cursor: pointer;
       &:focus {
-        background: #3068b7;
+      background: rgb(0,0,0);
+      background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 90%);
         background: var(--theme-primary-hover);
       }
     }
