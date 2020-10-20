@@ -3,7 +3,6 @@ on:
   workflow_run:
     workflows:
       - ContributorSpec
-      - greet-contributor-action
     types:
        - completed
 jobs:
@@ -15,12 +14,22 @@ jobs:
           CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
           CONTEXT: ${{ toJSON(github) }}
           VALUE: ${{ github.event.workflow_run.conclusion }}
-          DATA: ${{ toJSON(github.event.workflow_run.pull_requests[0]) }}
-        run: echo $DATA & $CONTEXT
+        run: echo $CONTEXT
+      - name: Download artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          workflow: ${{ github.event.workflow.id }}
+      - run: echo "##[set-output name=id;]$(jq '.event.number' my-artifact/data.json)"
+        id: pull_request
+      - run: jq '.event.number' my-artifact/data.json
+      - run: jq '.' my-artifact/data.json
+      - env:
+          TEST:  steps.pull_request.outputs.id
+        run: echo $TEST  
       - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: peter-evans/create-or-update-comment@v1
         with:
-          issue-number: ${{ github.event.workflow_run.pull_requests[0].number }}
+          issue-number: ${{ steps.pull_request.outputs.id }} 
           body: |
             It looks like you haven't order the JSON values in **ascending order alphabetically ignoring case** by Github user name or your JSON syntax is wrong. Please read the issue description before taking them.
 
@@ -38,4 +47,13 @@ jobs:
 
 
             If you still have problem you can tag in a maintainer: @subeshb1
-          reactions: '+1'
+          reactions: eyes, -1, confused
+      - if: ${{ github.event.workflow_run.conclusion == 'success' }}
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ steps.pull_request.outputs.id }} 
+          body: |
+            Great! Your PR has succesfully passed all the checks. 🚀
+            Your PR will be merged by a maintainer. Please be patience.
+            In the mean while checkout the issues for anything you can help out on: [Issues needed Help](https://github.com/subeshb1/developer-community-stats/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+          reactions: heart, hooray, +1, rocket
