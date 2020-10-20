@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: Print github context
         env:
-          VALUE: ${{ github.event.workflow_run.conclusion }}
-        run: echo "$CHECK" && echo $VALUE && echo $CONTEXT
+          CONTEXT: ${{ toJSON(github) }}
+        run: echo $CONTEXT
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Build Project
