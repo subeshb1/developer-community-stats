@@ -311,11 +311,6 @@
     "linkedin": "https://www.linkedin.com/in/nur-hambali-064126131/",
     "name": "Nur Hambali"
   },
-  "hardik7e": {
-   "country": "India", 
-   "name": "Hardik Singh", 
-   "linkedin": "https://www.linkedin.com/in/sensei9717/"
-  },
   "hasna-akbarali": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/hasna-akbar-ali-1485981b0/",
@@ -1014,5 +1009,10 @@
   "yonaka-37": {
     "country": "Indonesia",
     "name": "Yusril"
+  },
+  "gyadav-prog": {
+    "country": "India",
+    "name": "Gagan Yadav",
+    "linkedin": "https://www.linkedin.com/in/gaganyadav1998/"
   }
 }
