@@ -18,8 +18,8 @@ jobs:
           workflow: ${{ github.event.workflow.id }}
       - run: echo "##[set-output name=id;]$(jq '.event.number' my-artifact/data.json)"
         id: pull_request
-      - run: jq '.event.number' ${{ github.event.workflow.id }}/data.json
-      - run: jq '.' ${{ github.event.workflow.id }}/data.json
+      - run: jq '.event.number' my-artifact/data.json
+      - run: jq '.' my-artifact/data.json
       - env:
           TEST:  steps.pull_request.outputs.id
         run: echo $TEST  
