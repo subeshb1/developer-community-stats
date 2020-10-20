@@ -78,10 +78,10 @@
   },
   "amit14mitra": {
     "country": "India",
-    "name": "Amit Kumar Mitra",
     "linkedin": "www.linkedin.com/in/amit-kumar-mitra-351ba8190/",
+    "name": "Amit Kumar Mitra",
     "twitter": "twitter.com/Amitmitra141",
-    "website":"https://akm-website.netlify.app/"
+    "website": "https://akm-website.netlify.app/"
   },
   "ana-vela": {
     "country": "United States",
@@ -769,6 +769,12 @@
     "country": "United States",
     "name": "Brian Corbett"
   },
+  "pkspyder007": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/praveen-kumar-8512b4189/",
+    "name": "Praveen Kumar",
+    "website": "http://thejsguy.me/"
+  },
   "pooja2299": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/pooja-yadav-b537181a7/",
@@ -1075,8 +1081,8 @@
   },
   "utkarsh17verma": {
     "country": "India",
-    "name": "Utkarsh Verma",
     "linkedin": "https://www.linkedin.com/in/utkarsh17verma/",
+    "name": "Utkarsh Verma",
     "twitter": "https://twitter.com/utkarsh17verma",
     "website": "http://utkarsh17verma.github.io/"
   },
@@ -1176,11 +1182,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-  "pkspyder007": {
-    "country": "India",
-    "linkedin": "https://www.linkedin.com/in/praveen-kumar-8512b4189/",
-    "name": "Praveen Kumar",
-    "website": "http://thejsguy.me/"
   }
 }
