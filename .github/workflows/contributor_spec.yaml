@@ -32,4 +32,4 @@ jobs:
         if: failure()
         with:
           name: my-artifact
-          path: ./test.json
+          path: ./data.json
