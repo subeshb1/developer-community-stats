@@ -805,6 +805,13 @@
     "country": "India",
     "name": "Yogeshwaran"
   },
+  "Renda02":{
+  "country": "Spain",
+  "name": "Rendani Sandra Luvhengo", 
+   "linkedin": "https://www.linkedin.com/in/rendani-luvhengo/", 
+   "twitter": "https://twitter.com/rendani18824096/"
+   
+},
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
@@ -1112,5 +1119,4 @@
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
   }
-  
 }
