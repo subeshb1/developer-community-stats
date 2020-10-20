@@ -102,7 +102,7 @@
     "country": "United States",
     "name": "Andrea Ortiz"
   },
-  "aparnagopalakrishnan432":{
+  "aparnagopalakrishnan432": {
     "country": "India",
     "name": "Aparna Gopalakrishnan"
   },
@@ -350,6 +350,11 @@
     "country": "India",
     "name": "Himanshu Singh",
     "twitter": "https://twitter.com/himanshu30ber"
+  },
+  "himanshu2408": {
+    "country": "India",
+    "name": "Himanshu Singh",
+    "linkedin": "https://www.linkedin.com/in/himanshu-s/"
   },
   "hinsxd": {
     "country": "Hong Kong",
