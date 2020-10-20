@@ -9,12 +9,6 @@ jobs:
   test-build:
     runs-on: ubuntu-latest
     steps:
-      - name: Print github context
-        env:
-          CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
-          CONTEXT: ${{ toJSON(github) }}
-          VALUE: ${{ github.event.workflow_run.conclusion }}
-        run: echo $CONTEXT
       - name: Download artifact
         uses: dawidd6/action-download-artifact@v2
         with:
