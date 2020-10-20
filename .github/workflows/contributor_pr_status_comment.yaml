@@ -1,11 +1,17 @@
 name: ContributorSpecFailure
-on: status
+on: 
+  workflow_run:
+     workflows: ["ContributorSpec"]
+     types:
+       - completed
 jobs:
   test-build:
     runs-on: ubuntu-latest
     steps:
-      - run:
-          printenv
+      - name: Print github context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CONTEXT"
       - if: github.event.status == 'failure'
         uses: mshick/add-pr-comment@v1
         with:
