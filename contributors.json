@@ -285,11 +285,11 @@
     "country": "India",
     "name": "Dipanshu Bhola"
   },
-    "Divakar": {
+  "Divakar": {
     "country": "India",
+    "Github": "https://github.com/rexdivakar",
     "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/",
-    "name": "Divakar",
-    "Github": "https://github.com/rexdivakar"
+    "name": "Divakar"
   },
   "DOCTSTR": {
     "country": "India",
@@ -496,6 +496,11 @@
     "linkedin": "https://www.linkedin.com/in/kannu-priya-4a38b0157",
     "name": "Kannu Priya",
     "twitter": "https://twitter.com/impriya_kannu?s=09"
+  },
+  "keiteo": {
+    "country": "Singapore",
+    "linkedin": "https://www.linkedin.com/in/keiteo/",
+    "name": "Keith Teo"
   },
   "KGene1901": {
     "country": "Malaysia",
