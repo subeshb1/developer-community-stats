@@ -24,12 +24,12 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/package.lock.json') }}
       - run: npm i
       - run: NEW_USER=$(git show main:contributors.json | jq -r --argjson new "$(cat contributors.json)" '. | keys - ($new | keys) | join(",")') npm run test
-      - if: failure()
+      - if: always()
         env:
           CONTEXT: ${{ toJSON(github) }}
         run: echo $CONTEXT > data.json
       - uses: actions/upload-artifact@v2
-        if: failure()
+        if: always()
         with:
           name: my-artifact
           path: ./data.json
