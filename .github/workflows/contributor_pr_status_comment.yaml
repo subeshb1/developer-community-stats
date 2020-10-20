@@ -3,7 +3,6 @@ on:
   workflow_run:
     workflows:
       - ContributorSpec
-      - greet-contributor-action
     types:
        - completed
 jobs:
