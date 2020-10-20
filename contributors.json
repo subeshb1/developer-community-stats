@@ -135,6 +135,10 @@
     "country": "India",
     "name": "Shubham Kumar Baranwal"
   },
+  "bernawastaken": {
+    "country": "Portugal",
+    "name": "Bernardo"
+  },
   "BasilVictor": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/basil-benedict-victor-119706195/",
@@ -883,9 +887,5 @@
   "yonaka-37": {
    "country": "Indonesia",
    "name": "Yusril"
-  },
-  "bernawastaken": {
-    "country": "Portugal",
-    "name": "Bernardo"
   }
 }
