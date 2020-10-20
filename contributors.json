@@ -511,13 +511,12 @@
   "namita2310": {
     "country": "India",
     "linkedin": "NA",
-    "name": "Namita Shetty",
-    "twitter": "NA"
+    "name": "Namita Shetty"
   },
-  "<namruthahari>": {
-   "country": "India",
-   "name": "Namrutha",
-},
+  "namruthahari": {
+    "country": "India",
+    "name": "Namrutha"
+  },
   "NathanPickard": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/nathanpickard/",
