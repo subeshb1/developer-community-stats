@@ -52,6 +52,11 @@
     "linkedin": "https://www.linkedin.com/in/aishwaryakore",
     "name": "Aishwarya"
   },
+  "alexdmckee": {
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/alex-mckee-a5b2aa61/",
+    "name": "Alex McKee"
+  },
   "alexkimeu0": {
     "country": "Kenya",
     "linkedin": "https://www.linkedin.com/in/alexkimeu0/",
@@ -62,7 +67,7 @@
     "country": "India",
     "name": "Alvin Adarsh Kumar"
   },
-  "alwayschange":{
+  "alwayschange": {
     "country": "Nigeria",
     "name": "Ibrahim Musa"
   },
@@ -109,9 +114,9 @@
     "name": "Sirawit Arayatrakullikit"
   },
   "auxfuse": {
-   "country": "Ireland",
-   "name": "Anthony O' Brien",
-   "twitter": "https://twitter.com/Auxfuse"
+    "country": "Ireland",
+    "name": "Anthony O' Brien",
+    "twitter": "https://twitter.com/Auxfuse"
   },
   "aweditya": {
     "country": "India",
@@ -403,10 +408,10 @@
   "Joblyn": {
     "country": "Nigeria",
     "name": "Job Oaikhenah",
-    "linkedin": "https://www.linkedin.com/in/job-oaikhenah-5056111a1/", 
+    "linkedin": "https://www.linkedin.com/in/job-oaikhenah-5056111a1/",
     "twitter": "https://twitter.com/_Joblyn_",
-    "website":"https://www.job-oaikhenah.netlify.app"
-  }, 
+    "website": "https://www.job-oaikhenah.netlify.app"
+  },
   "joharikushagra": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/kushagra-johari-707183191/",
@@ -541,10 +546,10 @@
     "twitter": "https://twitter.com/anangm182"
   },
   "mohammedaz33m": {
-   "country": "India",
-   "name": "Mohammed Azeem",
-   "linkedin": "https://www.linkedin.com/in/mohammed-azeem78/",
-   "twitter": "https://twitter.com/Mohammed_Azeem_"
+    "country": "India",
+    "name": "Mohammed Azeem",
+    "linkedin": "https://www.linkedin.com/in/mohammed-azeem78/",
+    "twitter": "https://twitter.com/Mohammed_Azeem_"
   },
   "mohprilaksono": {
     "country": "Indonesia",
@@ -640,7 +645,7 @@
   "PAPADOXIE": {
     "country": "Pakistan",
     "name": "Nofil Qasim",
-    "twitter":"https://twitter.com/nofilq"
+    "twitter": "https://twitter.com/nofilq"
   },
   "paraggoyal28": {
     "country": "India",
@@ -884,10 +889,10 @@
     "website": "https://tae8838.github.io/"
   },
   "Tawishi": {
-   "country": "India",
-   "name": "Tawishi", 
-   "linkedin": "https://www.linkedin.com/in/tawishi-s-191857131/", 
-   "twitter": "https://twitter.com/Tawishi1"
+    "country": "India",
+    "name": "Tawishi",
+    "linkedin": "https://www.linkedin.com/in/tawishi-s-191857131/",
+    "twitter": "https://twitter.com/Tawishi1"
   },
   "therealsanjeev": {
     "country": "India",
@@ -942,11 +947,11 @@
     "name": "Mohammed Shakir"
   },
   "vppillai": {
-    "country": "India", 
+    "country": "India",
     "name": "Vysakh P Pillai",
-    "linkedin": "https://www.linkedin.com/in/vysakh-pillai/", 
-    "website":"https://embeddedinn.xyz"
- },
+    "linkedin": "https://www.linkedin.com/in/vysakh-pillai/",
+    "website": "https://embeddedinn.xyz"
+  },
   "vunderkind": {
     "country": "Nigeria",
     "linkedin": "https://www.linkedin.com/in/justinirabor/",
@@ -991,5 +996,5 @@
     "country": "Indonesia",
     "name": "Yusril"
   }
- 
+
 }
