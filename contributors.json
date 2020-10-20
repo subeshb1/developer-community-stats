@@ -801,6 +801,10 @@
     "name": "Sagar Pandya",
     "website": "http://sagarpandyansit.github.io/"
   },
+  "sagarrajput": {
+    "country": "India",
+    "name": "Sagar Rajput"
+  },
   "SamiBeig": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/sami-beig-792346165/",
@@ -1068,9 +1072,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-  "sagarrajput": {
-    "country": "India",
-    "name": "Sagar Rajput"
   }
 }
