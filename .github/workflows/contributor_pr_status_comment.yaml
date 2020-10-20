@@ -1,8 +1,9 @@
 name: ContributorSpecFailure
 on: 
   workflow_run:
-     workflows: ["ContributorSpec"]
-     types:
+    workflows:
+      - ContributorSpec
+    types:
        - completed
 jobs:
   test-build:
@@ -10,9 +11,10 @@ jobs:
     steps:
       - name: Print github context
         env:
-          GITHUB_CONTEXT: ${{ toJSON(github) }}
-        run: echo "$GITHUB_CONTEXT"
-      - if: github.event.status == 'failure'
+          CHECK: ${{ github.event.workflow_run.conclusion == 'failure' }}
+          VALUE: ${{ github.event.workflow_run.conclusion }}
+        run: echo "$CHECK" && echo $VALUE
+      - if: ${{ github.event.workflow_run.conclusion == 'failure' }}
         uses: mshick/add-pr-comment@v1
         with:
           message: |
