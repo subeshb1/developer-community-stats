@@ -4,6 +4,10 @@ jobs:
   test-build:
     runs-on: ubuntu-latest
     steps:
+      - name: Print github context
+        env:
+          CONTEXT: ${{ toJSON(github) }}
+        run: echo $GITHUB_EVENT_PATH
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Build Project
