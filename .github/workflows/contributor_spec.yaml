@@ -27,5 +27,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         if: always()
         with:
-          name: my-artifact
+          name: ${{ github.event.number }}
           path: ./data.json
