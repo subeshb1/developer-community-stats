@@ -1,28 +1,10 @@
-name: ContributorSpec
-on: [pull_request]
+name: ContributorSpecFailure
+on: status
 jobs:
   test-build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Build Project
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12'
-      - name: Cache multiple paths
-        uses: actions/cache@v2
-        with:
-          path: |
-            ~/cache
-            !~/cache/exclude
-            **/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/package.lock.json') }}
-      - run: npm i
-      - run: NEW_USER=$(git show main:contributors.json | jq -r --argjson new "$(cat contributors.json)" '. | keys - ($new | keys) | join(",")') npm run test
-
-      - if: ${{ failure() }}
-        uses: mshick/add-pr-comment@v1
+      - uses: mshick/add-pr-comment@v1
         with:
           message: |
             It looks like you haven't order the JSON values in ascending order alphabetically ignoring case by Github user name or your JSON syntax is wrong. Please read the issue description before taking them.
