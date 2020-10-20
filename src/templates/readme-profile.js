@@ -1,3 +1,4 @@
+console.log('The Devoloper Community');
 import React, { useEffect } from 'react'
 
 import { graphql, Link } from 'gatsby'
