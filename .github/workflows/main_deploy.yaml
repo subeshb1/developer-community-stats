@@ -1,4 +1,4 @@
-name: main-push-deploy-action
+name: AppDeploy
 on:
   schedule:
     - cron:  '0 */4 * * *'
