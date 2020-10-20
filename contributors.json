@@ -285,11 +285,11 @@
     "country": "India",
     "name": "Dipanshu Bhola"
   },
-    "Divakar": {
+  "Divakar": {
     "country": "India",
+    "Github": "https://github.com/rexdivakar",
     "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/",
-    "name": "Divakar",
-    "Github": "https://github.com/rexdivakar"
+    "name": "Divakar"
   },
   "DOCTSTR": {
     "country": "India",
@@ -510,6 +510,10 @@
   "Kiralinn": {
     "country": "Netherlands",
     "name": "Kyara van Putten"
+  },
+  "km4": {
+    "country": "Poland",
+    "name": "Karol Milewski"
   },
   "kodekin": {
     "country": "Kenya",
