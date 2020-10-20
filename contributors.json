@@ -90,6 +90,11 @@
     "country": "India",
     "name": "Anshika Bhatt"
   },
+  "AnshumanMahato": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/anshuman-mahato-15b74b1a9/",
+    "name": "Anshuman Mahato"
+  },
   "anshutoppo": {
     "country": "India",
     "name": "Anshu Toppo"
@@ -353,13 +358,18 @@
   },
   "himanshu2408": {
     "country": "India",
-    "name": "Himanshu Singh",
-    "linkedin": "https://www.linkedin.com/in/himanshu-s/"
+    "linkedin": "https://www.linkedin.com/in/himanshu-s/",
+    "name": "Himanshu Singh"
   },
   "hinsxd": {
     "country": "Hong Kong",
     "name": "Alvin Li",
     "website": "https://hinsxd.dev/"
+  },
+  "honorezemagho": {
+    "country": "Cameroon",
+    "linkedin": "https://www.linkedin.com/in/honorezemagho",
+    "name": "ZEMAGHO KALONG EUGENE HONORE"
   },
   "iamgiribabu": {
     "country": "India",
@@ -457,6 +467,11 @@
     "country": "Netherlands",
     "name": "Kyara van Putten"
   },
+  "kodekin": {
+    "country": "Kenya",
+    "linkedin": "https://www.linkedin.com/in/thomas-mwaka-9bb947ba/",
+    "name": "Thomas Mwaka"
+  },
   "kontesanjana": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sanjana-konte-3646441a5/",
@@ -506,6 +521,11 @@
   "lindarama": {
     "country": "Indonesia",
     "name": "Linda Ramadhani"
+  },
+  "Lontchi12":{
+    "country": "Cameroon",
+    "name": "Kamthie Lontchi Lionelle",
+    "linkedin": "https://www.linkedin.com/in/lontchi-lionelle-6a887715b"
   },
   "maeeast": {
     "country": "United States",
@@ -937,8 +957,8 @@
     "website": "https://tae8838.github.io/"
   },
   "TanishqDsharma": {
-     "country": "India",
-      "name": "Tanishq"
+    "country": "India",
+    "name": "Tanishq"
   },
   "Tawishi": {
     "country": "India",
@@ -1055,11 +1075,11 @@
     "country": "Indonesia",
     "name": "Yusril"
   },
-  "yunweneric":{
+  "yunweneric": {
     "country": "Cameroon",
-    "name":"Yunwen Eric",
     "linkedin": "https://www.linkedin.com/in/yunwen-eric-40517a147/",
-    "twitter":"https://twitter.com/Yunweneric"
+    "name": "Yunwen Eric",
+    "twitter": "https://twitter.com/Yunweneric"
   },
   "Zura79": {
     "country": "Indonesia",
