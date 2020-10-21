@@ -302,12 +302,6 @@
     "country": "India",
     "name": "Dipanshu Bhola"
   },
-  "Divakar": {
-    "country": "India",
-    "Github": "https://github.com/rexdivakar",
-    "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/",
-    "name": "Divakar"
-  },
   "dnrm": {
     "country": "Mexico",
     "name": "Daniel",
@@ -954,10 +948,15 @@
     "name": "Rendani Sandra Luvhengo",
     "twitter": "https://twitter.com/rendani18824096/"
   },
-  "reshma-avvaru": {
+ "reshma-avvaru":{
+    "country":"India",
+    "name":"Reshma Avvaru",
+    "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
+  },
+  "rexdivakar": {
     "country": "India",
-    "linkedin": "https://www.linkedin.com/in/reshma-avvaru",
-    "name": "Reshma Avvaru"
+    "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/",
+    "name": "Divakar"
   },
   "RFormigao": {
     "country": "Brazil",
