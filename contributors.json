@@ -54,10 +54,10 @@
     "twitter": "https://twitter.com/mohamedahkam"
   },
   "AhmadShaaban": {
-   "country": "Egypt", 
-   "name": "Ahmad Shaaban", 
-   "linkedin": "https://www.linkedin.com/in/ahmadshaaban97/"
-},
+    "country": "Egypt",
+    "linkedin": "https://www.linkedin.com/in/ahmadshaaban97/",
+    "name": "Ahmad Shaaban"
+  },
   "aishwaryakore": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/aishwaryakore",
@@ -396,6 +396,10 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/faisaljamil25/",
     "name": "Faisal Jamil"
+  },
+  "fangstar": {
+    "country": "USA",
+    "name": "Mitchell Fang"
   },
   "FavourOyewumi7": {
     "country": "Nigeria",
@@ -950,7 +954,7 @@
   "parryk303": {
     "country": "United States",
     "name": "Kyle"
- },
+  },
   "Patea4": {
     "country": "Brazil",
     "name": "Luis"
@@ -1250,12 +1254,12 @@
     "linkedin": "https://www.linkedin.com/in/srijita-sarkar-1241041b4/",
     "name": "Srijita Sarkar"
   },
-  "Sripaad":{
+  "Sripaad": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sripaad-srinivasan/",
+    "name": "Sripaad Srinivasan",
     "twitter": "https://twitter.com/Sripaad_",
-    "website": "https://sripaad.github.io/",
-    "name": "Sripaad Srinivasan"
+    "website": "https://sripaad.github.io/"
   },
   "stefannypanameno93": {
     "country": "El Salvador",
