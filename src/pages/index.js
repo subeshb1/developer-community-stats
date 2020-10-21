@@ -146,40 +146,40 @@ class DeveloperCommunityHome extends React.Component {
   getSortedList = contributors => {
     const list = !!this.state.sort
       ? contributors.sort((a, b) => {
-          if (this.state.sort.order === 'asc') {
-            if (b[this.state.sort.type]) {
-              if (typeof b[this.state.sort.type] === 'number') {
-                const order = a[this.state.sort.type] - b[this.state.sort.type]
-                return order
-              } else {
-                const order =
-                  b[this.state.sort.type] &&
-                  b[this.state.sort.type]
-                    .toString()
-                    .localeCompare(
-                      a[this.state.sort.type] &&
-                        a[this.state.sort.type].toString()
-                    )
-                return order
-              }
-            }
-          } else {
+        if (this.state.sort.order === 'asc') {
+          if (b[this.state.sort.type]) {
             if (typeof b[this.state.sort.type] === 'number') {
-              const order = b[this.state.sort.type] - a[this.state.sort.type]
+              const order = a[this.state.sort.type] - b[this.state.sort.type]
               return order
             } else {
               const order =
-                a[this.state.sort.type] &&
-                a[this.state.sort.type]
+                b[this.state.sort.type] &&
+                b[this.state.sort.type]
                   .toString()
                   .localeCompare(
-                    b[this.state.sort.type] &&
-                      b[this.state.sort.type].toString()
+                    a[this.state.sort.type] &&
+                    a[this.state.sort.type].toString()
                   )
               return order
             }
           }
-        })
+        } else {
+          if (typeof b[this.state.sort.type] === 'number') {
+            const order = b[this.state.sort.type] - a[this.state.sort.type]
+            return order
+          } else {
+            const order =
+              a[this.state.sort.type] &&
+              a[this.state.sort.type]
+                .toString()
+                .localeCompare(
+                  b[this.state.sort.type] &&
+                  b[this.state.sort.type].toString()
+                )
+            return order
+          }
+        }
+      })
       : contributors
 
     return list
@@ -219,15 +219,15 @@ class DeveloperCommunityHome extends React.Component {
         <div className="filter-bar">
           <div className="type-filter">
             <div className="type-title">Search by: </div>
-            <select id="type-select" onChange={this.handleTypeChange}>
+            <select id="type-select" className="app-select" onChange={this.handleTypeChange}>
+              <option value="githubUserId" title="username">
+                Username
+              </option>
               <option value="country" title="country">
                 Country
               </option>
               <option value="name" title="name">
                 Name
-              </option>
-              <option value="githubUserId" title="username">
-                Username
               </option>
             </select>
           </div>
@@ -235,7 +235,7 @@ class DeveloperCommunityHome extends React.Component {
           <input
             size="large"
             className="app-input"
-            placeholder={'Search dev by ' + this.state.searchType.label}
+            placeholder={'Search by ' + this.state.searchType.label}
             onChange={this.handleSearchChange}
             value={this.state.searchText}
           />
@@ -251,8 +251,8 @@ class DeveloperCommunityHome extends React.Component {
                   this.state.sort.order === 'asc' ? (
                     <AiOutlineArrowUp />
                   ) : (
-                    <AiOutlineArrowDown />
-                  )
+                      <AiOutlineArrowDown />
+                    )
                 ) : null}
               </button>
             ))}

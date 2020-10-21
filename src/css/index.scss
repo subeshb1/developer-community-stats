@@ -223,13 +223,29 @@ select:disabled {
     }
   }
 
+  .app-select {
+    // width: 100%;
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid var(--theme-primary-hover);
+    border-radius: 4px;
+    border: 1px solid rgb(203, 203, 203);
+    outline: none;
+    &:focus {
+      z-index: 1;
+      border: 1px solid rgb(70, 70, 70);
+      box-shadow: 0 0 0 3px rgba(48, 48, 48, 0.562);
+    }
+  }
+
   .type-filter {
     padding-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-
+    align-items: center;
     .type-title {
       padding-right: 10px;
     }
