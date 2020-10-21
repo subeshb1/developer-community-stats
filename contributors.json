@@ -331,10 +331,10 @@
     "twitter": "https://twitter.com/titungdup"
   },
   "earle-poole": {
-   "country": "United States",
-   "linkedin": "https://www.linkedin.com/in/earle-poole/",
-   "name": "Earle Poole",
-   "twitter": "https://twitter.com/Eepoole4"
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/earle-poole/",
+    "name": "Earle Poole",
+    "twitter": "https://twitter.com/Eepoole4"
   },
   "eldrige": {
     "country": "Cameroon",
@@ -1067,6 +1067,11 @@
   "saranshkotnala": {
     "country": "India",
     "name": "Saransh Kotnala"
+  },
+  "sathiranipun": {
+    "country": "Sri Lanka",
+    "name": "Sathira Nipun",
+    "linkedin": "https://www.linkedin.com/in/sathiranipun/"
   },
   "seananth": {
     "country": "Sweden",
