@@ -1,11 +1,4 @@
 {
-  "KushalBhanot": {
-    "country": "India",
-    "linkedin": "https://www.linkedin.com/in/kushalbhanot/",
-    "name": "Kushal Bhanot",
-    "twitter": "https://twitter.com/bhanot_kushal",
-    "website": "https://kushalbhanot.github.io/"
-  },
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -625,6 +618,13 @@
   "Kiralinn": {
     "country": "Netherlands",
     "name": "Kyara van Putten"
+  },
+  "KushalBhanot": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/kushalbhanot/",
+    "name": "Kushal Bhanot",
+    "twitter": "https://twitter.com/bhanot_kushal",
+    "website": "https://kushalbhanot.github.io/"
   },
   "km4": {
     "country": "Poland",
