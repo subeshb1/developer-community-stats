@@ -18,7 +18,7 @@ A repository to encourage beginners to contribute to open source and for all con
 
 ### Contributing to Open issues and Challenges
 
-The repository consists of Open issues encouraging beginners to take their first step to contribute to Open source. If you have any ideas regarding challenges, suggestions or feedback don't feel hesitant, create some issues.
+The repository consists of Open issues encouraging beginners to take their first step to contribute to Open-source. If you have any ideas regarding challenges, suggestions or feedback don't feel hesitant, create some issues.
 
 When contributing to an issue be sure to read through the description and follow the steps and make sure all the builds in the PR succeed.
 
@@ -26,7 +26,7 @@ The most common contribution is adding yourself to `contributors.json`. See issu
 
 ### Contributing to Core Website
 
-The core website is built with Gatsby, React and Github Graphql API. Follow the following steps to contribute to the website
+The core website is built with Gatsby, React, and Github Graphql API. Follow the following steps to contribute to the website
 
 ```sh
 # Fork the repo
@@ -44,7 +44,7 @@ $ git checkout new-branch # Checkout to your new branch
 # Start Gatsby mock server
 ENV_TYPE=mock gatsby develop
 
-# To start Gatsby server with github token and url expose the following variables
+# To start Gatsby server with Github token and URL expose the following variables
 GITHUB_GRAPHQL_URL=<github_graphql_url>
 GITHUB_TOKEN=<your_personal_access_token>
 
