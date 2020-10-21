@@ -285,13 +285,7 @@
     "country": "India",
     "name": "Dipanshu Bhola"
   },
-  "Divakar": {
-    "country": "India",
-    "Github": "https://github.com/rexdivakar",
-    "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/",
-    "name": "Divakar"
-  },
-  "DOCTSTR": {
+    "DOCTSTR": {
     "country": "India",
     "name": "Rushiraj Hada"
   },
@@ -887,6 +881,12 @@
   "name":"Reshma Avvaru",
   "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
 },
+  "rexdivakar": {
+  "country": "India",
+  "Github": "https://github.com/rexdivakar",
+  "linkedin": "https://www.linkedin.com/in/divakar-r-9b34b86b/",
+  "name": "Divakar"
+  },
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
