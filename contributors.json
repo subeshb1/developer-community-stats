@@ -323,6 +323,12 @@
     "name": "Dhondup Lama",
     "twitter": "https://twitter.com/titungdup"
   },
+  "earle-poole": {
+   "country": "United States",
+   "name": "Earle Poole", // Required
+   "linkedin": "https://www.linkedin.com/in/earle-poole/", // Optional
+   "twitter": "https://twitter.com/Eepoole4", // Optional
+  },
   "eldrige": {
     "country": "Cameroon",
     "linkedin": "https://www.linkedin.com/in/prince-eldrige-9b64881b2/",
