@@ -1178,9 +1178,9 @@
     "name": "Shubhi Kulshreshtha"
   },
   "simran2607": {
-   "country": "India", // Required
-   "name": "Simran", // Required
-   "linkedin": "https://www.linkedin.com/in/simran-6b1665170/", // Optional
+   "country": "India",
+   "name": "Simran",
+   "linkedin": "https://www.linkedin.com/in/simran-6b1665170/",
 },
   "sketch-tester": {
     "country": "Kenya",
