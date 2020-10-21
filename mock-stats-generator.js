@@ -137,6 +137,17 @@ module.exports = {
         avatarUrl: 'https://avatars3.githubusercontent.com/u/49752323?v=4',
         firstContribution: 2019,
         thisYearContribution: 4
+      },
+      KaushikiSinha: {
+        repositoryCount: 11,
+        repoContributedCount: 5,
+        contributionYears: [2020, 2019],
+        followersCount: 3,
+        issuesCount: 0,
+        pullRequestsCount: 1,
+        avatarUrl: 'https://avatars0.githubusercontent.com/u/57248094?s=460&u=9b0c945cdab8b81508d1191b0383d6dafc56f04b&v=4',
+        firstContribution: 2019,
+        thisYearContribution: 10
       }
     })
   }
