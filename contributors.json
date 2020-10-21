@@ -327,6 +327,11 @@
     "linkedin": "https://www.linkedin.com/in/engineermuhammadbilal/",
     "name": "Muhammad Bilal"
   },
+  "evertonrbraga": {
+    "country": "Brazil",
+    "name": "Everton Braga",
+    "linkedin": "https://www.linkedin.com/in/evertonrbraga/"
+  },
   "faisaljamil25": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/faisaljamil25/",
@@ -714,11 +719,11 @@
     "name": "Namrutha"
   },
   "narenbakshi97": {
-   "country": "United States",
-   "name": "Naren Bakshi",
-   "linkedin": "https://www.linkedin.com/in/naren-bakshi/",
-   "twitter": "https://twitter.com/narenbakshi97",
-   "website":"https://narenbakshi97.github.io/naren/"
+    "country": "United States",
+    "name": "Naren Bakshi",
+    "linkedin": "https://www.linkedin.com/in/naren-bakshi/",
+    "twitter": "https://twitter.com/narenbakshi97",
+    "website": "https://narenbakshi97.github.io/naren/"
   },
   "NathanPickard": {
     "country": "United States",
@@ -882,11 +887,11 @@
     "name": "Rendani Sandra Luvhengo",
     "twitter": "https://twitter.com/rendani18824096/"
   },
-  "reshma-avvaru":{
-  "country":"India",
-  "name":"Reshma Avvaru",
-  "linkedin":"https://www.linkedin.com/in/reshma-avvaru"
-},
+  "reshma-avvaru": {
+    "country": "India",
+    "name": "Reshma Avvaru",
+    "linkedin": "https://www.linkedin.com/in/reshma-avvaru"
+  },
   "RFormigao": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/rformigaogomes/",
