@@ -6,4 +6,4 @@
 - I have a little knowledge of **Javascript**, I'am currently learning that only.
 - I also know some of the designing softwares like **Adobe Photoshop, Adobe Illustrator and Adobe XD**
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ishantsingla18_icons=true&count_private=true&theme=dark" alt="Ishant" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ishantsingla18&count_private=true&theme=dark" alt="Ishant" /></p>
