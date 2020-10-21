@@ -23,7 +23,7 @@
     "dotenv": "^8.2.0",
     "emotion-theming": "^10.0.27",
     "flag-icon-css": "^3.5.0",
-    "gatsby": "^2.23.7",
+    "gatsby": "^2.24.83",
     "gatsby-image": "^2.0.22",
     "gatsby-mdx": "^0.6.3",
     "gatsby-plugin-advanced-sitemap": "^1.5.5",
