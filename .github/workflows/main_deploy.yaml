@@ -3,6 +3,10 @@ on:
   schedule:
     - cron:  '0 */4 * * *'
   push:
+    paths:
+      - 'readme-profiles/*.md'
+      - 'src/**'
+      - 'contributors.json'
     branches:
       - main
 jobs:
