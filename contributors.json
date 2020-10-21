@@ -112,9 +112,9 @@
     "name": "Anshu Toppo"
   },
   "antoniocra04": {
-    "name": "Anton",
     "country": "Russia",
     "linkedin": "https://www.linkedin.com/in/anton-ryazanov-7a53101b2/",
+    "name": "Anton",
     "twitter": "https://twitter.com/anton_ryazanov_",
     "website": "https://anton-ryazanov.xyz/"
   },
@@ -570,6 +570,11 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/siddharth-khandelwal-980992173/",
     "name": "Siddharth Khandelwal"
+  },
+  "kikit0106": {
+    "country": "Indonesia",
+    "linkedin": "https://www.linkedin.com/in/pikiring-wh/",
+    "name": "Pikiring Waskitha"
   },
   "kimcore": {
     "country": "South Korea",
@@ -1070,8 +1075,8 @@
   },
   "sathiranipun": {
     "country": "Sri Lanka",
-    "name": "Sathira Nipun",
-    "linkedin": "https://www.linkedin.com/in/sathiranipun/"
+    "linkedin": "https://www.linkedin.com/in/sathiranipun/",
+    "name": "Sathira Nipun"
   },
   "seananth": {
     "country": "Sweden",
