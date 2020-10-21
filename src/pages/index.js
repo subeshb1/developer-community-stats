@@ -1,19 +1,18 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import 'flag-icon-css/css/flag-icon.min.css'
 import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
-import BlogPostTemplate from '../components/Layouts/BlogLayout'
 import Layout from '../components/Layouts/Layout'
 import DeveloperCard from '../components/DeveloperCard'
 
-import { AiOutlineArrowUp, AiOutlineArrowDown } from "react-icons/ai";
+import { AiOutlineArrowUp, AiOutlineArrowDown } from 'react-icons/ai'
 class DeveloperCommunityHome extends React.Component {
   constructor(props) {
     super(props)
     this.initialFilter = { type: '', value: '', name: '' }
     this.state = {
       searchText: '',
+      searchType: { label: 'username', value: 'githubUserId' },
       filterableFields: [
         { name: 'Github user name', type: 'githubUserId' },
         { name: 'Name', type: 'name' },
@@ -37,6 +36,19 @@ class DeveloperCommunityHome extends React.Component {
     const value = event.target.value
     this.setState({
       searchText: value,
+    })
+  }
+
+  handleTypeChange = event => {
+    let index = event.nativeEvent.target.selectedIndex
+    let label = event.nativeEvent.target[index].title
+    console.log(label)
+
+    this.setState({
+      searchType: {
+        value: event.target.value,
+        label: label,
+      },
     })
   }
 
@@ -134,40 +146,40 @@ class DeveloperCommunityHome extends React.Component {
   getSortedList = contributors => {
     const list = !!this.state.sort
       ? contributors.sort((a, b) => {
-        if (this.state.sort.order === 'asc') {
-          if (b[this.state.sort.type]) {
+          if (this.state.sort.order === 'asc') {
+            if (b[this.state.sort.type]) {
+              if (typeof b[this.state.sort.type] === 'number') {
+                const order = a[this.state.sort.type] - b[this.state.sort.type]
+                return order
+              } else {
+                const order =
+                  b[this.state.sort.type] &&
+                  b[this.state.sort.type]
+                    .toString()
+                    .localeCompare(
+                      a[this.state.sort.type] &&
+                        a[this.state.sort.type].toString()
+                    )
+                return order
+              }
+            }
+          } else {
             if (typeof b[this.state.sort.type] === 'number') {
-              const order = a[this.state.sort.type] - b[this.state.sort.type]
+              const order = b[this.state.sort.type] - a[this.state.sort.type]
               return order
             } else {
               const order =
-                b[this.state.sort.type] &&
-                b[this.state.sort.type]
+                a[this.state.sort.type] &&
+                a[this.state.sort.type]
                   .toString()
                   .localeCompare(
-                    a[this.state.sort.type] &&
-                    a[this.state.sort.type].toString()
+                    b[this.state.sort.type] &&
+                      b[this.state.sort.type].toString()
                   )
               return order
             }
           }
-        } else {
-          if (typeof b[this.state.sort.type] === 'number') {
-            const order = b[this.state.sort.type] - a[this.state.sort.type]
-            return order
-          } else {
-            const order =
-              a[this.state.sort.type] &&
-              a[this.state.sort.type]
-                .toString()
-                .localeCompare(
-                  b[this.state.sort.type] &&
-                  b[this.state.sort.type].toString()
-                )
-            return order
-          }
-        }
-      })
+        })
       : contributors
 
     return list
@@ -185,7 +197,7 @@ class DeveloperCommunityHome extends React.Component {
     const sortedList = this.getSortedList(filteredList)
 
     const searchFilterList = sortedList.filter(contributor =>
-      contributor.githubUserId
+      contributor[this.state.searchType['value']]
         .toLowerCase()
         .includes(this.state.searchText.toLowerCase())
     )
@@ -205,10 +217,25 @@ class DeveloperCommunityHome extends React.Component {
           ]}
         />
         <div className="filter-bar">
+          <div className="type-filter">
+            <div className="type-title">Search by: </div>
+            <select id="type-select" onChange={this.handleTypeChange}>
+              <option value="country" title="country">
+                Country
+              </option>
+              <option value="name" title="name">
+                Name
+              </option>
+              <option value="githubUserId" title="username">
+                Username
+              </option>
+            </select>
+          </div>
+
           <input
             size="large"
             className="app-input"
-            placeholder="Search dev by username"
+            placeholder={'Search dev by ' + this.state.searchType.label}
             onChange={this.handleSearchChange}
             value={this.state.searchText}
           />
@@ -219,13 +246,13 @@ class DeveloperCommunityHome extends React.Component {
                 onClick={() => this.toggleSort(sort)}
                 className="button"
               >
-                {sort.name}{' '}
+                {sort.name}
                 {this.state.sort && sort.type === this.state.sort.type ? (
                   this.state.sort.order === 'asc' ? (
                     <AiOutlineArrowUp />
                   ) : (
-                      <AiOutlineArrowDown />
-                    )
+                    <AiOutlineArrowDown />
+                  )
                 ) : null}
               </button>
             ))}
