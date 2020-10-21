@@ -1228,6 +1228,12 @@
     "country": "Kenya",
     "name": "Sketch Tester"
   },
+  "SkyCoder": {
+    "country": "Nigeria",
+    "linkedin": "https://www.linkedin.com/in/emmanuel-ezenwigbo-194299195/",
+    "twitter": "https://twitter.com/SkyC0der_",
+    "name": "Emmanuel Ezenwigbo"
+  },
   "slash-coders": {
     "country": "United States",
     "name": "Slash Coders"
@@ -1485,11 +1491,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-  "SkyCoder": {
-    "country": "Nigeria",
-    "linkedin": "https://www.linkedin.com/in/emmanuel-ezenwigbo-194299195/",
-    "twitter": "https://twitter.com/SkyC0der_",
-    "name": "Emmanuel Ezenwigbo"
   }
 }
