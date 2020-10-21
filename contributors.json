@@ -47,6 +47,12 @@
     "twitter": "https://twitter.com/adibe.mohamed",
     "website": "https://adibemohamed.herokuapp.com/"
   },
+  "Ahkam95": {
+    "country": "Sri Lanka",
+    "linkedin": "https://www.linkedin.com/in/ahkamnaseek/",
+    "name": "Ahkam Naseek",
+    "twitter": "https://twitter.com/mohamedahkam"
+  },
   "aishwaryakore": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/aishwaryakore",
@@ -1447,12 +1453,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-
-  "Ahkam95": {
-    "country": "Sri Lanka",
-    "linkedin": "https://www.linkedin.com/in/ahkamnaseek/",
-    "name": "Ahkam Naseek",
-    "twitter": "https://twitter.com/mohamedahkam"
   }
 }
