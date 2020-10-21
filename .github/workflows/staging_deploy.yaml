@@ -1,0 +1,36 @@
+name: StagingAppDeploy
+on:
+  push:
+    branches:
+      - staging
+jobs:
+  deploy-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build Project
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Cache multiple paths
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/cache
+            !~/cache/exclude
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package.lock.json') }}
+      - run: npm i
+      - env:
+          GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
+        run: npm run build
+      - name: Deploy production to Netlify
+        uses: South-Paw/action-netlify-deploy@v1.0.4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
+          build-dir: './public'
+          comment-on-commit: true
+          draft: true
