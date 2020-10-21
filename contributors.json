@@ -324,10 +324,10 @@
     "twitter": "https://twitter.com/titungdup"
   },
   "earle-poole": {
-   "country": "United States",
-   "linkedin": "https://www.linkedin.com/in/earle-poole/",
-   "name": "Earle Poole",
-   "twitter": "https://twitter.com/Eepoole4"
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/earle-poole/",
+    "name": "Earle Poole",
+    "twitter": "https://twitter.com/Eepoole4"
   },
   "eldrige": {
     "country": "Cameroon",
@@ -572,7 +572,7 @@
     "country": "Poland",
     "name": "Karol Milewski"
   },
-  "KMuthusamyms":{
+  "KMuthusamyms": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/muthusamyms/",
     "name": "Muthusamy K",
@@ -1056,6 +1056,11 @@
   "saranshkotnala": {
     "country": "India",
     "name": "Saransh Kotnala"
+  },
+  "sathiranipun": {
+    "country": "Sri Lanka",
+    "name": "Sathira Nipun",
+    "linkedin": "https://www.linkedin.com/in/sathiranipun/"
   },
   "seananth": {
     "country": "Sweden",
