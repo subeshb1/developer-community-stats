@@ -4,9 +4,9 @@ on:
     - cron:  '0 */4 * * *'
   push:
     paths:
-      - '**.js'
-      - '!**.md'
-      - '!**.yaml'
+      - 'readme-profiles/*.md'
+      - 'src/**'
+      - 'contributors.json'
     branches:
       - main
 jobs:
