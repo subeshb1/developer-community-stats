@@ -55,8 +55,8 @@
   },
   "AhmadShaaban": {
     "country": "Egypt",
-    "name": "Ahmad Shaaban",
-    "linkedin": "https://www.linkedin.com/in/ahmadshaaban97/"
+    "linkedin": "https://www.linkedin.com/in/ahmadshaaban97/",
+    "name": "Ahmad Shaaban"
   },
   "aishwaryakore": {
     "country": "India",
@@ -619,13 +619,6 @@
     "country": "Netherlands",
     "name": "Kyara van Putten"
   },
-  "KushalBhanot": {
-    "country": "India",
-    "linkedin": "https://www.linkedin.com/in/kushalbhanot/",
-    "name": "Kushal Bhanot",
-    "twitter": "https://twitter.com/bhanot_kushal",
-    "website": "https://kushalbhanot.github.io/"
-  },
   "km4": {
     "country": "Poland",
     "name": "Karol Milewski"
@@ -668,6 +661,13 @@
     "Linkedin": "https://www.linkedin.com/in/surbhi-kumari-18aa8b152/",
     "name": "Surbhi Kumari",
     "twitter": "https://twitter.com/SurbhiK79202217"
+  },
+  "KushalBhanot": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/kushalbhanot/",
+    "name": "Kushal Bhanot",
+    "twitter": "https://twitter.com/bhanot_kushal",
+    "website": "https://kushalbhanot.github.io/"
   },
   "lacrosse91": {
     "country": "Japan",
@@ -1260,9 +1260,9 @@
   "Sripaad": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sripaad-srinivasan/",
+    "name": "Sripaad Srinivasan",
     "twitter": "https://twitter.com/Sripaad_",
-    "website": "https://sripaad.github.io/",
-    "name": "Sripaad Srinivasan"
+    "website": "https://sripaad.github.io/"
   },
   "stefannypanameno93": {
     "country": "El Salvador",
