@@ -325,9 +325,9 @@
   },
   "earle-poole": {
    "country": "United States",
-   "name": "Earle Poole", // Required
-   "linkedin": "https://www.linkedin.com/in/earle-poole/", // Optional
-   "twitter": "https://twitter.com/Eepoole4", // Optional
+   "name": "Earle Poole",
+   "linkedin": "https://www.linkedin.com/in/earle-poole/",
+   "twitter": "https://twitter.com/Eepoole4",
   },
   "eldrige": {
     "country": "Cameroon",
