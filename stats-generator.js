@@ -125,7 +125,13 @@ const fetchCountStats = (users) => {
     }
     `
 
-  return githubQuery(statsQuery).then(extractGraphqlJson).then(res => res.data).then(res => {
+  return githubQuery(statsQuery).then(extractGraphqlJson).then(res => Object.entries(res.data).reduce((obj, [key, value]) => {
+    if (value === null) {
+
+      return obj
+    }
+    return { ...obj, [key]: value }
+  }, {})).then(res => {
     return Object.entries(res).reduce((acc, user) => {
       acc[user[0].replace(/___kebab___/g, "-").replace(/__NUMBER__/g, "")] = extractCountStats(user[1])
       return acc
