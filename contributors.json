@@ -47,6 +47,12 @@
     "twitter": "https://twitter.com/adibe.mohamed",
     "website": "https://adibemohamed.herokuapp.com/"
   },
+  "Ahkam95": {
+    "country": "Sri Lanka",
+    "linkedin": "https://www.linkedin.com/in/ahkamnaseek/",
+    "name": "Ahkam Naseek",
+    "twitter": "https://twitter.com/mohamedahkam"
+  },
   "aishwaryakore": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/aishwaryakore",
@@ -396,6 +402,12 @@
     "linkedin": "https://www.linkedin.com/in/oluwafemi-tosin-akinyemi-6b028270/",
     "name": "Femi Akinyemi",
     "twitter": "https://twitter.com/akinyemi_t"
+  },
+  "fgiuliani": {
+    "country": "Argentina",
+    "linkedin": "https://www.linkedin.com/in/facundogiuliani/",
+    "name": "Facundo Giuliani",
+    "twitter": "https://twitter.com/facundozurdo"
   },
   "Gaurab4": {
     "country": "India",
@@ -754,6 +766,12 @@
     "twitter": "https://twitter.com/mehrapi",
     "website": "https://mehrapi.github.io/"
   },
+  "missym2": {
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/missymaloney/",
+    "name": "Missy Maloney",
+    "website": "http://missymaloney1.com"
+  },
   "mohammadanang": {
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/anangm182",
@@ -924,6 +942,10 @@
     "name": "Abdulrahman Ali",
     "twitter": "https://www.twitter.com/abdoalihuss"
   },
+  "parryk303": {
+    "country": "United States",
+    "name": "Kyle"
+ },
   "Patea4": {
     "country": "Brazil",
     "name": "Luis"
@@ -1047,6 +1069,10 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/rifa-fatima-70b6681b4",
     "name": "Rifa Fatima"
+  },
+  "riyajain2": {
+    "country": "India",
+    "name": "Riya Jain"
   },
   "Riyana6": {
     "country": "Sri lanka",
@@ -1219,6 +1245,13 @@
     "linkedin": "https://www.linkedin.com/in/srijita-sarkar-1241041b4/",
     "name": "Srijita Sarkar"
   },
+  "Sripaad":{
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/sripaad-srinivasan/",
+    "twitter": "https://twitter.com/Sripaad_",
+    "website": "https://sripaad.github.io/",
+    "name": "Sripaad Srinivasan"
+  },
   "stefannypanameno93": {
     "country": "El Salvador",
     "name": "Stefanny Panameño",
@@ -1251,6 +1284,11 @@
     "name": "Sunil Behera",
     "twitter": "https://twitter.com/sunilbehera",
     "website": "https://sunildipun.github.io/portfolio/"
+  },
+  "susheelg1197": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/susheel-gounder-31b7b2115/",
+    "name": "Susheel S Gounder"
   },
   "SuzannaWentzel": {
     "country": "Netherlands",
