@@ -51,7 +51,7 @@ const extractGraphqlJson = res => {
     if (res.errors && res.errors.length > res.data.length) {
       throw res
     }
-    return res
+    return res.filter(x => x !== null)
   })
 }
 
