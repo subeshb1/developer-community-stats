@@ -38,8 +38,8 @@ $ git clone git@github.com:username/developer-community-stats.git
 $ npm install
 
 # Create a new branch for you.
-$ git pull origin master # Pull the latest master
-$ git checkout new-branch # Checkout to your new branch
+$ git pull origin main # Pull the latest main branch
+$ git checkout -b new-branch # Checkout to your new branch
 
 # Start Gatsby mock server
 ENV_TYPE=mock gatsby develop
@@ -55,7 +55,7 @@ $ npm run test
 $ git commit -m "Commit message"
 
 # Push your changes and
-$ git push
+$ git push --set-upstream origin new-branch
 
 # Make a pull request of your newly changed branch
 [https://github.com/subeshb1/developer-community-stats/compare](https://github.com/username/developer-community-stats/compare)

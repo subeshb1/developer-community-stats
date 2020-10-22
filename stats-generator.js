@@ -48,7 +48,7 @@ const githubAPIQuery = async (query) => fetch(query, {
 
 const extractGraphqlJson = res => {
   return res.json().then(res => {
-    if (res.errors && res.errors.length) {
+    if (res.errors && res.errors.length > res.data.length) {
       throw res
     }
     return res
@@ -88,7 +88,7 @@ year${year}: contributionsCollection(from: "${year}-01-01T00:00:00Z", to: "${yea
 }
 `
 const userCountStatsQuery = user => `
-  ${user.replace(/-/g, "___kebab___").replace(/^([0-9])?/, (match) => {
+  ${user.replace(/-/g, "___kebab___").replace(/^([0-9])/, (match) => {
   return "__NUMBER__" + match
 })}: user(login: "${user}") {
     repositories(isFork: false,${config.includePrivate ? '' : 'privacy: PUBLIC'}) {
@@ -125,7 +125,13 @@ const fetchCountStats = (users) => {
     }
     `
 
-  return githubQuery(statsQuery).then(extractGraphqlJson).then(res => res.data).then(res => {
+  return githubQuery(statsQuery).then(extractGraphqlJson).then(res => Object.entries(res.data).reduce((obj, [key, value]) => {
+    if (value === null) {
+
+      return obj
+    }
+    return { ...obj, [key]: value }
+  }, {})).then(res => {
     return Object.entries(res).reduce((acc, user) => {
       acc[user[0].replace(/___kebab___/g, "-").replace(/__NUMBER__/g, "")] = extractCountStats(user[1])
       return acc

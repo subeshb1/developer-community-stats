@@ -72,3 +72,7 @@ yarn-error.log
 .netlify
 
 cra/*
+
+.idea/*
+
+commit.sh
