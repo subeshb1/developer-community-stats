@@ -184,8 +184,8 @@
   },
   "arung86": {
     "country": "India",
-    "name": "Arun Govindappa",
     "linkedin": "https://www.linkedin.com/in/arun-kumar-govindappa-a6325a10a/",
+    "name": "Arun Govindappa",
     "twitter": "https://twitter.com/govindappaarun",
     "website": ""
   },
@@ -485,6 +485,11 @@
     "name": "Gisele Bernardes",
     "twitter": "https://twitter.com/gisabernardess"
   },
+  "guberlo": {
+    "country": "Italy",
+    "name": "Salvo Asero",
+    "twitter": "https://twitter.com/SalvoAsero/"
+  },
   "guijacobus2": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/guilherme-jacobus-379485158/",
@@ -776,9 +781,9 @@
     "name": "Kamthie Lontchi Lionelle"
   },
   "lsomacruzl": {
-    "country": "Colombia", 
+    "country": "Colombia",
     "name": "Andres"
- },
+  },
   "lvmenezes": {
     "country": "Brazil",
     "linkedin": "https://www.linkedin.com/in/lucas-victor-s-menezes-4212b285/",
@@ -1251,8 +1256,8 @@
   "sandhukaran28": {
     "country": "India",
     "linkedin": "www.linkedin.com/in/karan-sandhu28",
-    "twitter":"https://twitter.com/sandhukaran28",
-    "name": "Karan Sandhu"
+    "name": "Karan Sandhu",
+    "twitter": "https://twitter.com/sandhukaran28"
   },
   "sanjus-robotic-studio": {
     "country": "India",
@@ -1342,8 +1347,8 @@
   "SkyCoder": {
     "country": "Nigeria",
     "linkedin": "https://www.linkedin.com/in/emmanuel-ezenwigbo-194299195/",
-    "twitter": "https://twitter.com/SkyC0der_",
-    "name": "Emmanuel Ezenwigbo"
+    "name": "Emmanuel Ezenwigbo",
+    "twitter": "https://twitter.com/SkyC0der_"
   },
   "slash-coders": {
     "country": "United States",
