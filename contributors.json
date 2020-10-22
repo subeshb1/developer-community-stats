@@ -111,6 +111,13 @@
     "country": "India",
     "name": "Anshu Toppo"
   },
+  "antoniocra04": {
+    "name": "Anton",
+    "country": "Russia",
+    "linkedin": "https://www.linkedin.com/in/anton-ryazanov-7a53101b2/",
+    "twitter": "https://twitter.com/anton_ryazanov_",
+    "website": "https://anton-ryazanov.xyz/"
+  },
   "anu-ragi": {
     "country": "India",
     "name": "Anu Ragi"
@@ -322,6 +329,12 @@
     "country": "Nepal",
     "name": "Dhondup Lama",
     "twitter": "https://twitter.com/titungdup"
+  },
+  "earle-poole": {
+   "country": "United States",
+   "linkedin": "https://www.linkedin.com/in/earle-poole/",
+   "name": "Earle Poole",
+   "twitter": "https://twitter.com/Eepoole4"
   },
   "eldrige": {
     "country": "Cameroon",
@@ -558,6 +571,10 @@
     "linkedin": "https://www.linkedin.com/in/siddharth-khandelwal-980992173/",
     "name": "Siddharth Khandelwal"
   },
+  "kimcore": {
+    "country": "South Korea",
+    "name": "Kim Tae Wan"
+  },
   "Kiralinn": {
     "country": "Netherlands",
     "name": "Kyara van Putten"
@@ -566,7 +583,7 @@
     "country": "Poland",
     "name": "Karol Milewski"
   },
-  "KMuthusamyms":{
+  "KMuthusamyms": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/muthusamyms/",
     "name": "Muthusamy K",
@@ -1352,7 +1369,6 @@
     "youtube": "https://www.youtube.com/channel/UC4PO0JP-dE5hSaCvsC-Q4Cg"
   }
 }
-
 
 
 
