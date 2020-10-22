@@ -94,6 +94,11 @@
     "twitter": "twitter.com/Amitmitra141",
     "website": "https://akm-website.netlify.app/"
   },
+  "Ampit": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/amarpreet-singh-824179a6/",
+    "name": "Amarpreet Singh"
+  },
   "ana-vela": {
     "country": "United States",
     "name": "Ana Vela"
@@ -237,8 +242,8 @@
   },
   "bianca-michels-barcelos": {
     "country": "United Kingdom",
-    "name": "Bianca",
     "linkedin": "https://www.linkedin.com/in/biancamichelsbarcelos/",
+    "name": "Bianca",
     "twitter": "https://twitter.com/Bibs_Michels"
   },
   "BillGun": {
@@ -1058,8 +1063,8 @@
   "prayas26": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/prayas26/",
-    "twitter": "https://www.twitter.com/prayas26",
     "name": "Prayas Mittal",
+    "twitter": "https://www.twitter.com/prayas26",
     "website": "https://prayasmittal.com"
   },
   "Quattro04": {
@@ -1533,10 +1538,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-  "Ampit": {
-    "country": "India",
-    "name":"Amarpreet Singh",
-    "linkedin": "https://www.linkedin.com/in/amarpreet-singh-824179a6/"
   }
 }
