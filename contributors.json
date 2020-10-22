@@ -259,6 +259,11 @@
     "country": "India",
     "name": "sonu"
   },
+  "conejodan": {
+    "country": "Mexico",
+    "linkedin": "https://www.linkedin.com/in/daniel-sanchez-fernandez-16851b119/",
+    "name": "Daniel Sanchez"
+  },
   "dao-phuong": {
     "country": "Vietnam",
     "linkedin": "https://www.linkedin.com/in/phuong-dao-duy-6159b7a4/",
@@ -1228,10 +1233,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-  "conejodan": {
-    "country": "Mexico",
-    "name": "Daniel Sanchez",
-    "linkedin": "https://www.linkedin.com/in/daniel-sanchez-fernandez-16851b119/"
- }
+  }
 }
