@@ -48,9 +48,9 @@
     "website": "https://adibemohamed.herokuapp.com/"
   },
   "adriantse136": {
-   "country": "United States",
-   "name": "Adrian Tse",
-   "twitter": "https://twitter.com/atomicdragon136"
+    "country": "United States",
+    "name": "Adrian Tse",
+    "twitter": "https://twitter.com/atomicdragon136"
   },
   "Ahkam95": {
     "country": "Sri Lanka",
@@ -151,6 +151,12 @@
     "country": "India",
     "name": "Aparna Gopalakrishnan"
   },
+  "Apoorv-Saxena": {
+    "country": "India",
+    "name": "Apoorv Saxena",
+    "website": "https://surviton.ezyro.com/",
+    "youtube": "https://www.youtube.com/channel/UC4PO0JP-dE5hSaCvsC-Q4Cg"
+  },
   "appukapoor": {
     "country": "India",
     "name": "Apurva Kapoor"
@@ -177,12 +183,12 @@
     "twitter": "https://twitter.com/artuurssmirnovs"
   },
   "arung86": {
-   "country": "India", 
-   "name": "Arun Govindappa", 
-   "linkedin": "https://www.linkedin.com/in/arun-kumar-govindappa-a6325a10a/", 
-   "twitter": "https://twitter.com/govindappaarun", 
-   "website":""
-},
+    "country": "India",
+    "name": "Arun Govindappa",
+    "linkedin": "https://www.linkedin.com/in/arun-kumar-govindappa-a6325a10a/",
+    "twitter": "https://twitter.com/govindappaarun",
+    "website": ""
+  },
   "Ashank16": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/ashank-juyal-b99783188/",
@@ -634,7 +640,7 @@
     "website": "https://mrweber.netlify.app/"
   },
   "jonathanvanhaaften": {
-    "country":"Canada",
+    "country": "Canada",
     "name": "Jonathan Vanhaaften"
   },
   "kannupriyasingh": {
@@ -1343,7 +1349,7 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sohamdixit727/",
     "name": "Soham"
- },
+  },
   "sonylomo": {
     "country": "Kenya",
     "linkedin": "https://www.linkedin.com/in/sonia-lomo/",
