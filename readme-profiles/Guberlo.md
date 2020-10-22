@@ -27,7 +27,7 @@
   <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Guberlo&show_icons=true&hide_border=true" />
 
 </details>
-
+[twitter]: https://www.twitter.com/SalvoAsero
 [vscode]: https://code.visualstudio.com/
 [js]: https://www.javascript.com/
 [nodejs]: https://nodejs.org/
