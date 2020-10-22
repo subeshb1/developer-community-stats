@@ -54,10 +54,10 @@
     "twitter": "https://twitter.com/mohamedahkam"
   },
   "AhmadShaaban": {
-   "country": "Egypt", 
-   "name": "Ahmad Shaaban", 
-   "linkedin": "https://www.linkedin.com/in/ahmadshaaban97/"
-},
+    "country": "Egypt",
+    "linkedin": "https://www.linkedin.com/in/ahmadshaaban97/",
+    "name": "Ahmad Shaaban"
+  },
   "aishwaryakore": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/aishwaryakore",
@@ -141,6 +141,10 @@
     "country": "India",
     "name": "Aparna Gopalakrishnan"
   },
+  "appukapoor": {
+    "country": "India",
+    "name": "Apurva Kapoor"
+  },
   "ares358": {
     "country": "India",
     "name": "Sunny Kushwaha"
@@ -207,6 +211,10 @@
     "country": "India",
     "name": "Shubham Kumar Baranwal"
   },
+  "bartomiak": {
+    "country": "Poland",
+    "name": "Bartosz"
+  },
   "BasilVictor": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/basil-benedict-victor-119706195/",
@@ -226,6 +234,12 @@
     "country": "Sri Lanka",
     "linkedin": "https://www.linkedin.com/in/bhanukauyanage",
     "name": "Bhanuka Uyanage"
+  },
+  "bianca-michels-barcelos": {
+    "country": "United Kingdom",
+    "name": "Bianca",
+    "linkedin": "https://www.linkedin.com/in/biancamichelsbarcelos/",
+    "twitter": "https://twitter.com/Bibs_Michels"
   },
   "BillGun": {
     "country": "Indonesia",
@@ -248,6 +262,10 @@
     "name": "Bojan Devic",
     "twitter": "https://twitter.com/bojandevic",
     "website": "https://bojandevic.com/"
+  },
+  "bolu-tife": {
+    "country": "Nigeria",
+    "name": "Boluwatife Omosowon"
   },
   "brianleemcqueen": {
     "country": "United States",
@@ -360,6 +378,12 @@
     "name": "Earle Poole",
     "twitter": "https://twitter.com/Eepoole4"
   },
+  "edazpotato": {
+    "country": "New Zealand",
+    "name": "Edazpotato",
+    "twitter": "https://twitter.com/edazpotato",
+    "website": "https://edazpotato.github.io/"
+  },
   "eldrige": {
     "country": "Cameroon",
     "linkedin": "https://www.linkedin.com/in/prince-eldrige-9b64881b2/",
@@ -433,6 +457,11 @@
     "linkedin": "https://www.linkedin.com/in/gisabernardess/",
     "name": "Gisele Bernardes",
     "twitter": "https://twitter.com/gisabernardess"
+  },
+  "guijacobus2": {
+    "country": "Brazil",
+    "linkedin": "https://www.linkedin.com/in/guilherme-jacobus-379485158/",
+    "name": "Guilherme Jacobus"
   },
   "hambali999": {
     "country": "Singapore",
@@ -661,6 +690,13 @@
     "Linkedin": "https://www.linkedin.com/in/surbhi-kumari-18aa8b152/",
     "name": "Surbhi Kumari",
     "twitter": "https://twitter.com/SurbhiK79202217"
+  },
+  "KushalBhanot": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/kushalbhanot/",
+    "name": "Kushal Bhanot",
+    "twitter": "https://twitter.com/bhanot_kushal",
+    "website": "https://kushalbhanot.github.io/"
   },
   "lacrosse91": {
     "country": "Japan",
@@ -950,7 +986,7 @@
   "parryk303": {
     "country": "United States",
     "name": "Kyle"
- },
+  },
   "Patea4": {
     "country": "Brazil",
     "name": "Luis"
@@ -983,6 +1019,7 @@
   },
   "potter1024": {
     "country": "India",
+    "linkedin": "http://www.linkedin.com/in/potter1024",
     "name": "Rishab Kumar"
   },
   "prabhat34": {
@@ -1017,6 +1054,13 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/pratik-gupta-4495a282/",
     "name": "Pratik Gupta"
+  },
+  "prayas26": {
+    "country": "India",
+    "linkedin": "https://www.linkedin.com/in/prayas26/",
+    "twitter": "https://www.twitter.com/prayas26",
+    "name": "Prayas Mittal",
+    "website": "https://prayasmittal.com"
   },
   "Quattro04": {
     "country": "Slovenia",
@@ -1254,12 +1298,12 @@
     "linkedin": "https://www.linkedin.com/in/srijita-sarkar-1241041b4/",
     "name": "Srijita Sarkar"
   },
-  "Sripaad":{
+  "Sripaad": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/sripaad-srinivasan/",
+    "name": "Sripaad Srinivasan",
     "twitter": "https://twitter.com/Sripaad_",
-    "website": "https://sripaad.github.io/",
-    "name": "Sripaad Srinivasan"
+    "website": "https://sripaad.github.io/"
   },
   "stefannypanameno93": {
     "country": "El Salvador",
