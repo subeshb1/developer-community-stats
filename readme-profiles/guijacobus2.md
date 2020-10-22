@@ -4,6 +4,7 @@
 <br/>
 
 - 🌱 I’m currently going with **Flutter, JS, AWS**
+- 🌱 Studying web and software development at Southern Institute Of Technology
 
 <img src="https://github-profile-trophy.vercel.app/?username=guijacobus2&theme=dracula&column=3&margin-w=15&margin-h=15(https://github.com/ryo-ma/github-profile-trophy">
 
