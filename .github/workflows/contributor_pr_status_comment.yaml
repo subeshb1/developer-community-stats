@@ -50,7 +50,7 @@ jobs:
         with:
           issue-number: ${{ steps.pull_request.outputs.id }} 
           body: |
-            Great! Your PR has succesfully passed all the checks. 🚀
+            Great! Your PR has succesfully passed all the checks. 🚀 ${{ steps.pull_request.outputs.id }} 
             Your PR will be merged by a maintainer. Please be patience.
             In the mean while checkout the issues for anything you can help out on: [Issues needed Help](https://github.com/subeshb1/developer-community-stats/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
           reactions: heart, hooray, +1, rocket
