@@ -776,8 +776,8 @@
     "name": "Kamthie Lontchi Lionelle"
   },
   "lsomacruzl": {
-    "country": "Colombia", // Required
-    "name": "Andres", // Required
+    "country": "Colombia", 
+    "name": "Andres"
  },
   "lvmenezes": {
     "country": "Brazil",
