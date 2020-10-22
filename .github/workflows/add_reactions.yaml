@@ -1,0 +1,16 @@
+name: add-reaction-to-pr-description
+on: 
+  pull_request:
+    types: [created]
+
+jobs:
+  add-reaction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mshick/add-pr-comment@v1
+        with:
+          message: testing
+          reactions: eyes, -1, confused
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: 'github-actions[bot]'
+          allow-repeats: false
