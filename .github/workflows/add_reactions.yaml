@@ -5,7 +5,7 @@ jobs:
   add-reaction:
     runs-on: ubuntu-latest
     steps:
-      - uses: mshick/add-pr-comment@v1
+      - uses: peter-evans/create-pull-request@v3
         with:
           message: testing
           reactions: eyes, -1, confused
