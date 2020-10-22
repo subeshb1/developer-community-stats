@@ -1,7 +1,5 @@
 name: add-reaction-to-pr-description
-on: 
-  pull_request:
-    types: [created]
+on: [pull_request]
 
 jobs:
   add-reaction:
