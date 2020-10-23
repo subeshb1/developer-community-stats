@@ -1,5 +1,5 @@
 name: add-reaction-to-pr-description
-on: [pull_request]
+on: [pull_request_target]
 
 jobs:
   add-reaction:
@@ -8,7 +8,7 @@ jobs:
       - uses: peter-evans/create-pull-request@v3
         with:
           message: testing
-          reactions: eyes, -1, confused
+          reactions: heart, hooray, +1, rocket
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
           allow-repeats: false
