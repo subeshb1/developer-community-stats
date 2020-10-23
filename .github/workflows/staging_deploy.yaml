@@ -1,14 +1,8 @@
-name: AppDeploy
+name: StagingAppDeploy
 on:
-  schedule:
-    - cron:  '0 */4 * * *'
   push:
-    paths:
-      - 'readme-profiles/*.md'
-      - 'src/**'
-      - 'contributors.json'
     branches:
-      - main
+      - staging
 jobs:
   deploy-app:
     runs-on: ubuntu-latest
@@ -39,3 +33,4 @@ jobs:
           netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
           build-dir: './public'
           comment-on-commit: true
+          draft: true

@@ -1,0 +1,14 @@
+name: add-reaction-to-pr-description
+on: [status]
+
+jobs:
+  add-reaction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/create-pull-request@v3
+        with:
+          message: testing
+          reactions: eyes, -1, confused
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: 'github-actions[bot]'
+          allow-repeats: false

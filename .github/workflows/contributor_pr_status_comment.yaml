@@ -28,7 +28,7 @@ jobs:
         with:
           issue-number: ${{ steps.pull_request.outputs.id }} 
           body: |
-            It looks like you haven't order the JSON values in **ascending order alphabetically ignoring case** by Github user name or your JSON syntax is wrong. Please read the issue description before taking them.
+            It looks like you haven't ordered the JSON values in **ascending order alphabetically ignoring case** by Github user name or your JSON syntax is wrong. Please read the issue description before taking them.
 
             If you know about nodejs run the following command to sort the list:
             ```sh
@@ -51,6 +51,6 @@ jobs:
           issue-number: ${{ steps.pull_request.outputs.id }} 
           body: |
             Great! Your PR has succesfully passed all the checks. 🚀
-            Your PR will be merged by a maintainer. Please be patience.
-            In the mean while checkout the issues for anything you can help out on: [Issues needed Help](https://github.com/subeshb1/developer-community-stats/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+            Your PR will be merged by a maintainer. Please be patient.
+            In the meantime checkout the issues for anything you can help out on: [Issues needed Help](https://github.com/subeshb1/developer-community-stats/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
           reactions: heart, hooray, +1, rocket
