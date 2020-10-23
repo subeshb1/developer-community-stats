@@ -1,5 +1,5 @@
 name: add-reaction-to-pr-description
-on: [pull_request_target]
+on: [status]
 
 jobs:
   add-reaction:
