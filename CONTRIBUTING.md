@@ -6,7 +6,7 @@ We love contributions! We want to make contributing to this project as easy and 
 - Questions regarding any problems
 - Submitting a fix
 - Proposing new features
-- Becoming a maintainer
+- Becoming a maintainern
 - Suggestions and Feedbacks
 
 ## We Develop with Github
