@@ -148,6 +148,17 @@ module.exports = {
         avatarUrl: 'https://avatars0.githubusercontent.com/u/57248094?s=460&u=9b0c945cdab8b81508d1191b0383d6dafc56f04b&v=4',
         firstContribution: 2019,
         thisYearContribution: 10
+      },
+      iampk94: {
+        repositoryCount: 10,
+        repoContributedCount: 68,
+        contributionYears: [2020, 2019, 2018, 2017, 2016],
+        followersCount: 1,
+        issuesCount: 0,
+        pullRequestsCount: 3,
+        avatarUrl: 'https://avatars3.githubusercontent.com/u/19927379?v=4',
+        firstContribution: 2016,
+        thisYearContribution: 65,
       }
     })
   }
