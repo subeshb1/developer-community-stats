@@ -148,6 +148,18 @@ module.exports = {
         avatarUrl: 'https://avatars0.githubusercontent.com/u/57248094?s=460&u=9b0c945cdab8b81508d1191b0383d6dafc56f04b&v=4',
         firstContribution: 2019,
         thisYearContribution: 10
+      },
+	  vijayakumarGit: {
+        repositoryCount: 35,
+        repoContributedCount: 99,
+        contributionYears: [2020, 2019, 2018, 2017],
+        followersCount: 1,
+        issuesCount: 1,
+        pullRequestsCount: 15,
+        avatarUrl:
+          'https://avatars3.githubusercontent.com/u/26136684?s=460&v=4',
+        firstContribution: 2017,
+        thisYearContribution: 14,
       }
     })
   }
