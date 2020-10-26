@@ -660,6 +660,11 @@
     "country": "Canada",
     "name": "Jonathan Vanhaaften"
   },
+  "julioalfian": {
+    "country": "Indonesia",
+    "linkedin": "https://www.linkedin.com/in/julioalfian/",
+    "name": "Julio Alfian Dwicahya"
+  },
   "juliusnguyen": {
     "country": "Germany",
     "name": "Julius Reischauer"
@@ -1641,10 +1646,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  }
-  "julioalfian": {
-    "country": "Indonesia",
-    "linkedin": "https://www.linkedin.com/in/julioalfian/",
-    "name": "Julio Alfian Dwicahya"
   }
 }
