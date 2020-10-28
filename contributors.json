@@ -572,7 +572,7 @@
     "linkedin": "https://www.linkedin.com/in/giribabu-anisetti-208863154/",
     "name": "Giribabu",
     "twitter": "https://twitter.com/giri_anisetti"
-  },  
+  },
   "iampk94": {
     "country": "India",
     "name": "Pradheep Kumar"
@@ -836,9 +836,9 @@
     "website": "https://jennifermaher.me/"
   },
   "MAHIMA01": {
-   "country": "India",
-   "name": "Mahima"
-},
+    "country": "India",
+    "name": "Mahima"
+  },
   "mani-rsg": {
     "country": "India",
     "name": "Manigandan Ravi"
@@ -933,10 +933,10 @@
     "name": "Mohsin Shah",
     "website": "https://mohsin-code.github.io/"
   },
-  "moisesjsalmeida":{
+  "moisesjsalmeida": {
     "country": "Brazil",
-    "name": "Moisés Almeida",
-    "linkedin": "https://www.linkedin.com/in/moisesjsalmeida/"
+    "linkedin": "https://www.linkedin.com/in/moisesjsalmeida/",
+    "name": "Moisés Almeida"
   },
   "molleer": {
     "country": "Sweden",
@@ -1339,6 +1339,10 @@
     "name": "Kacper",
     "twitter": "https://twitter.com/notabaget",
     "website": "https://kiri.dev/"
+  },
+  "setheal": {
+    "country": "Belgium",
+    "name": "Maëlann Barciet"
   },
   "shankar524": {
     "country": "Nepal",
