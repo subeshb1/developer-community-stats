@@ -1335,6 +1335,11 @@
     "linkedin": "https://www.linkedin.com/in/aayush-meshram-a7170a1a2/",
     "name": "Aayush Meshram"
   },
+   "Shreejana123": {
+    "country": "Nepal",
+    "linkedin": "https://www.linkedin.com/in/shreejana-tandukar-14b6041ab/",
+    "name": "Shreejana Tandukar"
+  },
   "ShreyanBudhouliya": {
     "country": "India",
     "name": "Shreyan Budhouliya"
@@ -1641,10 +1646,5 @@
     "country": "Indonesia",
     "linkedin": "https://www.linkedin.com/in/fardeen-atallah-kabir-muhammad-4787681a0",
     "name": "Fardeen Atallah Kabir Muhammad"
-  },
-  "Shreejana123": {
-    "country": "Nepal",
-    "linkedin": "https://www.linkedin.com/in/shreejana-tandukar-14b6041ab/",
-    "name": "Shreejana Tandukar"
   }
 }
