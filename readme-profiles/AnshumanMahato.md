@@ -1,13 +1,18 @@
 <h1 align="center">Hi 👋, I'm Anshuman</h1>
 <h3 align="center">A passionate geek from India...</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=anshumanmahato&label=Profile%20views&color=0e75b6&style=flat" alt="anshumanmahato" /> </p>
-
+<h3 align="left">Github Trophies:</h3>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anshumanmahato" alt="anshumanmahato" /></a> </p>
+
+<h3 align="left">About me:</h3>
+
+- 📚 Currently pursuing **Bachelors in Computer Application** from **Mrs.K.M.P.M Vocational College.**
 
 - 💬 Ask me about **C,C++ and maybe JavaScript**
 
 - 📫 How to reach me **anshuman.mahato0935@gmail.com**
+
+- 🤗 I like 🎨 **sketching** and 🎮 **video gaming**
 
 - ⚡ Fun fact **I can talk endlessly about Marvel and DC characters, Harry Potter, Assassin's Creed and similar stuff.**
 
@@ -27,4 +32,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anshumanmahato&show_icons=true&locale=en&layout=compact" alt="anshumanmahato" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anshumanmahato&show_icons=true&locale=en" alt="anshumanmahato" /></p>
-
