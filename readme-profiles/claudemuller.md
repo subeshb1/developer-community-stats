@@ -1,4 +1,4 @@
-<img src="https://github.com/claudemuller/terminal-typer/blob/master/assets/matrix.gif"/>
+<img src="https://github.com/claudemuller/terminal-typer/blob/master/assets/matrix.gif?raw=true"/>
 
 - 🔭 I'm currently working on:
   - a big data Scala project including Kafka, Spark, Hadoop and Akka
