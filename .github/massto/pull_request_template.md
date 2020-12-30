@@ -11,5 +11,5 @@
 <!-- Feel free to add ore remove checklist according to your Pull request requirements. -->
 
 - [ ] Added contributor object in ascending order in `contributors.json`
-- [ ] Github action build passing
-- [ ] No merge conflicts
+- [ ] Added Github action build passing
+- [ ] Suggestions merge conflicts
