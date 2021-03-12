@@ -1,9 +1,9 @@
-<h1 align="center">Hello! 👋 My name is Charles</h1>
-<h3 align="center">I'm a software engineer currently from the United States of America</h3>
+<h1 align="center">Hello! 👋 My name is Sumi</h1>
+<h3 align="center">I pursue btech computer engineer currently from the India</h3>
 
 <br/>
 
-- 🌱 I'm currently developing with **C#/.NET Framework, C#/.NET Core, and JavaScript**
+I am a front end developer.
 
 I'm really hoping to be able to contribute more to open source projects :)
 
