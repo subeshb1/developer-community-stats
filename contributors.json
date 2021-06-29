@@ -1,10 +1,4 @@
 { 
-  "amitsgh": {
-  "country": "India",
-  "name": "Amit Singh",
-  "linkedin": "https://www.linkedin.com/in/amit-singh-a794131b5/",
-  "github": "https://github.com/amitsgh"
-  },
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -111,6 +105,12 @@
     "name": "Amit Kumar Mitra",
     "twitter": "twitter.com/Amitmitra141",
     "website": "https://akm-website.netlify.app/"
+  },
+  "amitsgh": {
+    "country": "India",
+    "name": "Amit Singh",
+    "linkedin": "https://www.linkedin.com/in/amit-singh-a794131b5/",
+    "github": "https://github.com/amitsgh"
   },
   "Ampit": {
     "country": "India",
