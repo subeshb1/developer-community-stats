@@ -1,4 +1,4 @@
-{ 
+{
   "21Rutam": {
     "country": "India",
     "name": "Rutam Prita Mishra"
@@ -108,9 +108,9 @@
   },
   "amitsgh": {
     "country": "India",
-    "name": "Amit Singh",
+    "github": "https://github.com/amitsgh",
     "linkedin": "https://www.linkedin.com/in/amit-singh-a794131b5/",
-    "github": "https://github.com/amitsgh"
+    "name": "Amit Singh"
   },
   "Ampit": {
     "country": "India",
@@ -675,13 +675,10 @@
     "linkedin": "https://www.linkedin.com/in/japnit-singh-1500561ab/",
     "name": "Japnit Singh"
   },
-
   "JayZeeXx": {
     "country": "USA",
     "name": "Rahul Remany"
   },
-
-  
   "jboullianne": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/jean-marc-boullianne-aa3a9787/",
@@ -1266,6 +1263,11 @@
     "name": "Prayas Mittal",
     "twitter": "https://www.twitter.com/prayas26",
     "website": "https://prayasmittal.com"
+  },
+  "prsttn": {
+    "country": "Iran",
+    "linkedin": "www.linkedin.com/in/parastoo-taleiniya-ba0378140",
+    "name": "Parastoo Taleiniya"
   },
   "Quattro04": {
     "country": "Slovenia",
