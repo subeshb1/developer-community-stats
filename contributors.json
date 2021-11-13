@@ -59,6 +59,12 @@
     "name": "Adrian Tse",
     "twitter": "https://twitter.com/atomicdragon136"
   },
+  "afonsocarlos": {
+    "country": "Brazil",
+    "linkedin": "https://www.linkedin.com/in/carlos-afonso-b66088124/",
+    "name": "Carlos Afonso",
+    "twitter": "https://twitter.com/afonsocarlos97"
+  },
   "Ahkam95": {
     "country": "Sri Lanka",
     "linkedin": "https://www.linkedin.com/in/ahkamnaseek/",
@@ -345,12 +351,6 @@
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/chirayubansal2609/",
     "name": "Chirayu Bansal"
-  },
-  "Charliiee": {
-    "country": "Brazil",
-    "linkedin": "https://www.linkedin.com/in/carlos-afonso-b66088124/",
-    "name": "Carlos Afonso",
-    "twitter": "https://twitter.com/charliie_gmkr"
   },
   "Chobocharles": {
     "country": "United States",
@@ -1374,13 +1374,12 @@
     "name": "Ron Laniado"
   },
   "rukundo-kevin": {
-    "country": "Rwanda", 
+    "country": "Rwanda",
     "name": "Rukundo Kevin",
     "linkedin": "www.linkedin.com/in/rukundokevin",
-    "twitter": "https://twitter.com/rukundokevin_", 
+    "twitter": "https://twitter.com/rukundokevin_",
     "website":"http://www.rukundokevin.codes/"
- }
-, 
+  },
   "RuteshRathod": {
     "country": "India",
     "linkedin": "https://www.linkedin.com/in/ruteshrathod/",
