@@ -335,6 +335,13 @@
     "country": "Colombia",
     "name": "Bryan Moreno"
   },
+  "CandidDeer": {
+   "country": "Austria", // Required
+   "name": "Lisa Thamer", // Required
+   "linkedin": "https://www.linkedin.com/in/lisa-thamer/", // Optional
+   "twitter": "https://twitter.com/CandidDeer", // Optional
+   "website":"https://www.instagram.com/enelya1988/"//Optional
+}
   "Cap10Kirk": {
     "country": "United States",
     "linkedin": "https://www.linkedin.com/in/quiara-kirkland-659611167/",
